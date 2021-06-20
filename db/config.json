@@ -1,4 +1,6 @@
 {
+  "priceMultiplier": 1
+
   "hardcore_challenge": {
     "enabled": false,
     "comment_0": "rules 1 - DeadlySlob's hardcore challenge - Season 5",
@@ -17,7 +19,7 @@
     "training_stim": true
   },
   "loot_spawnrate": {
-    "enabled" : false,
+    "enabled" : true,
     "comment_0": "recommend - 40",
     "comment_1": "spawnrate for loose/dynamic loots",
     "dynamic": 40
@@ -70,9 +72,9 @@
     "geared_scav": false,
     "support_easy_mode": true,
     "scav_helmet_chance": 71,
-    "scav_armor_chance": 90,
-    "pmc_helmet_chance": 100,
-    "pmc_earpiece_chance": 90,
+    "scav_armor_chance": 25,
+    "pmc_helmet_chance": 90,
+    "pmc_earpiece_chance": 80,
     "pmc_armor_chance": 100,
     "pmc_backpack_chance": 90,
     "pmc_helmet_side": 75,
@@ -94,7 +96,7 @@
   },
   "check_inventory_integrity": {
     "comment": "recovery for lost stash items (it's not caused by this mod)",
-    "enabled": true
+    "enabled": false
   },
   "no_save_ticket": {
     "comment": "possessing no_save_ticket prevents your profile from being saved after raid",
@@ -130,7 +132,7 @@
   },
   "fix_hideout_speed": {
     "comment": "fix for hideout upgrade/production speed",
-    "enabled": true,
+    "enabled": false,
     "exclude_bitcoin_production": true
   },
   "fix_https_server": {
@@ -194,10 +196,6 @@
     "cheat_tarkov_shooter_5": true,
     "cheat_tarkov_shooter_6": true,
     "cheat_tarkov_shooter_7": true
-  },
-  "fix_ragfair": {
-    "comment": "fix for ragfair",
-    "enabled": true
   },
   "fix_rates": {
     "comment": "fix for several rates",

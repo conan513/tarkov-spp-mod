@@ -258,7 +258,7 @@ class LC {
             DatabaseServer.tables.templates.items['5c093ca986f7740a1867ab12']._props.Grids[0]._props.filters = JSON.parse(sc_filters);
         }
         if (LC.config.hardcore_challenge.rules === 1) {
-            const startingInventory = '{"items":[{"_id":"5fe4977574f15b4ad31b6631","_tpl":"55d7217a4bdc2d86028b456d"},{"_id":"5fe4977574f15b4ad31b66b6","_tpl":"566abbc34bdc2d92178b4576"},{"_id":"5fe4977574f15b4ad31b6625","_tpl":"544a11ac4bdc2d470e8b456a","parentId":"5fe4977574f15b4ad31b6631","slotId":"SecuredContainer"}],"equipment":"5fe4977574f15b4ad31b6631","stash":"5fe4977574f15b4ad31b66b6","questRaidItems":"5fe4977574f15b4ad31b66b7","questStashItems":"5fe4977574f15b4ad31b66b8","fastPanel":{}}';
+            const startingInventory = '{"items":[{"_id":"5fe4977574f15b4ad31b6631","_tpl":"55d7217a4bdc2d86028b456d"},{"_id":"5fe4977574f15b4ad31b66b6","_tpl":"566abbc34bdc2d92178b4576"},{"_id":"5fe4977574f15b4ad31b6625","_tpl":"544a11ac4bdc2d470e8b456a","parentId":"5fe4977574f15b4ad31b6631","slotId":"SecuredContainer"},{"_id":"5fe4a9fcf5aec236ec38363a","_tpl":"557ffd194bdc2d28148b457f","parentId":"5fe4977574f15b4ad31b6631","slotId":"Pockets"},{"_id":"5fe4977574f15b4ad31b66b7","_tpl":"5963866b86f7747bfa1c4462"},{"_id":"5fe4977574f15b4ad31b66b8","_tpl":"5963866286f7747bf429b572"}],"equipment":"5fe4977574f15b4ad31b6631","stash":"5fe4977574f15b4ad31b66b6","questRaidItems":"5fe4977574f15b4ad31b66b7","questStashItems":"5fe4977574f15b4ad31b66b8","fastPanel":{}}';
             const stash4 = '[{"type":3,"level":4,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":0,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":1,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":2,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":4,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":5,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":6,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":7,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":8,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":9,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":10,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":11,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":12,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":13,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":14,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":15,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":16,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":17,"level":0,"active":true,"passiveBonusesEnabled":false,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":18,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":19,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":20,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":21,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""}]';
             const bonuses4 = '[{"type":"StashSize","templateId":"566abbc34bdc2d92178b4576"},{"type":"StashSize","templateId":"5811ce572459770cba1a34ea"},{"type":"StashSize","templateId":"5811ce662459770f6f490f32"},{"type":"StashSize","templateId":"5811ce772459770e9e5f9532"}]';
             const profiles = DatabaseServer.tables.templates.profiles;
@@ -279,7 +279,7 @@ class LC {
             profiles['Edge Of Darkness'].bear.character.Hideout.Areas = JSON.parse(stash4);
             profiles['Edge Of Darkness'].bear.character.Bonuses = JSON.parse(bonuses4);
         } else if (LC.config.hardcore_challenge.rules === 2) {
-            const startingInventory = '{"items":[{"_id":"5fe4977574f15b4ad31b6631","_tpl":"55d7217a4bdc2d86028b456d"},{"_id":"5fe4977574f15b4ad31b66b6","_tpl":"566abbc34bdc2d92178b4576"},{"_id":"5fe49cdfa19cac3fa9054069","_tpl":"54491bb74bdc2d09088b4567","parentId":"5fe4977574f15b4ad31b6631","slotId":"Scabbard","upd":{"Repairable":{"MaxDurability":70,"Durability":70}}}],"equipment":"5fe4977574f15b4ad31b6631","stash":"5fe4977574f15b4ad31b66b6","questRaidItems":"5fe4977574f15b4ad31b66b7","questStashItems":"5fe4977574f15b4ad31b66b8","fastPanel":{}}';
+            const startingInventory = '{"items":[{"_id":"5fe4977574f15b4ad31b6631","_tpl":"55d7217a4bdc2d86028b456d"},{"_id":"5fe4977574f15b4ad31b66b6","_tpl":"566abbc34bdc2d92178b4576"},{"_id":"5fe49cdfa19cac3fa9054069","_tpl":"54491bb74bdc2d09088b4567","parentId":"5fe4977574f15b4ad31b6631","slotId":"Scabbard","upd":{"Repairable":{"MaxDurability":70,"Durability":70}}},{"_id":"5fe4a9fcf5aec236ec38363a","_tpl":"557ffd194bdc2d28148b457f","parentId":"5fe4977574f15b4ad31b6631","slotId":"Pockets"},{"_id":"5fe4977574f15b4ad31b66b7","_tpl":"5963866b86f7747bfa1c4462"},{"_id":"5fe4977574f15b4ad31b66b8","_tpl":"5963866286f7747bf429b572"}],"equipment":"5fe4977574f15b4ad31b6631","stash":"5fe4977574f15b4ad31b66b6","questRaidItems":"5fe4977574f15b4ad31b66b7","questStashItems":"5fe4977574f15b4ad31b66b8","fastPanel":{}}';
             const stash1 = '[{"type":3,"level":1,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":0,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":1,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":2,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":4,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":5,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":6,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":7,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":8,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":9,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":10,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":11,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":12,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":13,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":14,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":15,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":16,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":17,"level":0,"active":true,"passiveBonusesEnabled":false,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":18,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":19,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":20,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":21,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""}]';
             const bonuses1 = '[{"type":"StashSize","templateId":"566abbc34bdc2d92178b4576"}]';
             const profiles = DatabaseServer.tables.templates.profiles;
@@ -436,59 +436,6 @@ class LC {
         LC.traders.prapor.base.insurance.min_return_hour = 0;
         LC.traders.prapor.base.insurance.max_return_hour = 0;
         ;
-    }
-
-    static fixMarketPrice() {
-        if (!LC.config.fix_ragfair || !LC.config.fix_ragfair.enabled) {
-            return;
-        }
-        ;
-        RagfairConfig.dynamic.liveprices = true;
-        RagfairConfig.dynamic.price.min = 0.8;
-        RagfairConfig.dynamic.price.max = 1.2;
-        RagfairConfig.dynamic.condition.min = 1.0;
-        RagfairConfig.dynamic.condition.max = 1.0;
-        RagfairConfig.dynamic.condition.max = 1.0;
-        RagfairConfig.dynamic.batchSize = 2000;
-        ;
-        ;
-        DatabaseServer.tables.templates.prices = JSON.parse(VFS.readFile(`user\\mods\\spp-mod\\db\\prices.json`));
-        for (let id in DatabaseServer.tables.templates.prices) {
-            let price = LC.getMarketPrice(id);
-            let scheme = '[[{"count":' + price + ',"_tpl": "5449016a4bdc2d6f028b456f"}]]';
-            try {
-                if (LC.traders.ragfair.assort.barter_scheme[id]) LC.traders.ragfair.assort.barter_scheme[id] = JSON.parse(scheme);
-                if (LC.traders.fence.assort.barter_scheme[id]) LC.traders.fence.assort.barter_scheme[id] = JSON.parse(scheme);
-            } catch (e) {
-                console.log(e);
-                console.log(price);
-            }
-        }
-        if (DatabaseServer.tables.templates.prices['5696686a4bdc2da3298b456a']) {
-            const usd = DatabaseServer.tables.templates.prices['5696686a4bdc2da3298b456a'];
-            LC.addAssort(LC.traders.peacekeeper, '5f004c011b27f811e5317c0b', null, null, null, `[[{"count":${usd},"_tpl":"5449016a4bdc2d6f028b456f"}]]`);
-            LC.setHandbookPrice('5696686a4bdc2da3298b456a', usd);
-        }
-        if (DatabaseServer.tables.templates.prices['569668774bdc2da2298b4568']) {
-            const eur = DatabaseServer.tables.templates.prices['569668774bdc2da2298b4568'];
-            LC.addAssort(LC.traders.skier, '5eeca635bfed7142cb30f718', null, null, null, `[[{"count":${eur},"_tpl":"5449016a4bdc2d6f028b456f"}]]`);
-            LC.setHandbookPrice('569668774bdc2da2298b4568', eur);
-        }
-    }
-
-    static getMarketPrice(tpl) {
-        let ret = 1;
-        if (DatabaseServer.tables.templates.prices[tpl]) {
-            ret = DatabaseServer.tables.templates.prices[tpl];
-        } else {
-            for (let x of DatabaseServer.tables.templates.handbook.Items) {
-                if (x.Id === tpl) {
-                    ret = x.Price;
-                    break;
-                }
-            }
-        }
-        return ret;
     }
 
     static fixRates() {
