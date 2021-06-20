@@ -1,0 +1,274 @@
+{
+  "hardcore_challenge": {
+    "enabled": false,
+    "comment_0": "rules 1 - DeadlySlob's hardcore challenge - Season 5",
+    "comment_1": "    You can 'insure' but never be returned.",
+    "comment_2": "    Official rules - https://www.twitlonger.com/show/n_1sr500b",
+    "comment_3": "rules 2 - Markstrom's Ethical Tarkov",
+    "comment_4": "    Official rules - https://www.youtube.com/watch?v=OJXFVOzelAs",
+    "rules": 1
+  },
+  "cheat": {
+    "enabled" : false,
+    "comment_0": "recommend - false / true",
+    "comment_1": "secure_container - true: give negative weight for secure containers",
+    "comment_2": "training_stim - true: add training stims to therapist",
+    "secure_container": false,
+    "training_stim": true
+  },
+  "loot_spawnrate": {
+    "enabled" : false,
+    "comment_0": "recommend - 40",
+    "comment_1": "spawnrate for loose/dynamic loots",
+    "dynamic": 40
+  },
+  "pmc_conversion_chance": {
+    "enabled" : true,
+    "comment_0": "default - true / false / false / false / 0 / 0 / true",
+    "comment_1": "as_boss - true: spawn pmc bots in the beginning of raid (as group)",
+    "comment_2": "as_assault - true: spawn pmc bots in the beginning of raid",
+    "comment_3": "adaptive - true: number of pmc bots will be increased when you have pmc kill task",
+    "comment_4": "apply_assault_group - for development use",
+    "comment_5": "from / to - scav to pmc conversion chance",
+    "comment_6": "usec_chance - 0: all bears, 100: all usecs",
+    "comment_7": "peek_spawn - true: print pmc bot spawns to log",
+    "as_boss": true,
+    "as_assault": false,
+    "adaptive": false,
+    "apply_assault_group": false,
+    "from": 0,
+    "to": 0,
+    "usec_chance": 50,
+    "peek_spawn": true
+  },
+  "bot_waves": {
+    "enabled" : true,
+    "comment_0": "default - false / 1.0 / 1.4 / 1.8 / 10",
+    "comment_1": "it's already tuned for best FPS",
+    "as_online": false,
+    "low": 1.0,
+    "medium": 1.3,
+    "high": 1.6,
+    "horde": 2.0
+  },
+  "bot_count": {
+    "enabled" : true,
+    "comment_0": "default - 12 / 100, recommend 8 / 60",
+    "comment_1": "it's already tuned for best FPS",
+    "max_alive_bots": 8,
+    "local_bots_count": 60
+  },
+  "bot_difficulty": {
+    "enabled" : true,
+    "comment_0": "default - AsOnline / false / false / true / 71 / 25 / 72 / 41 / 58 / true",
+    "comment_1": "default_raid_difficulty - Easy / Medium / AsOnline / Hard / Impossible ",
+    "comment_2": "raider_ai_for_scav - apply raider AI to scavs",
+    "comment_3": "geared_scav - true: scavs wil be geared like pmc",
+    "comment_4": "support_easy_mode - true: support easy mode for bots with fixed difficulty (experimental)",
+    "default_raid_difficulty": "AsOnline",
+    "raider_ai_for_scav": false,
+    "geared_scav": false,
+    "support_easy_mode": true,
+    "scav_helmet_chance": 71,
+    "scav_armor_chance": 90,
+    "pmc_helmet_chance": 100,
+    "pmc_earpiece_chance": 90,
+    "pmc_armor_chance": 100,
+    "pmc_backpack_chance": 90,
+    "pmc_helmet_side": 75,
+    "pmc_helmet_visor": 75,
+    "pmc_helmet_mount": 75,
+    "pmc_helmet_nvg": 50,
+    "pmc_hp_boost": false
+  },
+  "boss_chance": {
+    "enabled" : true,
+    "comment_0": "default - true / 38 / 38 / 43 / 35 / 39",
+    "comment_1": "adaptive - true: bosses wil spawn more frequently when you have tasks",
+    "adaptive": true,
+    "bigmap": 38,
+    "interchange": 38,
+    "rezervbase": 43,
+    "shoreline": 35,
+    "woods": 39
+  },
+  "check_inventory_integrity": {
+    "comment": "recovery for lost stash items (it's not caused by this mod)",
+    "enabled": true
+  },
+  "no_save_ticket": {
+    "comment": "possessing no_save_ticket prevents your profile from being saved after raid",
+    "enabled": true
+  },
+  "fix_ammunitions": {
+    "comment": "fix for ammunitions",
+    "enabled": true
+  },
+  "fix_assorts": {
+    "comment": "fix for trader assorts",
+    "enabled": true
+  },
+  "fix_barter_trades": {
+    "comment": "fix for barter trades",
+    "enabled": true
+  },
+  "fix_bosses": {
+    "comment": "fix for bosses",
+    "enabled": true
+  },
+  "fix_bot_generation": {
+    "comment_0": "fix for bot generation",
+    "enabled": true,
+    "comment_1": "pistolier_chance - chance for pmc bot to be a pistolier, 0 to 100",
+    "comment_2": "faction_armband - blue for usec, yellow for bear",
+    "pistolier_chance": 10,
+    "faction_armband": true
+  },
+  "fix_containers": {
+    "comment": "fix for containers",
+    "enabled": true
+  },
+  "fix_hideout_speed": {
+    "comment": "fix for hideout upgrade/production speed",
+    "enabled": true,
+    "exclude_bitcoin_production": true
+  },
+  "fix_https_server": {
+    "comment": "fix for HttpServer.js",
+    "enabled": false
+  },
+  "fix_inraid_controller": {
+    "comment": "fix for InraidController.js",
+    "enabled": true
+  },
+  "fix_insurance": {
+    "comment": "fix for insurance",
+    "enabled": true
+  },
+  "fix_load_timer": {
+    "comment": "fix for load timer",
+    "enabled": true
+  },
+  "fix_locales": {
+    "comment": "fix for locales",
+    "enabled": true
+  },
+  "fix_locations": {
+    "comment": "fix for maps",
+    "enabled": true
+  },
+  "fix_location_generator": {
+    "comment_0": "fix for LocationGenerator.js",
+    "enabled": true,
+    "comment_1": "peek_spawn - true: print rare item spawns to log",
+    "peek_spawn": true
+  },
+  "fix_logger": {
+    "comment": "fix for Logger.js",
+    "enabled": false
+  },
+  "fix_meds": {
+    "comment": "fix for meds",
+    "enabled": true
+  },
+  "fix_mods": {
+    "comment": "fix for mods",
+    "enabled": true
+  },
+  "fix_notifier": {
+    "comment": "fix for notifier",
+    "enabled": true
+  },
+  "fix_quests": {
+    "comment_0": "fix for quests",
+    "comment_1": "recommend - true / false / true / true / true",
+    "enabled": true,
+    "cheat_huntsman_controller": false,
+    "cheat_shooter_born": true,
+    "cheat_grenadier": true,
+    "cheat_huntsman_perimeter": true,
+    "comment_2": "recommend - true / true / true / true / true / true",
+    "cheat_huntsman_watchman": true,
+    "cheat_friend_from_west_1": true,
+    "cheat_tarkov_shooter_3": true,
+    "cheat_tarkov_shooter_5": true,
+    "cheat_tarkov_shooter_6": true,
+    "cheat_tarkov_shooter_7": true
+  },
+  "fix_ragfair": {
+    "comment": "fix for ragfair",
+    "enabled": true
+  },
+  "fix_rates": {
+    "comment": "fix for several rates",
+    "enabled": true
+  },
+  "fix_save_server": {
+    "comment": "fix for SaveServer.js",
+    "enabled": false
+  },
+  "fix_scav_cooldown": {
+    "comment": "fix for scav cooldown",
+    "enabled": true
+  },
+  "fix_sniper_skill": {
+    "comment": "fix for starting sniper skill",
+    "enabled": true
+  },
+  "fix_trader": {
+    "comment": "fix for traders",
+    "enabled": true
+  },
+  "fix_weapons": {
+    "comment": "fix for weapons",
+    "enabled": true
+  },
+  "fix_weather": {
+    "comment": "fix for horrible weather",
+    "enabled": true
+  },
+  "location": {
+    "enabled" : true,
+    "comment_0": "WIP. not effective.",
+    "bigmap": {
+      "comment": "default - 265 / 300",
+      "DistToActivate": 120,
+      "DistToSleep": 140
+    },
+    "factory4_day": {
+      "comment": "default - 140 / 150",
+      "DistToActivate": 120,
+      "DistToSleep": 140
+    },
+    "factory4_night": {
+      "comment": "default - 100 / 120",
+      "DistToActivate": 100,
+      "DistToSleep": 120
+    },
+    "interchange": {
+      "comment": "default - no default ",
+      "DistToActivate": 120,
+      "DistToSleep": 140
+    },
+    "laboratory": {
+      "comment": "default - 140 / 160",
+      "DistToActivate": 120,
+      "DistToSleep": 140
+    },
+    "rezervbase": {
+      "comment": "default - 330 / 350",
+      "DistToActivate": 120,
+      "DistToSleep": 140
+    },
+    "shoreline": {
+      "comment": "default - 260 / 300",
+      "DistToActivate": 120,
+      "DistToSleep": 140
+    },
+    "woods": {
+      "comment": "default - 265 / 300",
+      "DistToActivate": 120,
+      "DistToSleep": 140
+    }
+  }
+}

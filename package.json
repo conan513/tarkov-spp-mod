@@ -1,0 +1,7 @@
+{
+	"name": "[SPP]Community Mod",
+	"author": "Conan",
+	"version": "1.0",
+	"license": "NCSA",
+	"main": "package.js"
+}

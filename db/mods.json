@@ -1,0 +1,4616 @@
+{
+  "5649b0fc4bdc2d17108b4588" : {
+    "Ergonomics" : 5,
+    "Recoil" : -32
+  },
+  "5de655be4a9f347bc92edb88" : {
+    "Ergonomics" : 17,
+    "Recoil" : -40
+  },
+  "5649ab884bdc2ded0b8b457f" : {
+    "Ergonomics" : -2,
+    "Recoil" : -13
+  },
+  "5a7d90eb159bd400165484f1" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "59f8a37386f7747af3328f06" : {
+    "Ergonomics" : 9,
+    "Recoil" : -2
+  },
+  "5c471c2d2e22164bef5d077f" : {
+    "Ergonomics" : -1
+  },
+  "59e8a00d86f7742ad93b569c" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 1,
+    "Recoil" : 0
+  },
+  "5cadc431ae921500113bb8d5" : {
+    "Ergonomics" : 4
+  },
+  "5e81c539cb2b95385c177553" : {
+    "Ergonomics" : 1
+  },
+  "5c9a26332e2216001219ea70" : {
+    "Ergonomics" : 7,
+    "Recoil" : -1
+  },
+  "5a27b6bec4a282000e496f78" : {
+    "Ergonomics" : -12,
+    "Recoil" : -10
+  },
+  "5926c32286f774616e42de99" : {
+    "Ergonomics" : 0
+  },
+  "5df917564a9f347bc92edca3" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -12,
+    "Recoil" : -5
+  },
+  "56ea7293d2720b8d4b8b45ba" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -2
+  },
+  "5bbde41ed4351e003562b038" : {
+    "Ergonomics" : 8
+  },
+  "55d484b44bdc2d1d4e8b456d" : {
+    "Ergonomics" : -1
+  },
+  "5d2f25bc48f03502573e5d85" : {
+    "Ergonomics" : 3,
+    "Recoil" : 0
+  },
+  "5b30bc285acfc47a8608615d" : {
+    "Ergonomics" : -1
+  },
+  "59d650cf86f7741b846413a4" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5fc23678ab884124df0cd590" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -12,
+    "Recoil" : -6
+  },
+  "5f3e78a7fbf956000b716b8e" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5943eeeb86f77412d6384f6b" : {
+    "Ergonomics" : -3,
+    "Recoil" : -15
+  },
+  "5a17fb9dfcdbcbcae6687291" : {
+    "Ergonomics" : 0,
+    "Recoil" : -38
+  },
+  "5cdeac5cd7f00c000f261694" : {
+    "Ergonomics" : 6
+  },
+  "5d02676dd7ad1a049e54f6dc" : {
+    "Accuracy" : 1,
+    "Ergonomics" : -1,
+    "Recoil" : -11
+  },
+  "571a29dc2459771fb2755a6a" : {
+    "Ergonomics" : -1,
+    "LoadUnloadModifier" : -15,
+    "CheckTimeModifier" : -20
+  },
+  "5fc2360f900b1d5091531e19" : {
+    "Ergonomics" : 0,
+    "Recoil" : 0
+  },
+  "5cf13123d7f00c1085616a50" : {
+    "Accuracy" : 3,
+    "Ergonomics" : 28,
+    "Recoil" : -36
+  },
+  "55d480c04bdc2d1d4e8b456a" : {
+    "Ergonomics" : -3
+  },
+  "5b31163c5acfc400153b71cb" : {
+    "Ergonomics" : 0
+  },
+  "5bb20dcad4351e3bac1212da" : {
+    "Ergonomics" : 0,
+    "Recoil" : 0
+  },
+  "584984812459776a704a82a6" : {
+    "Ergonomics" : -3
+  },
+  "5c5db5b82e2216003a0fe71d" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -9,
+    "Recoil" : -4
+  },
+  "571a28e524597720b4066567" : {
+    "Ergonomics" : -10,
+    "Recoil" : -10
+  },
+  "5a7c74b3e899ef0014332c29" : {
+    "Ergonomics" : -20,
+    "Recoil" : -5
+  },
+  "5dcbd6dddbd3d91b3e5468de" : {
+    "Ergonomics" : 5
+  },
+  "5cdd7685d7f00c000f260ed2" : {
+    "Accuracy" : 2,
+    "Ergonomics" : -1,
+    "Recoil" : -11
+  },
+  "5a787fadc5856700155a6ca1" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -12,
+    "Recoil" : -9
+  },
+  "5addba3e5acfc4001669f0ab" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5d3ef698a4b9361182109872" : {
+    "Accuracy" : 2,
+    "Ergonomics" : -12,
+    "Recoil" : -9
+  },
+  "5addbffe5acfc4001714dfac" : {
+    "Ergonomics" : -1
+  },
+  "5fb655a72b1b027b1f50bd06" : {
+    "Ergonomics" : 2
+  },
+  "5abcbb20d8ce87001773e258" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5cc6ea85e4a949000e1ea3c3" : {
+    "Ergonomics" : 1
+  },
+  "57d14e1724597714010c3f4b" : {
+    "Ergonomics" : 5
+  },
+  "5bfeb32b0db834001a6694d9" : {
+    "Ergonomics" : 14,
+    "Recoil" : -30
+  },
+  "58d39d3d86f77445bb794ae7" : {
+    "Ergonomics" : 0
+  },
+  "571a279b24597720b4066566" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -5,
+    "Recoil" : -3.25
+  },
+  "5de8eaadbbaf010b10528a6d" : {
+    "Ergonomics" : 1
+  },
+  "5df8e4080b92095fd441e594" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 5,
+    "Recoil" : 0
+  },
+  "55d4837c4bdc2d1d4e8b456c" : {
+    "Ergonomics" : 5,
+    "LoadUnloadModifier" : -10,
+    "CheckTimeModifier" : -30
+  },
+  "602e63fb6335467b0c5ac94d" : {
+    "Ergonomics" : 4
+  },
+  "5b7d63cf5acfc4001876c8df" : {
+    "Ergonomics" : 3,
+    "Recoil" : -31
+  },
+  "5b363dd25acfc4001a598fd2" : {
+    "Accuracy" : 7,
+    "Ergonomics" : -23,
+    "Recoil" : -18
+  },
+  "5cda9bcfd7f00c0c0b53e900" : {
+    "Ergonomics" : 5,
+    "Recoil" : 0
+  },
+  "5b1fa9ea5acfc40018633c0a" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -5,
+    "Recoil" : -6
+  },
+  "5a7033908dc32e000a311392" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 4,
+    "Recoil" : -1
+  },
+  "5a7ad2e851dfba0016153692" : {
+    "Ergonomics" : -5,
+    "LoadUnloadModifier" : -10,
+    "CheckTimeModifier" : -30
+  },
+  "5fc3e4ee7283c4046c5814af" : {
+    "Ergonomics" : 2,
+    "Recoil" : -34
+  },
+  "5998598e86f7740b3f498a86" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -1,
+    "Recoil" : -7
+  },
+  "56d59948d2720bb7418b4582" : {
+    "Ergonomics" : -1
+  },
+  "5c1bc5af2e221602b412949b" : {
+    "Ergonomics" : -3,
+    "Recoil" : -4
+  },
+  "60228a76d62c9b14ed777a66" : { },
+  "5a17fb03fcdbcbcae668728f" : {
+    "Ergonomics" : -3,
+    "LoadUnloadModifier" : 0,
+    "CheckTimeModifier" : -30
+  },
+  "5fbe7618d6fa9c00c571bb6c" : {
+    "Accuracy" : 2,
+    "Ergonomics" : -19,
+    "Recoil" : -11
+  },
+  "5ea16d4d5aad6446a939753d" : {
+    "Ergonomics" : 2
+  },
+  "5fbc226eca32ed67276c155d" : {
+    "Ergonomics" : 9,
+    "Recoil" : 0
+  },
+  "5c05413a0db834001c390617" : {
+    "Ergonomics" : -3,
+    "LoadUnloadModifier" : -10,
+    "CheckTimeModifier" : 0
+  },
+  "5e569a132642e66b0b68015c" : {
+    "Ergonomics" : -1
+  },
+  "5947f92f86f77427344a76b1" : {
+    "Ergonomics" : 11
+  },
+  "58889d0c2459775bc215d981" : {
+    "Ergonomics" : 12,
+    "Recoil" : -35
+  },
+  "58c157c886f774032749fb06" : {
+    "Ergonomics" : 5,
+    "Recoil" : -1
+  },
+  "5a9fc7e6a2750c0032157184" : {
+    "Ergonomics" : -1
+  },
+  "5a7c147ce899ef00150bd8b8" : {
+    "Accuracy" : 4,
+    "Ergonomics" : -2,
+    "Recoil" : -9
+  },
+  "5b222d335acfc4771e1be099" : {
+    "Ergonomics" : 0,
+    "Recoil" : 0
+  },
+  "5c0e2ff6d174af02a1659d4a" : {
+    "Ergonomics" : 13,
+    "Recoil" : -28
+  },
+  "57e3dba62459770f0c32322b" : {
+    "Ergonomics" : 6
+  },
+  "5de8f2d5b74cd90030650c72" : {
+    "Accuracy" : 1,
+    "Ergonomics" : -13,
+    "Recoil" : -9
+  },
+  "591c4efa86f7741030027726" : {
+    "Ergonomics" : -2
+  },
+  "5ef1ba28c64c5d0dfc0571a5" : {
+    "Ergonomics" : -3,
+    "Recoil" : -5
+  },
+  "5df8e085bb49d91fb446d6a8" : {
+    "Ergonomics" : 1
+  },
+  "5a6f58f68dc32e000a311390" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5d00ef6dd7ad1a0940739b16" : {
+    "Ergonomics" : 8,
+    "Recoil" : -1
+  },
+  "5b3116595acfc40019476364" : {
+    "Ergonomics" : 0
+  },
+  "5eea21647547d6330471b3c9" : {
+    "Ergonomics" : 13
+  },
+  "593d490386f7745ee97a1555" : {
+    "Accuracy" : -1,
+    "Ergonomics" : -17,
+    "Recoil" : -9
+  },
+  "56ea7165d2720b6e518b4583" : {
+    "Ergonomics" : 1
+  },
+  "5caf16a2ae92152ac412efbc" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5bbdb811d4351e45020113c7" : {
+    "Ergonomics" : -2
+  },
+  "5e21ca18e4d47f0da15e77dd" : {
+    "Ergonomics" : 0
+  },
+  "5926d3c686f77410de68ebc8" : {
+    "Ergonomics" : 6,
+    "Recoil" : -34
+  },
+  "5b7d63b75acfc400170e2f8a" : {
+    "Ergonomics" : 16,
+    "Recoil" : -34
+  },
+  "55d355e64bdc2d962f8b4569" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 5,
+    "Recoil" : -1
+  },
+  "5cc70102e4a949035e43ba74" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -5,
+    "Recoil" : 0
+  },
+  "588226dd24597767ad33f789" : {
+    "Ergonomics" : 6,
+    "Recoil" : -2
+  },
+  "5ac66c5d5acfc4001718d314" : {
+    "Ergonomics" : -3
+  },
+  "5addbfd15acfc40015621bde" : {
+    "Ergonomics" : -1
+  },
+  "5d44064fa4b9361e4f6eb8b5" : {
+    "Accuracy" : -3,
+    "Ergonomics" : -19,
+    "Recoil" : -13
+  },
+  "5d3eb44aa4b93650d64e4979" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 3,
+    "Recoil" : 0
+  },
+  "57cffb66245977632f391a99" : {
+    "Ergonomics" : 7,
+    "Recoil" : -2
+  },
+  "5bfd4c980db834001b73449d" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "55d4491a4bdc2d882f8b456e" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -5,
+    "Recoil" : -3
+  },
+  "5c471bfc2e221602b21d4e17" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -1,
+    "Recoil" : -7
+  },
+  "5beec9450db83400970084fd" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5ba26acdd4351e003562908e" : {
+    "Accuracy" : 3,
+    "Ergonomics" : -1,
+    "Recoil" : -5
+  },
+  "5f63407e1b231926f2329f15" : {
+    "Accuracy" : -2,
+    "Ergonomics" : -23,
+    "Recoil" : -14
+  },
+  "5d00ec68d7ad1a04a067e5be" : {
+    "Ergonomics" : -1,
+    "Recoil" : -3
+  },
+  "5d123b7dd7ad1a004f01b262" : {
+    "Ergonomics" : 4,
+    "Recoil" : -1
+  },
+  "5e848d51e4dbc5266a4ec63b" : {
+    "Ergonomics" : 5,
+    "Recoil" : 0
+  },
+  "5ac72e475acfc400180ae6fe" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "588226ef24597767af46e39c" : {
+    "Ergonomics" : 6,
+    "Recoil" : -2
+  },
+  "5bb20df1d4351e00347787d5" : {
+    "Ergonomics" : 4,
+    "Recoil" : 0
+  },
+  "5b7be1ca5acfc400170e2d2f" : {
+    "Ergonomics" : 6,
+    "Recoil" : 0
+  },
+  "5dfe14f30b92095fd441edaf" : {
+    "Ergonomics" : 0
+  },
+  "57ffb0062459777a045af529" : {
+    "Ergonomics" : -1
+  },
+  "588226d124597767ad33f787" : {
+    "Ergonomics" : 6,
+    "Recoil" : -2
+  },
+  "5ac72e895acfc43b321d4bd5" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -2,
+    "Recoil" : -10
+  },
+  "57a9b9ce2459770ee926038d" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "57c5ac0824597754771e88a9" : {
+    "Ergonomics" : -4
+  },
+  "5649af094bdc2df8348b4586" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 5,
+    "Recoil" : 0
+  },
+  "5cbdc23eae9215001136a407" : {
+    "Ergonomics" : -26,
+    "LoadUnloadModifier" : 90,
+    "CheckTimeModifier" : 30
+  },
+  "57838f0b2459774a256959b2" : {
+    "Ergonomics" : 5
+  },
+  "56e05b06d2720bb2668b4586" : {
+    "Ergonomics" : -17,
+    "Recoil" : -12
+  },
+  "59e5d83b86f7745aed03d262" : {
+    "Ergonomics" : 4,
+    "LoadUnloadModifier" : -10,
+    "CheckTimeModifier" : -30
+  },
+  "57616a9e2459773c7a400234" : {
+    "Ergonomics" : -2,
+    "LoadUnloadModifier" : -15,
+    "CheckTimeModifier" : 0
+  },
+  "5ea034f65aad6446a939737e" : {
+    "Ergonomics" : -9,
+    "LoadUnloadModifier" : 35,
+    "CheckTimeModifier" : 30
+  },
+  "5b800ed086f7747baf6e2f9e" : {
+    "Ergonomics" : 0
+  },
+  "5fce0f9b55375d18a253eff2" : {
+    "Ergonomics" : 0
+  },
+  "603372b4da11d6478d5a07ff" : {
+    "Ergonomics" : -10,
+    "Recoil" : -4
+  },
+  "5aaf9d53e5b5b00015042a52" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -12,
+    "Recoil" : -5
+  },
+  "5de8f237bbaf010b10528a70" : {
+    "Ergonomics" : -1
+  },
+  "5fbcc429900b1d5091531dd7" : {
+    "Ergonomics" : 10,
+    "Recoil" : -29
+  },
+  "5beec8b20db834001961942a" : {
+    "Ergonomics" : 0,
+    "Recoil" : -4
+  },
+  "5fbbfacda56d053a3543f799" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -6,
+    "Recoil" : -2
+  },
+  "5a71e0fb8dc32e00094b97f2" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "59e6449086f7746c9f75e822" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 5,
+    "Recoil" : 0
+  },
+  "59e898ee86f77427614bd225" : {
+    "Ergonomics" : 4,
+    "Recoil" : 0
+  },
+  "5c0faeddd174af02a962601f" : {
+    "Ergonomics" : 0,
+    "Recoil" : 0
+  },
+  "5e01e9e273d8eb11426f5bc3" : {
+    "Ergonomics" : -1
+  },
+  "5ba26586d4351e44f824b340" : {
+    "Ergonomics" : -4
+  },
+  "5a7b4960e899ef197b331a2d" : {
+    "Ergonomics" : 7
+  },
+  "5648b4534bdc2d3d1c8b4580" : {
+    "Ergonomics" : 9,
+    "Recoil" : -2
+  },
+  "5dfa397fb11454561e39246c" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -21,
+    "Recoil" : -9
+  },
+  "5a6b59a08dc32e000b452fb7" : {
+    "Ergonomics" : 1
+  },
+  "5df8f535bb49d91fb446d6b0" : {
+    "Ergonomics" : 2
+  },
+  "602293f023506e50807090cb" : { },
+  "57c44fa82459772d2d75e415" : {
+    "Ergonomics" : 5
+  },
+  "5beec3e30db8340019619424" : {
+    "Ergonomics" : 6,
+    "Recoil" : -1
+  },
+  "5b7d68af5acfc400170e30c3" : {
+    "Accuracy" : 4,
+    "Ergonomics" : -1,
+    "Recoil" : -11
+  },
+  "5c503af12e221602b177ca02" : {
+    "Ergonomics" : 18,
+    "Recoil" : -39
+  },
+  "5c5db5852e2216003a0fe71a" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -2,
+    "Recoil" : 0
+  },
+  "5a38ed75c4a28232996e40c6" : {
+    "Ergonomics" : -2,
+    "LoadUnloadModifier" : -20,
+    "CheckTimeModifier" : 0
+  },
+  "5d0a3a58d7ad1a669c15ca14" : {
+    "Ergonomics" : -8,
+    "Recoil" : 0
+  },
+  "5aaf8a0be5b5b00015693243" : {
+    "Ergonomics" : -3
+  },
+  "5926c3b286f774640d189b6b" : {
+    "Ergonomics" : 4
+  },
+  "5cadc55cae921500103bb3be" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 1,
+    "Recoil" : 0
+  },
+  "5df256570dee1b22f862e9c4" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -10,
+    "Recoil" : -5
+  },
+  "5bb20dbcd4351e44f824c04e" : {
+    "Ergonomics" : 1
+  },
+  "5c793fde2e221601da358614" : {
+    "Ergonomics" : 11,
+    "Recoil" : -30
+  },
+  "558032614bdc2de7118b4585" : {
+    "Ergonomics" : 5,
+    "Recoil" : -1
+  },
+  "5a702d198dc32e000b452fc3" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 2,
+    "Recoil" : -1
+  },
+  "5e848d1c264f7c180b5e35a9" : {
+    "Ergonomics" : -4,
+    "Recoil" : -4
+  },
+  "5de8fbf2b74cd90030650c79" : {
+    "Ergonomics" : 0
+  },
+  "5a7ad1fb51dfba0013379715" : {
+    "Accuracy" : -3,
+    "Ergonomics" : -1,
+    "Recoil" : -12
+  },
+  "5b3cbc235acfc4001863ac44" : {
+    "Ergonomics" : 6
+  },
+  "5a800961159bd4315e3a1657" : {
+    "Ergonomics" : -1
+  },
+  "603372f153a60014f970616d" : {
+    "Ergonomics" : -15,
+    "Recoil" : -8
+  },
+  "5b099bf25acfc4001637e683" : {
+    "Ergonomics" : -1,
+    "Recoil" : 0
+  },
+  "57dc32dc245977596d4ef3d3" : {
+    "Ergonomics" : 4,
+    "Recoil" : 0
+  },
+  "5fc2369685fd526b824a5713" : {
+    "Ergonomics" : 1,
+    "Recoil" : -34
+  },
+  "5bb20e18d4351e00320205d5" : {
+    "Ergonomics" : 6
+  },
+  "5c86592b2e2216000e69e77c" : {
+    "Ergonomics" : -1
+  },
+  "5c9a1c422e221600106f69f0" : {
+    "Ergonomics" : 14,
+    "Recoil" : -1
+  },
+  "5cc9c20cd7f00c001336c65d" : {
+    "Ergonomics" : -1
+  },
+  "5c9a25172e2216000f20314e" : {
+    "Ergonomics" : 7,
+    "Recoil" : -2
+  },
+  "59ccd11386f77428f24a488f" : { },
+  "5b099b7d5acfc400186331e4" : {
+    "Accuracy" : 3,
+    "Ergonomics" : -1,
+    "Recoil" : -7
+  },
+  "5a7ad74e51dfba0015068f45" : {
+    "Ergonomics" : -18,
+    "Recoil" : -20
+  },
+  "576169e62459773c69055191" : {
+    "Ergonomics" : 9
+  },
+  "5bffe7c50db834001d23ece1" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 4,
+    "Recoil" : -4
+  },
+  "57adff4f24597737f373b6e6" : {
+    "Ergonomics" : -2
+  },
+  "570fd721d2720bc5458b4596" : {
+    "Ergonomics" : -3
+  },
+  "58949edd86f77409483e16a9" : {
+    "Ergonomics" : 1
+  },
+  "5df38a5fb74cd90030650cb6" : {
+    "Ergonomics" : 8
+  },
+  "5a7037338dc32e000d46d257" : {
+    "Accuracy" : 2,
+    "Ergonomics" : -1,
+    "Recoil" : -11
+  },
+  "5c6161fb2e221600113fbde5" : {
+    "Ergonomics" : -4,
+    "LoadUnloadModifier" : -10,
+    "CheckTimeModifier" : 0
+  },
+  "5c0672ed0db834001b7353f3" : {
+    "Ergonomics" : -2,
+    "LoadUnloadModifier" : -15,
+    "CheckTimeModifier" : 0
+  },
+  "5fb655b748c711690e3a8d5a" : {
+    "Ergonomics" : -2
+  },
+  "5827272a24597748c74bdeea" : {
+    "Ergonomics" : 2,
+    "Recoil" : -3
+  },
+  "5c1bc4812e22164bef5cfde7" : {
+    "Ergonomics" : 3,
+    "Recoil" : -2
+  },
+  "5649b2314bdc2d79388b4576" : {
+    "Ergonomics" : -1,
+    "Recoil" : -2
+  },
+  "5de922d4b11454561e39239f" : {
+    "Ergonomics" : 0
+  },
+  "60228924961b8d75ee233c32" : {
+    "Ergonomics" : 4
+  },
+  "5a9fbb74a2750c0032157181" : {
+    "Accuracy" : -2,
+    "Ergonomics" : -18,
+    "Recoil" : -10
+  },
+  "57f3c8cc2459773ec4480328" : {
+    "Ergonomics" : -13,
+    "Recoil" : -13
+  },
+  "57838e1b2459774a256959b1" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5a33cae9c4a28232980eb086" : {
+    "Ergonomics" : 2,
+    "Recoil" : -34
+  },
+  "5a38eecdc4a282329a73b512" : {
+    "Ergonomics" : 3
+  },
+  "5b3a337e5acfc4704b4a19a0" : {
+    "Ergonomics" : -2
+  },
+  "5a78832ec5856700155a6ca3" : {
+    "Ergonomics" : -6
+  },
+  "5f2aa493cd375f14e15eea72" : {
+    "Ergonomics" : 0
+  },
+  "5c07b36c0db834002a1259e9" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5c0102b20db834001d23eebc" : {
+    "Ergonomics" : 0
+  },
+  "5cf638cbd7f00c06595bc936" : {
+    "Ergonomics" : -6
+  },
+  "5a957c3fa2750c00137fa5f7" : {
+    "Ergonomics" : 10,
+    "Recoil" : -3
+  },
+  "59db7eed86f77461f8380365" : {
+    "Ergonomics" : -1
+  },
+  "5c6d450c2e221600114c997d" : {
+    "Ergonomics" : -3
+  },
+  "5c0673fb0db8340023300271" : {
+    "Ergonomics" : 5,
+    "LoadUnloadModifier" : -15,
+    "CheckTimeModifier" : 0
+  },
+  "5c9a1c3a2e2216000e69fb6a" : {
+    "Ergonomics" : 14,
+    "Recoil" : -1
+  },
+  "5cdeaca5d7f00c00b61c4b70" : {
+    "Ergonomics" : -1
+  },
+  "5cadd919ae921500126a77f3" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5fc278107283c4046c581489" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 6,
+    "Recoil" : -1
+  },
+  "55d48ebc4bdc2d8c2f8b456c" : {
+    "Ergonomics" : -1
+  },
+  "57dc347d245977596754e7a1" : {
+    "Ergonomics" : 10,
+    "Recoil" : -30
+  },
+  "5b7be4895acfc400170e2dd5" : {
+    "Ergonomics" : 0
+  },
+  "5ba26b17d4351e00367f9bdd" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5c471cb32e221602b177afaa" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -10,
+    "Recoil" : -7
+  },
+  "5bfe89510db834001808a127" : {
+    "Ergonomics" : 0,
+    "Recoil" : -2
+  },
+  "5c17664f2e2216398b5a7e3c" : {
+    "Ergonomics" : 10,
+    "Recoil" : -4
+  },
+  "5c5db63a2e2216000f1b284a" : {
+    "Ergonomics" : 7,
+    "Recoil" : -4
+  },
+  "5beecbb80db834001d2c465e" : {
+    "Ergonomics" : 0
+  },
+  "5c1780312e221602b66cc189" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 1
+  },
+  "5cebec00d7f00c065c53522a" : {
+    "Ergonomics" : -14,
+    "Recoil" : -9
+  },
+  "5cf78496d7f00c065703d6ca" : {
+    "Ergonomics" : -1,
+    "Recoil" : -1
+  },
+  "55d3632e4bdc2d972f8b4569" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -11,
+    "Recoil" : -4
+  },
+  "5f2aa47a200e2c0ee46efa71" : {
+    "Ergonomics" : 16,
+    "Recoil" : -2
+  },
+  "5dfa3cd1b33c0951220c079b" : {
+    "Accuracy" : 3,
+    "Ergonomics" : -1,
+    "Recoil" : -8
+  },
+  "5d2f261548f03576f500e7b7" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 6,
+    "Recoil" : 0
+  },
+  "5e2192a498a36665e8337386" : {
+    "Ergonomics" : 10
+  },
+  "5a7b483fe899ef0016170d15" : {
+    "Ergonomics" : -1
+  },
+  "5c5db6552e2216001026119d" : {
+    "Ergonomics" : 4,
+    "LoadUnloadModifier" : 0,
+    "CheckTimeModifier" : -50
+  },
+  "5cff9e5ed7ad1a09407397d4" : {
+    "Accuracy" : 1,
+    "Ergonomics" : -1,
+    "Recoil" : -9
+  },
+  "5608373c4bdc2dc8488b4570" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -13,
+    "Recoil" : -9
+  },
+  "5cc9ad73d7f00c000e2579d4" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -2,
+    "Recoil" : -16
+  },
+  "5a7b32a2e899ef00135e345a" : {
+    "Accuracy" : 3,
+    "Ergonomics" : -1,
+    "Recoil" : -14
+  },
+  "5947eab886f77475961d96c5" : {
+    "Ergonomics" : 7,
+    "Recoil" : -33
+  },
+  "57d17c5e2459775a5c57d17d" : {
+    "Ergonomics" : -2
+  },
+  "5addcce35acfc4001a5fc635" : {
+    "Ergonomics" : -6
+  },
+  "5a789261c5856700186c65d3" : {
+    "Ergonomics" : -1
+  },
+  "57f3c7e024597738ea4ba286" : {
+    "Ergonomics" : 0,
+    "Recoil" : -10
+  },
+  "5ba2657ed4351e0035628ff2" : {
+    "Ergonomics" : -1
+  },
+  "5bbde409d4351e003562b036" : {
+    "Ergonomics" : 9,
+    "Recoil" : -5
+  },
+  "5e217ba4c1434648c13568cd" : {
+    "Ergonomics" : 12,
+    "Recoil" : -34
+  },
+  "576fd4ec2459777f0b518431" : {
+    "Ergonomics" : -7
+  },
+  "5fbbc383d5cb881a7363194a" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -2,
+    "Recoil" : -4
+  },
+  "5926f2e086f7745aae644231" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 5,
+    "Recoil" : 0
+  },
+  "5b4736b986f77405cb415c10" : {
+    "Ergonomics" : 0
+  },
+  "5e87080c81c4ed43e83cefda" : {
+    "Ergonomics" : -2
+  },
+  "5bb20dadd4351e00367faeff" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -22,
+    "Recoil" : -12
+  },
+  "5ae30e795acfc408fb139a0b" : {
+    "Ergonomics" : -1
+  },
+  "5894a5b586f77426d2590767" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 5,
+    "Recoil" : 0
+  },
+  "5926c0df86f77462f647f764" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 5,
+    "Recoil" : 0
+  },
+  "5addbfe15acfc4001a5fc58b" : {
+    "Ergonomics" : -1
+  },
+  "5a9685b1a2750c0032157104" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 5,
+    "Recoil" : -1
+  },
+  "57c9a89124597704ee6faec1" : {
+    "Ergonomics" : 5
+  },
+  "5e87116b81c4ed43e83cefdd" : {
+    "Ergonomics" : 7,
+    "Recoil" : -33
+  },
+  "5caf1109ae9215753c44119f" : {
+    "Ergonomics" : -7,
+    "LoadUnloadModifier" : 15,
+    "CheckTimeModifier" : 0
+  },
+  "5b3b6dc75acfc47a8773fb1e" : {
+    "Ergonomics" : -1
+  },
+  "5ea16acdfadf1d18c87b0784" : {
+    "Ergonomics" : 8
+  },
+  "5b2388675acfc4771e1be0be" : {
+    "Ergonomics" : -3
+  },
+  "5c5db6ee2e221600113fba54" : {
+    "Ergonomics" : 15,
+    "Recoil" : -30
+  },
+  "5d023784d7ad1a049d4aa7f2" : {
+    "Ergonomics" : 12
+  },
+  "5d120a28d7ad1a1c8962e295" : {
+    "Ergonomics" : 2,
+    "Recoil" : -3
+  },
+  "5dcbe965e4ed22586443a79d" : {
+    "Accuracy" : 1,
+    "Ergonomics" : -2,
+    "Recoil" : -8
+  },
+  "55d45f484bdc2d972f8b456d" : {
+    "Ergonomics" : 4,
+    "Recoil" : -1
+  },
+  "5b0800175acfc400153aebd4" : {
+    "Ergonomics" : 10,
+    "Recoil" : -30
+  },
+  "5beec91a0db834001961942d" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 4,
+    "Recoil" : 0
+  },
+  "59d6514b86f774171a068a08" : {
+    "Ergonomics" : 3,
+    "Recoil" : -33
+  },
+  "5a33ca0fc4a282000d72292f" : {
+    "Ergonomics" : 0,
+    "Recoil" : -2
+  },
+  "57ee59b42459771c7b045da5" : {
+    "Ergonomics" : -1
+  },
+  "603373004e02ce1eaa358814" : {
+    "Ergonomics" : -19,
+    "Recoil" : -10
+  },
+  "55d48a634bdc2d8b2f8b456a" : {
+    "Ergonomics" : -1
+  },
+  "5b3a08b25acfc4001754880c" : {
+    "Ergonomics" : -1
+  },
+  "5fc4b97bab884124df0cd5e3" : {
+    "Ergonomics" : 0
+  },
+  "5c1cdd302e221602b3137250" : {
+    "Ergonomics" : -1
+  },
+  "588226e62459776e3e094af7" : {
+    "Ergonomics" : 6,
+    "Recoil" : -2
+  },
+  "57ade1442459771557167e15" : {
+    "Ergonomics" : 2,
+    "Recoil" : -35
+  },
+  "5e8708d4ae379e67d22e0102" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5addc7ac5acfc400194dbd90" : {
+    "Ergonomics" : 17,
+    "Recoil" : -30
+  },
+  "5649ad3f4bdc2df8348b4585" : {
+    "Ergonomics" : 6
+  },
+  "5a6b585a8dc32e5a9c28b4f1" : {
+    "Ergonomics" : 1
+  },
+  "6034e3e20ddce744014cb878" : {
+    "Ergonomics" : 6.5
+  },
+  "5abcd472d8ce8700166032ae" : {
+    "Ergonomics" : 9,
+    "Recoil" : -30
+  },
+  "5b363e1b5acfc4771e1c5e80" : {
+    "Accuracy" : 1,
+    "Ergonomics" : 0,
+    "Recoil" : -1
+  },
+  "5c05293e0db83400232fff80" : {
+    "Ergonomics" : -2
+  },
+  "5a9d6d00a2750c5c985b5305" : {
+    "Ergonomics" : 0
+  },
+  "59db3a1d86f77429e05b4e92" : {
+    "Ergonomics" : 15
+  },
+  "5bb20e49d4351e3bac1212de" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5d00ede1d7ad1a0940739a76" : {
+    "Ergonomics" : 8,
+    "Recoil" : -1
+  },
+  "5d1c702ad7ad1a632267f429" : {
+    "Ergonomics" : 4,
+    "Recoil" : -33
+  },
+  "5c7d55f52e221644f31bff6a" : {
+    "Ergonomics" : 0
+  },
+  "5aafa1c2e5b5b00015042a56" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -1,
+    "Recoil" : -5
+  },
+  "5fb6564947ce63734e3fa1da" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 1
+  },
+  "5c0684e50db834002a12585a" : {
+    "Ergonomics" : 8
+  },
+  "5d25d0ac8abbc3054f3e61f7" : {
+    "Accuracy" : 6,
+    "Ergonomics" : 38,
+    "Recoil" : -34
+  },
+  "5f6331e097199b7db2128dc2" : {
+    "Ergonomics" : 10,
+    "Recoil" : -3
+  },
+  "5b30bc165acfc40016387293" : {
+    "Ergonomics" : -1
+  },
+  "5c471b5d2e221602b21d4e14" : {
+    "Ergonomics" : 3,
+    "Recoil" : -31
+  },
+  "59fb375986f7741b681b81a6" : {
+    "Ergonomics" : 11,
+    "Recoil" : -3
+  },
+  "5f2aa4464b50c14bcf07acdb" : {
+    "Ergonomics" : 1
+  },
+  "59e61eb386f77440d64f5daf" : {
+    "Recoil" : -6
+  },
+  "5bd704e7209c4d00d7167c31" : {
+    "Ergonomics" : 3,
+    "Recoil" : -17
+  },
+  "5de8eac42a78646d96665d91" : {
+    "Ergonomics" : -1
+  },
+  "5ac78eaf5acfc4001926317a" : {
+    "Ergonomics" : 0,
+    "Recoil" : 0
+  },
+  "591af10186f774139d495f0e" : {
+    "Ergonomics" : 18,
+    "Recoil" : -26
+  },
+  "5a7b4900e899ef197b331a2a" : {
+    "Ergonomics" : -1
+  },
+  "5b363dea5acfc4771e1c5e7e" : {
+    "Accuracy" : 1,
+    "Ergonomics" : 0,
+    "Recoil" : -1
+  },
+  "58272b842459774abc128d50" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5d15ce51d7ad1a1eff619092" : {
+    "Ergonomics" : 3,
+    "Recoil" : -1
+  },
+  "5cdeac42d7f00c000d36ba73" : {
+    "Ergonomics" : 20,
+    "Recoil" : -25
+  },
+  "59ccfdba86f7747f2109a587" : {
+    "Ergonomics" : 8,
+    "Recoil" : -1
+  },
+  "5cde739cd7f00c0010373bd3" : {
+    "Ergonomics" : 13,
+    "Recoil" : -9
+  },
+  "5b7d6c105acfc40015109a5f" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 2,
+    "Recoil" : 0
+  },
+  "5839a7742459773cf9693481" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 5,
+    "Recoil" : 0
+  },
+  "5cfe8010d7ad1a59283b14c6" : {
+    "Ergonomics" : -15,
+    "LoadUnloadModifier" : 15,
+    "CheckTimeModifier" : 20
+  },
+  "5fc3e4a27283c4046c5814ab" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -6,
+    "Recoil" : -3
+  },
+  "5df35e970b92095fd441e4d2" : {
+    "Ergonomics" : -1
+  },
+  "59c1383d86f774290a37e0ca" : {
+    "Ergonomics" : -16,
+    "LoadUnloadModifier" : 60,
+    "CheckTimeModifier" : 20
+  },
+  "5ef5d994dfbc9f3c660ded95" : {
+    "Ergonomics" : -1
+  },
+  "5cde7afdd7f00c000d36b89d" : {
+    "Ergonomics" : 10,
+    "Recoil" : -3
+  },
+  "5e0090f7e9dc277128008b93" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 8,
+    "Recoil" : 0
+  },
+  "5cf656f2d7f00c06585fb6eb" : {
+    "Ergonomics" : 14,
+    "Recoil" : -4
+  },
+  "5fc3e466187fea44d52eda90" : {
+    "Ergonomics" : -3
+  },
+  "5dfe6104585a0c3e995c7b82" : {
+    "Ergonomics" : -2
+  },
+  "58d399e486f77442e0016fe7" : {
+    "Ergonomics" : 0
+  },
+  "5c6beec32e221601da3578f2" : {
+    "Accuracy" : -2,
+    "Ergonomics" : -1,
+    "Recoil" : -12
+  },
+  "578395e82459774a0e553c7b" : {
+    "Ergonomics" : 15,
+    "Recoil" : -33
+  },
+  "559ba5b34bdc2d1f1a8b4582" : {
+    "Ergonomics" : -4
+  },
+  "5c0111ab0db834001966914d" : {
+    "Ergonomics" : -1
+  },
+  "5bed625c0db834001c062946" : {
+    "Ergonomics" : -24,
+    "LoadUnloadModifier" : 90,
+    "CheckTimeModifier" : 25
+  },
+  "59d64ec286f774171d1e0a42" : {
+    "Ergonomics" : 0,
+    "Recoil" : 0
+  },
+  "5f6340d3ca442212f4047eb2" : {
+    "Ergonomics" : 6,
+    "Recoil" : -2
+  },
+  "560837824bdc2d57468b4568" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -19,
+    "Recoil" : -10
+  },
+  "58aeaaa886f7744fc1560f81" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -3,
+    "Recoil" : -2
+  },
+  "58a56f8d86f774651579314c" : { },
+  "544a37c44bdc2d25388b4567" : {
+    "Ergonomics" : -18,
+    "LoadUnloadModifier" : 20,
+    "CheckTimeModifier" : 25
+  },
+  "5d0a29fed7ad1a002769ad08" : {
+    "Ergonomics" : -1
+  },
+  "55d448594bdc2d8c2f8b4569" : {
+    "Ergonomics" : -7,
+    "Recoil" : -4
+  },
+  "5ea02bb600685063ec28bfa1" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -5,
+    "Recoil" : -3
+  },
+  "5b099b965acfc400186331e6" : {
+    "Ergonomics" : 10
+  },
+  "5efaf417aeb21837e749c7f2" : {
+    "Ergonomics" : 7,
+    "Recoil" : -3
+  },
+  "5f2aa49f9b44de6b1b4e68d4" : {
+    "Ergonomics" : 0
+  },
+  "5f3e778efcd9b651187d7201" : {
+    "Ergonomics" : 5
+  },
+  "5bb20de5d4351e0035629e59" : {
+    "Ergonomics" : 4,
+    "Recoil" : 0
+  },
+  "5cf50850d7f00c056e24104c" : {
+    "Ergonomics" : 8
+  },
+  "5addbb945acfc4001a5fc44e" : {
+    "Accuracy" : 1,
+    "Ergonomics" : -1,
+    "Recoil" : -10
+  },
+  "59db3acc86f7742a2c4ab912" : {
+    "Ergonomics" : 11
+  },
+  "5a9fbb84a2750c00137fa685" : {
+    "Accuracy" : -2,
+    "Ergonomics" : -18,
+    "Recoil" : -9
+  },
+  "5a6b5ed88dc32e000c52ec86" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -3,
+    "Recoil" : -8
+  },
+  "5bbdb8bdd4351e4502011460" : {
+    "Accuracy" : 2,
+    "Ergonomics" : -1,
+    "Recoil" : -14
+  },
+  "603372d154072b51b239f9e1" : {
+    "Ergonomics" : -12,
+    "Recoil" : -5
+  },
+  "60229948cacb6b0506369e27" : { },
+  "5a32a064c4a28200741e22de" : {
+    "Accuracy" : 2,
+    "Ergonomics" : -14,
+    "Recoil" : -12
+  },
+  "5bb20e0ed4351e3bac1212dc" : {
+    "Ergonomics" : 7
+  },
+  "5c6d11152e2216000f2003e7" : {
+    "Ergonomics" : 11,
+    "Recoil" : -3
+  },
+  "5cc700cae4a949035e43ba72" : {
+    "Ergonomics" : 2,
+    "Recoil" : -3
+  },
+  "5bfebc530db834001d23eb65" : {
+    "Ergonomics" : 0
+  },
+  "5a33b652c4a28232996e407c" : {
+    "Ergonomics" : -1
+  },
+  "5addc7005acfc4001669f275" : {
+    "Ergonomics" : 18,
+    "Recoil" : -9
+  },
+  "5a0d716f1526d8000d26b1e2" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -2,
+    "Recoil" : -5
+  },
+  "5a01c29586f77474660c694c" : {
+    "Ergonomics" : -3
+  },
+  "5df35e7f2a78646d96665dd4" : {
+    "Accuracy" : 1,
+    "Ergonomics" : -1,
+    "Recoil" : -9
+  },
+  "5ac66bea5acfc43b321d4aec" : {
+    "Ergonomics" : -3
+  },
+  "5c0009510db834001966907f" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 3,
+    "Recoil" : -1
+  },
+  "5b3b99265acfc4704b4a1afb" : {
+    "Ergonomics" : -1
+  },
+  "5bfea7ad0db834001c38f1ee" : {
+    "Ergonomics" : 0,
+    "LoadUnloadModifier" : -5,
+    "CheckTimeModifier" : 0
+  },
+  "5d2f213448f0355009199284" : {
+    "Ergonomics" : 5
+  },
+  "5b7be46e5acfc400170e2dcf" : {
+    "Ergonomics" : 0
+  },
+  "5b222d405acfc400153af4fe" : {
+    "Ergonomics" : 9,
+    "Recoil" : -37
+  },
+  "602e71bd53a60014f9705bfa" : {
+    "Ergonomics" : 5.5
+  },
+  "5b7be2345acfc400196d524a" : {
+    "Ergonomics" : 9,
+    "Recoil" : 0
+  },
+  "5d270ca28abbc31ee25ee821" : {
+    "Ergonomics" : 1
+  },
+  "58aeac1b86f77457c419f475" : {
+    "Accuracy" : -1,
+    "Ergonomics" : -4,
+    "Recoil" : -15
+  },
+  "5c78f26f2e221601da3581d1" : {
+    "Ergonomics" : 10,
+    "Recoil" : -1
+  },
+  "5a9eb32da2750c00171b3f9c" : {
+    "Ergonomics" : 13,
+    "Recoil" : -29
+  },
+  "5bc5a35cd4351e450201232f" : {
+    "Accuracy" : -1,
+    "Ergonomics" : -1,
+    "Recoil" : -29
+  },
+  "5cf4e3f3d7f00c06595bc7f0" : {
+    "Ergonomics" : 5,
+    "Recoil" : -3
+  },
+  "5c471c6c2e221602b66cd9ae" : {
+    "Ergonomics" : 6,
+    "Recoil" : 0
+  },
+  "5fbbaa86f9986c4cff3fe5f6" : {
+    "Ergonomics" : 9,
+    "Recoil" : -32
+  },
+  "5cf12a15d7f00c05464b293f" : {
+    "Ergonomics" : -7,
+    "LoadUnloadModifier" : -15,
+    "CheckTimeModifier" : 0
+  },
+  "57dbb57e2459774673234890" : {
+    "Accuracy" : -1,
+    "Ergonomics" : -17,
+    "Recoil" : -10
+  },
+  "5947c73886f7747701588af5" : {
+    "Ergonomics" : 2,
+    "Recoil" : -32
+  },
+  "5d4405aaa4b9361e6a4e6bd3" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 6,
+    "Recoil" : -2
+  },
+  "5addbbb25acfc40015621bd9" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -1,
+    "Recoil" : -8
+  },
+  "5bfebc320db8340019668d79" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -11,
+    "Recoil" : -4
+  },
+  "5cf67a1bd7f00c06585fb6f3" : { },
+  "55d481904bdc2d8c2f8b456a" : {
+    "Ergonomics" : -8,
+    "LoadUnloadModifier" : 0,
+    "CheckTimeModifier" : 15
+  },
+  "56083be64bdc2d20478b456f" : {
+    "Ergonomics" : 6,
+    "Recoil" : -34
+  },
+  "5b2389515acfc4771e1be0c0" : {
+    "Ergonomics" : -1
+  },
+  "560d657b4bdc2da74d8b4572" : {
+    "Ergonomics" : -1
+  },
+  "5e87071478f43e51ca2de5e1" : {
+    "Accuracy" : 5,
+    "Ergonomics" : -8,
+    "Recoil" : -6
+  },
+  "5a71e4f48dc32e001207fb26" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 10,
+    "Recoil" : -7
+  },
+  "5d25a4a98abbc30b917421a4" : {
+    "Ergonomics" : 3,
+    "LoadUnloadModifier" : -15,
+    "CheckTimeModifier" : 0
+  },
+  "5d2c772c48f0355d95672c25" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 7,
+    "Recoil" : 0
+  },
+  "5888945a2459774bf43ba385" : {
+    "Ergonomics" : -10,
+    "Recoil" : -4
+  },
+  "5ac72e725acfc400180ae701" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -2,
+    "Recoil" : -8
+  },
+  "5cf8f3b0d7f00c00217872ef" : {
+    "Ergonomics" : -26,
+    "LoadUnloadModifier" : 15,
+    "CheckTimeModifier" : 0
+  },
+  "5d3eb4aba4b93650d64e497d" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "59bffbb386f77435b379b9c2" : {
+    "Ergonomics" : -14,
+    "Recoil" : -9.5
+  },
+  "5b7bee755acfc400196d5383" : {
+    "Ergonomics" : 14,
+    "Recoil" : -2
+  },
+  "5ae30c9a5acfc408fb139a03" : {
+    "Ergonomics" : 6,
+    "Recoil" : -29
+  },
+  "5fc23636016cce60e8341b05" : {
+    "Accuracy" : 1,
+    "Ergonomics" : -2,
+    "Recoil" : -10
+  },
+  "5beec8c20db834001d2c465c" : {
+    "Ergonomics" : 3,
+    "Recoil" : -30
+  },
+  "5df36948bb49d91fb446d5ad" : {
+    "Ergonomics" : 6,
+    "Recoil" : -1
+  },
+  "5c0505e00db834001b735073" : {
+    "Ergonomics" : -4
+  },
+  "591aef7986f774139d495f03" : {
+    "Ergonomics" : 18,
+    "Recoil" : -26
+  },
+  "544a378f4bdc2d30388b4567" : {
+    "Ergonomics" : -7,
+    "LoadUnloadModifier" : 10,
+    "CheckTimeModifier" : 15
+  },
+  "5c5db6f82e2216003a0fe914" : {
+    "Ergonomics" : 3,
+    "Recoil" : -33
+  },
+  "5beec8ea0db834001a6f9dbf" : {
+    "Ergonomics" : 8
+  },
+  "593d489686f7745c6255d58a" : {
+    "Accuracy" : -1,
+    "Ergonomics" : -19,
+    "Recoil" : -9
+  },
+  "59f9d81586f7744c7506ee62" : {
+    "Ergonomics" : -4
+  },
+  "584924ec24597768f12ae244" : {
+    "Ergonomics" : -2
+  },
+  "5b800ebc86f774394e230a90" : {
+    "Ergonomics" : 0
+  },
+  "5d025cc1d7ad1a53845279ef" : {
+    "Ergonomics" : 15
+  },
+  "5894a05586f774094708ef75" : {
+    "Ergonomics" : -3,
+    "LoadUnloadModifier" : 0,
+    "CheckTimeModifier" : -50
+  },
+  "5c6592372e221600133e47d7" : {
+    "Ergonomics" : -27,
+    "LoadUnloadModifier" : 30,
+    "CheckTimeModifier" : 30
+  },
+  "5a0c59791526d8dba737bba7" : {
+    "Ergonomics" : 2,
+    "Recoil" : -5
+  },
+  "5b800e9286f7747a8b04f3ff" : {
+    "Ergonomics" : 14,
+    "Recoil" : -3
+  },
+  "59e89d0986f77427600d226e" : {
+    "Ergonomics" : 3,
+    "Recoil" : -33
+  },
+  "56d5a77ed2720b90418b4568" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "55d45d3f4bdc2d972f8b456c" : {
+    "Ergonomics" : 5,
+    "Recoil" : 0
+  },
+  "576a5ed62459771e9c2096cb" : {
+    "Ergonomics" : -1
+  },
+  "5d25a6a48abbc306c62e6310" : {
+    "Ergonomics" : -3,
+    "LoadUnloadModifier" : -15,
+    "CheckTimeModifier" : 0
+  },
+  "5a7ad0c451dfba0013379712" : {
+    "Accuracy" : 2,
+    "Ergonomics" : -1,
+    "Recoil" : -12
+  },
+  "5fbc210bf24b94483f726481" : {
+    "Recoil" : -2
+  },
+  "59e0bdb186f774156f04ce82" : {
+    "Ergonomics" : 0
+  },
+  "56d5a407d2720bb3418b456b" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 3,
+    "Recoil" : 0
+  },
+  "5a38ef1fc4a282000b1521f6" : {
+    "Ergonomics" : 6,
+    "Recoil" : -34
+  },
+  "5bfeaa0f0db834001b734927" : {
+    "Ergonomics" : -2,
+    "LoadUnloadModifier" : -5,
+    "CheckTimeModifier" : 0
+  },
+  "5d2c76ed48f03532f2136169" : {
+    "Ergonomics" : 5,
+    "Recoil" : -1
+  },
+  "5d2da1e948f035477b1ce2ba" : {
+    "Ergonomics" : -1
+  },
+  "5c471c442e221602b542a6f8" : {
+    "Ergonomics" : -1,
+    "LoadUnloadModifier" : -15,
+    "CheckTimeModifier" : -15
+  },
+  "5448c12b4bdc2d02308b456f" : {
+    "Ergonomics" : -1,
+    "LoadUnloadModifier" : -20,
+    "CheckTimeModifier" : -20
+  },
+  "602a95edda11d6478d5a06da" : {
+    "Ergonomics" : -5,
+    "Recoil" : -3
+  },
+  "5ef32e4d1c1fd62aea6a150d" : {
+    "Ergonomics" : 3
+  },
+  "578395402459774a256959b5" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 2,
+    "Recoil" : 0
+  },
+  "5cdeac22d7f00c000f26168f" : {
+    "Ergonomics" : 22,
+    "Recoil" : -7
+  },
+  "5a788089c5856700142fdd9c" : {
+    "Ergonomics" : 7,
+    "Recoil" : 0
+  },
+  "574db213245977459a2f3f5d" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5bbdb870d4351e00367fb67d" : {
+    "Ergonomics" : 22,
+    "Recoil" : -34
+  },
+  "5a6b5b8a8dc32e001207faf3" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -4,
+    "Recoil" : -4
+  },
+  "5a966ec8a2750c00171b3f36" : {
+    "Ergonomics" : -1.5
+  },
+  "57cffe0024597763b03fc60b" : {
+    "Ergonomics" : 10,
+    "Recoil" : -2
+  },
+  "5cdd7693d7f00c0010373aa5" : {
+    "Accuracy" : 2,
+    "Ergonomics" : -1,
+    "Recoil" : -10
+  },
+  "560835c74bdc2dc8488b456f" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -3,
+    "Recoil" : -3
+  },
+  "5c7fc87d2e221644f31c0298" : {
+    "Ergonomics" : 6,
+    "Recoil" : -1
+  },
+  "5c4ee3d62e2216152006f302" : {
+    "Accuracy" : 6,
+    "Ergonomics" : -2,
+    "Recoil" : -19
+  },
+  "544a3a774bdc2d3a388b4567" : {
+    "Ergonomics" : -3.5
+  },
+  "5c0faf68d174af02a96260b8" : {
+    "Ergonomics" : 0
+  },
+  "5cf518cfd7f00c065b422214" : {
+    "Ergonomics" : -1,
+    "Recoil" : -3
+  },
+  "5a38ee51c4a282000c5a955c" : {
+    "Ergonomics" : 4,
+    "LoadUnloadModifier" : -20,
+    "CheckTimeModifier" : 0
+  },
+  "5de8e8dafd6b4e6e2276dc32" : {
+    "Ergonomics" : 4
+  },
+  "5addbf175acfc408fb13965b" : {
+    "Ergonomics" : 32,
+    "Recoil" : -38
+  },
+  "5b0bc22d5acfc47a8607f085" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5fbe760793164a5b6278efc8" : {
+    "Accuracy" : 2,
+    "Ergonomics" : -17,
+    "Recoil" : -16
+  },
+  "5cc82796e24e8d000f5859a8" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -1,
+    "Recoil" : -7
+  },
+  "5947e98b86f774778f1448bc" : {
+    "Ergonomics" : 7,
+    "Recoil" : -33
+  },
+  "55d459824bdc2d892f8b4573" : {
+    "Ergonomics" : 5,
+    "Recoil" : 0
+  },
+  "5dfa3d7ac41b2312ea33362a" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 1
+  },
+  "5ef366938cef260c0642acad" : {
+    "Ergonomics" : 8
+  },
+  "5b7d63de5acfc400170e2f8d" : {
+    "Ergonomics" : 7,
+    "Recoil" : -36
+  },
+  "5caf1041ae92157c28402e3f" : {
+    "Ergonomics" : -3
+  },
+  "56def37dd2720bec348b456a" : {
+    "Ergonomics" : -1
+  },
+  "5dcbe9431e1f4616d354987e" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -6,
+    "Recoil" : -10
+  },
+  "5afd7ded5acfc40017541f5e" : {
+    "Ergonomics" : 17,
+    "Recoil" : -5
+  },
+  "5a1eacb3fcdbcb09800872be" : {
+    "Ergonomics" : 6
+  },
+  "5c48a2852e221602b21d5923" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -6,
+    "Recoil" : -9
+  },
+  "5a33a8ebc4a282000c5a950d" : {
+    "Accuracy" : 2,
+    "Ergonomics" : -11,
+    "Recoil" : -8
+  },
+  "55d485804bdc2d8c2f8b456b" : {
+    "Ergonomics" : -2
+  },
+  "5c617a5f2e2216000f1e81b3" : {
+    "Ergonomics" : 3,
+    "Recoil" : -1
+  },
+  "5b39ffbd5acfc47a8773fb06" : {
+    "Ergonomics" : 10
+  },
+  "5f3e76d86cda304dcc634054" : {
+    "Ergonomics" : 2
+  },
+  "5c471c842e221615214259b5" : {
+    "Ergonomics" : 0,
+    "Recoil" : -2
+  },
+  "5d0236dad7ad1a0940739d29" : {
+    "Ergonomics" : 15,
+    "Recoil" : -38
+  },
+  "5882163e24597758206fee8c" : {
+    "Ergonomics" : -1
+  },
+  "5bcf0213d4351e0085327c17" : {
+    "Ergonomics" : 3,
+    "Recoil" : -17
+  },
+  "5fb6567747ce63734e3fa1dc" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 1
+  },
+  "5d3eb59ea4b9361c284bb4b2" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0,
+    "Recoil" : -3
+  },
+  "57cffddc24597763133760c6" : {
+    "Ergonomics" : 10,
+    "Recoil" : -2
+  },
+  "5b7d671b5acfc43d82528ddd" : {
+    "Ergonomics" : 9,
+    "Recoil" : 0
+  },
+  "5addc7db5acfc4001669f279" : {
+    "Ergonomics" : 6
+  },
+  "5c0e2f94d174af029f650d56" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -14,
+    "Recoil" : -4
+  },
+  "5d1b5e94d7ad1a2b865a96b0" : {
+    "Ergonomics" : -11
+  },
+  "5a339805c4a2826c6e06d73d" : {
+    "Ergonomics" : 8
+  },
+  "57dc334d245977597164366f" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 5,
+    "Recoil" : 0
+  },
+  "5d1340b3d7ad1a0b52682ed7" : {
+    "Ergonomics" : -3
+  },
+  "5f6372e2865db925d54f3869" : {
+    "Accuracy" : 1,
+    "Ergonomics" : -1,
+    "Recoil" : -9
+  },
+  "5bfd4cd60db834001c38f095" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -2,
+    "Recoil" : -1
+  },
+  "5a6f5f078dc32e00094b97dd" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 6,
+    "Recoil" : -1
+  },
+  "5a34fd2bc4a282329a73b4c5" : {
+    "Accuracy" : 3,
+    "Ergonomics" : -1,
+    "Recoil" : -7
+  },
+  "5c920e902e221644f31c3c99" : {
+    "Ergonomics" : -3
+  },
+  "5a71e1868dc32e00094b97f3" : {
+    "Ergonomics" : 2
+  },
+  "5fb65424956329274326f316" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -1,
+    "Recoil" : -7
+  },
+  "5cf639aad7f00c065703d455" : {
+    "Ergonomics" : 5
+  },
+  "5ab24ef9e5b5b00fe93c9209" : {
+    "Ergonomics" : -1
+  },
+  "55d4b9964bdc2d1d4e8b456e" : {
+    "Ergonomics" : 5
+  },
+  "5d2702e88abbc31ed91efc44" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -14,
+    "Recoil" : -9
+  },
+  "5cf4fb76d7f00c065703d3ac" : {
+    "Ergonomics" : 5,
+    "Recoil" : -1
+  },
+  "5bbdb83fd4351e44f824c44b" : {
+    "Accuracy" : 2,
+    "Ergonomics" : -3,
+    "Recoil" : -13
+  },
+  "5fbcc640016cce60e8341acc" : {
+    "Ergonomics" : 0
+  },
+  "5d123a3cd7ad1a004e476058" : {
+    "Ergonomics" : 2
+  },
+  "5cf67cadd7f00c065a5abab7" : {
+    "Ergonomics" : 0
+  },
+  "5caf17c9ae92150b30006be1" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -1,
+    "Recoil" : -24
+  },
+  "5d00e0cbd7ad1a6c6566a42d" : {
+    "Ergonomics" : 10,
+    "Recoil" : 0
+  },
+  "59db7e1086f77448be30ddf3" : {
+    "Ergonomics" : -2
+  },
+  "5fbcbd10ab884124df0cd563" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -1,
+    "Recoil" : -11
+  },
+  "5e81c519cb2b95385c177551" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -5,
+    "Recoil" : -3
+  },
+  "60337f5dce399e10262255d1" : {
+    "Ergonomics" : -2,
+    "Recoil" : -9
+  },
+  "5ae099875acfc4001714e593" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5bfd36ad0db834001c38ef66" : {
+    "Ergonomics" : 16,
+    "Recoil" : -4
+  },
+  "5c5db5c62e22160012542255" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -14,
+    "Recoil" : -7
+  },
+  "5cc700ede4a949033c734315" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -1,
+    "Recoil" : 0
+  },
+  "57c55f092459772d291a8463" : {
+    "Ergonomics" : 9
+  },
+  "5648b6ff4bdc2d3d1c8b4581" : { },
+  "5a6b5f868dc32e000a311389" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -5,
+    "Recoil" : -3
+  },
+  "5cf6935bd7f00c06585fb791" : {
+    "Accuracy" : 2,
+    "Ergonomics" : -1,
+    "Recoil" : -12
+  },
+  "5fc0f9b5d724d907e2077d82" : {
+    "Ergonomics" : 10,
+    "Recoil" : 0
+  },
+  "5e848d99865c0f329958c83b" : {
+    "Ergonomics" : 8
+  },
+  "5926f34786f77469195bfe92" : {
+    "Ergonomics" : 8
+  },
+  "57ffaea724597779f52b3a4d" : {
+    "Ergonomics" : -1
+  },
+  "5fb6548dd1409e5ca04b54f9" : {
+    "Ergonomics" : 0
+  },
+  "57c44e7b2459772d28133248" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "58ac1bf086f77420ed183f9f" : {
+    "Ergonomics" : -2,
+    "Recoil" : 0
+  },
+  "5a78948ec5856700177b1124" : {
+    "Ergonomics" : -1
+  },
+  "5d19cd96d7ad1a4a992c9f52" : {
+    "Ergonomics" : 11,
+    "Recoil" : -1
+  },
+  "57da93632459771cb65bf83f" : {
+    "Accuracy" : -1,
+    "Ergonomics" : -17,
+    "Recoil" : -10
+  },
+  "5d7b6bafa4b93652786f4c76" : {
+    "Ergonomics" : 0
+  },
+  "59ecc28286f7746d7a68aa8c" : {
+    "Ergonomics" : 0,
+    "Recoil" : 0
+  },
+  "5addbb825acfc408fb139400" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -2,
+    "Recoil" : -15
+  },
+  "5de6556a205ddc616a6bc4f7" : {
+    "Ergonomics" : 1
+  },
+  "5dff772da3651922b360bf91" : {
+    "Ergonomics" : -4
+  },
+  "5a6b60158dc32e000a31138b" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -5,
+    "Recoil" : -5
+  },
+  "5a7882dcc5856700177af662" : {
+    "Ergonomics" : -1
+  },
+  "5bffcf7a0db83400232fea79" : {
+    "Ergonomics" : 2
+  },
+  "5c61627a2e22160012542c55" : {
+    "Ergonomics" : 0
+  },
+  "5b3f7bf05acfc433000ecf6b" : {
+    "Ergonomics" : -1
+  },
+  "5e569a2e56edd02abe09f280" : {
+    "Ergonomics" : -2,
+    "Recoil" : 0
+  },
+  "5926d40686f7740f152b6b7e" : {
+    "Ergonomics" : 7,
+    "Recoil" : -33
+  },
+  "5beec1bd0db834001e6006f3" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -2,
+    "Recoil" : -3
+  },
+  "59d36a0086f7747e673f3946" : {
+    "Ergonomics" : 0,
+    "Recoil" : 0
+  },
+  "5a7d9104159bd400134c8c21" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "55d35ee94bdc2d61338b4568" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -7,
+    "Recoil" : -2
+  },
+  "588200cf2459774414733d55" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -16,
+    "Recoil" : -9
+  },
+  "560836484bdc2d20478b456e" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -6,
+    "Recoil" : -3.5
+  },
+  "5a33e75ac4a2826c6e06d759" : {
+    "Ergonomics" : 20,
+    "Recoil" : -33
+  },
+  "5a71e0048dc32e000c52ecc8" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5894a42086f77426d2590762" : {
+    "Ergonomics" : 7,
+    "Recoil" : 0
+  },
+  "5f63405df5750b524b45f114" : {
+    "Ergonomics" : 21,
+    "Recoil" : -42
+  },
+  "56d5a2bbd2720bb8418b456a" : {
+    "Ergonomics" : 6
+  },
+  "5bfd36290db834001966869a" : {
+    "Ergonomics" : 16,
+    "Recoil" : -4
+  },
+  "5b7d64555acfc4001876c8e2" : {
+    "Ergonomics" : 9,
+    "Recoil" : -37
+  },
+  "5e81c6bf763d9f754677beff" : {
+    "Ergonomics" : 4
+  },
+  "5df35ea9c41b2312ea3334d8" : {
+    "Ergonomics" : 0
+  },
+  "56eabcd4d2720b66698b4574" : {
+    "Ergonomics" : 1,
+    "Recoil" : -2
+  },
+  "5c0fafb6d174af02a96260ba" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -1,
+    "Recoil" : -7
+  },
+  "59bffc1f86f77435b128b872" : {
+    "Ergonomics" : 0
+  },
+  "5d0a3e8cd7ad1a6f6a3d35bd" : {
+    "Ergonomics" : -8,
+    "Recoil" : 0
+  },
+  "57616ca52459773c69055192" : {
+    "Ergonomics" : 6,
+    "Recoil" : -34
+  },
+  "5bfebc250db834001a6694e1" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -14,
+    "Recoil" : -9
+  },
+  "5a0d63621526d8dba31fe3bf" : {
+    "Accuracy" : -1,
+    "Ergonomics" : -20,
+    "Recoil" : -12
+  },
+  "5d122e7bd7ad1a07102d6d7f" : {
+    "Ergonomics" : 6,
+    "Recoil" : -2
+  },
+  "5b3baf8f5acfc40dc5296692" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -4,
+    "Recoil" : -3
+  },
+  "5dfa3d45dfc58d14537c20b0" : {
+    "Ergonomics" : -1,
+    "Recoil" : -2
+  },
+  "5e208b9842457a4a7a33d074" : {
+    "Accuracy" : -1,
+    "Ergonomics" : -17,
+    "Recoil" : -10
+  },
+  "5e848db4681bea2ada00daa9" : {
+    "Ergonomics" : 6,
+    "Recoil" : -34
+  },
+  "59d64f2f86f77417193ef8b3" : {
+    "Ergonomics" : 4,
+    "Recoil" : 0
+  },
+  "5a33bab6c4a28200741e22f8" : {
+    "Ergonomics" : -1
+  },
+  "59e6318286f77444dd62c4cc" : {
+    "Ergonomics" : 6
+  },
+  "5b7be4645acfc400170e2dcc" : { },
+  "5b7be1265acfc400161d0798" : {
+    "Accuracy" : 10,
+    "Ergonomics" : -20,
+    "Recoil" : -11
+  },
+  "5df35ddddfc58d14537c2036" : {
+    "Ergonomics" : 11,
+    "Recoil" : -25
+  },
+  "5cde77a9d7f00c000f261009" : {
+    "Ergonomics" : -1,
+    "Recoil" : 0
+  },
+  "5894a73486f77426d259076c" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "58491f3324597764bc48fa02" : {
+    "Ergonomics" : -2
+  },
+  "560838c94bdc2d77798b4569" : {
+    "Accuracy" : 5,
+    "Ergonomics" : 0,
+    "Recoil" : -8
+  },
+  "5a34f7f1c4a2826c6e06d75d" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -13,
+    "Recoil" : -5
+  },
+  "5943ee5a86f77413872d25ec" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -2,
+    "Recoil" : -12
+  },
+  "5c82342f2e221644f31c060e" : {
+    "Ergonomics" : -7
+  },
+  "55d449444bdc2d962f8b456d" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -6,
+    "Recoil" : -4
+  },
+  "57d17e212459775a1179a0f5" : {
+    "Ergonomics" : -1
+  },
+  "5b30b0dc5acfc400153b7124" : {
+    "Ergonomics" : -4
+  },
+  "5a1ead28fcdbcb001912fa9f" : {
+    "Ergonomics" : -1
+  },
+  "5648ae314bdc2d3d1c8b457f" : {
+    "Ergonomics" : 7,
+    "Recoil" : -2
+  },
+  "5c471b7e2e2216152006e46c" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5c1bc5612e221602b5429350" : {
+    "Ergonomics" : 1,
+    "Recoil" : -3
+  },
+  "5a5f1ce64f39f90b401987bc" : {
+    "Ergonomics" : -1
+  },
+  "5a7d912f159bd400165484f3" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5a3501acc4a282000d72293a" : {
+    "Ergonomics" : -3
+  },
+  "5888996c24597754281f9419" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -2,
+    "Recoil" : -11
+  },
+  "59e649f986f77411d949b246" : {
+    "Ergonomics" : 0,
+    "Recoil" : 0
+  },
+  "5a34fae7c4a2826c6e06d760" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -22,
+    "Recoil" : -9
+  },
+  "5a32aa8bc4a2826c6e06d737" : {
+    "Ergonomics" : 0
+  },
+  "58a5c12e86f7745d585a2b9e" : {
+    "Ergonomics" : 0
+  },
+  "5a1eaa87fcdbcb001865f75e" : {
+    "Ergonomics" : -13
+  },
+  "5e81c4ca763d9f754677befa" : {
+    "Ergonomics" : -1,
+    "LoadUnloadModifier" : -25,
+    "CheckTimeModifier" : -20
+  },
+  "5d1f819086f7744b355c219b" : {
+    "Accuracy" : 1,
+    "Ergonomics" : -1,
+    "Recoil" : -9
+  },
+  "5a6f5d528dc32e00094b97d9" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "588200c224597743990da9ed" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -12,
+    "Recoil" : -6
+  },
+  "5f647d9f8499b57dc40ddb93" : {
+    "Ergonomics" : -6
+  },
+  "5c7fb51d2e2216001219ce11" : {
+    "Accuracy" : 3,
+    "Ergonomics" : -1,
+    "Recoil" : -8
+  },
+  "560837154bdc2da74d8b4568" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -10,
+    "Recoil" : -6
+  },
+  "5cc70146e4a949000d73bf6b" : {
+    "Ergonomics" : 0
+  },
+  "55d4af3a4bdc2d972f8b456f" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5df8e053bb49d91fb446d6a6" : {
+    "Ergonomics" : 0
+  },
+  "5dfa3d950dee1b22f862eae0" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 1
+  },
+  "5c5db5f22e2216000e5e47e8" : {
+    "Ergonomics" : 15,
+    "Recoil" : 0
+  },
+  "5eea217fc64c5d0dfc05712a" : {
+    "Ergonomics" : 10,
+    "Recoil" : -42
+  },
+  "58c157be86f77403c74b2bb6" : {
+    "Ergonomics" : 5,
+    "Recoil" : -1
+  },
+  "5947fa2486f77425b47c1a9b" : {
+    "Ergonomics" : 11
+  },
+  "57c69dd424597774c03b7bbc" : {
+    "Ergonomics" : -1
+  },
+  "5c4eecde2e221602b3140418" : {
+    "Ergonomics" : 2
+  },
+  "5b7d693d5acfc43bca706a3d" : {
+    "Accuracy" : 4,
+    "Ergonomics" : -1,
+    "Recoil" : -9
+  },
+  "5f3e77b26cda304dcc634057" : {
+    "Ergonomics" : 0,
+    "LoadUnloadModifier" : -25,
+    "CheckTimeModifier" : -20
+  },
+  "5c791e872e2216001219c40a" : {
+    "Ergonomics" : 9,
+    "Recoil" : -1
+  },
+  "56083eab4bdc2d26448b456a" : {
+    "Ergonomics" : 2
+  },
+  "5e848d2eea0a7c419c2f9bfd" : {
+    "Ergonomics" : -10,
+    "Recoil" : -8
+  },
+  "588200af24597742fa221dfb" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -7,
+    "Recoil" : -4
+  },
+  "5c5db5962e2216000e5e46eb" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -3,
+    "Recoil" : -1
+  },
+  "5fc53954f8b6a877a729eaeb" : {
+    "Ergonomics" : 0
+  },
+  "558022b54bdc2dac148b458d" : {
+    "Ergonomics" : -2
+  },
+  "5aba62f8d8ce87001943946b" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5cebec10d7f00c065703d185" : {
+    "Ergonomics" : 26,
+    "Recoil" : -9
+  },
+  "588b56d02459771481110ae2" : {
+    "Ergonomics" : 7,
+    "Recoil" : -1
+  },
+  "5c6165902e22160010261b28" : {
+    "Accuracy" : 1,
+    "Ergonomics" : -12,
+    "Recoil" : -8
+  },
+  "5d1b198cd7ad1a604869ad72" : {
+    "Ergonomics" : 6,
+    "Recoil" : 0
+  },
+  "587df583245977373c4f1129" : {
+    "Ergonomics" : -5,
+    "LoadUnloadModifier" : 10,
+    "CheckTimeModifier" : 10
+  },
+  "56e05a6ed2720bd0748b4567" : {
+    "Ergonomics" : 5
+  },
+  "5a69a2ed8dc32e000d46d1f1" : {
+    "Ergonomics" : 5
+  },
+  "5bfd384c0db834001a6691d3" : {
+    "Ergonomics" : 14,
+    "Recoil" : -27
+  },
+  "591ee00d86f774592f7b841e" : {
+    "Ergonomics" : -1
+  },
+  "5a71e22f8dc32e00094b97f4" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 9,
+    "Recoil" : -3
+  },
+  "56ea6fafd2720b844b8b4593" : {
+    "Accuracy" : 3,
+    "Ergonomics" : -3,
+    "Recoil" : -8
+  },
+  "5bc5a372d4351e44f824d17f" : {
+    "Ergonomics" : -1
+  },
+  "5b099a9d5acfc47a8607efe7" : {
+    "Ergonomics" : 7,
+    "Recoil" : 0
+  },
+  "5ea03e5009aa976f2e7a514b" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 3,
+    "Recoil" : -2
+  },
+  "5e569a0156edd02abe09f27d" : {
+    "Ergonomics" : -1,
+    "Recoil" : -2
+  },
+  "5c07c9660db834001a66b588" : {
+    "Ergonomics" : 3,
+    "Recoil" : 0
+  },
+  "5cc9b815d7f00c000e2579d6" : {
+    "Accuracy" : 3,
+    "Ergonomics" : -2,
+    "Recoil" : -8
+  },
+  "59bfc5c886f7743bf6794e62" : {
+    "Accuracy" : -1,
+    "Ergonomics" : -13,
+    "Recoil" : -9
+  },
+  "593d1fa786f7746da62d61ac" : {
+    "Ergonomics" : 0
+  },
+  "5cc700b9e4a949000f0f0f25" : {
+    "Ergonomics" : 26,
+    "Recoil" : -9
+  },
+  "5df25d3bfd6b4e6e2276dc9a" : {
+    "Ergonomics" : 11,
+    "Recoil" : -2
+  },
+  "5cadc390ae921500126a77f1" : {
+    "Ergonomics" : 1
+  },
+  "5aa66c72e5b5b00016327c93" : {
+    "Ergonomics" : -1
+  },
+  "5cc7015ae4a949001152b4c6" : {
+    "Ergonomics" : -1
+  },
+  "5ac50da15acfc4001718d287" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 5,
+    "Recoil" : 0
+  },
+  "58889c7324597754281f9439" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -3,
+    "Recoil" : -12
+  },
+  "5a32aa0cc4a28232996e405f" : {
+    "Ergonomics" : 0
+  },
+  "5f2aa43ba9b91d26f20ae6d2" : {
+    "Ergonomics" : 0
+  },
+  "5aba637ad8ce87001773e17f" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5fbb978207e8a97d1f0902d3" : {
+    "Ergonomics" : -1,
+    "Recoil" : 0
+  },
+  "5a7dbfc1159bd40016548fde" : {
+    "Ergonomics" : 4,
+    "Recoil" : -3
+  },
+  "5c48a2c22e221602b313fb6c" : {
+    "Ergonomics" : 5
+  },
+  "59fc48e086f77463b1118392" : {
+    "Ergonomics" : 7,
+    "Recoil" : -2
+  },
+  "5ae30db85acfc408fb139a05" : {
+    "Ergonomics" : 9,
+    "Recoil" : 0
+  },
+  "5b3b99475acfc432ff4dcbee" : {
+    "Ergonomics" : -3
+  },
+  "5fc5396e900b1d5091531e72" : {
+    "Ergonomics" : 0
+  },
+  "5649b1c04bdc2d16268b457c" : {
+    "Ergonomics" : 3,
+    "Recoil" : -33
+  },
+  "5b07db875acfc40dc528a5f6" : {
+    "Ergonomics" : 6
+  },
+  "5cc7012ae4a949001252b43e" : {
+    "Ergonomics" : 0
+  },
+  "5afd7e445acfc4001637e35a" : {
+    "Ergonomics" : 10
+  },
+  "5b099bb25acfc400186331e8" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 4,
+    "Recoil" : 0
+  },
+  "57c450252459772d28133253" : {
+    "Ergonomics" : 8,
+    "Recoil" : -30
+  },
+  "5cebec38d7f00c00110a652a" : {
+    "Ergonomics" : -1
+  },
+  "5c07dd120db834001c39092d" : {
+    "Ergonomics" : -3,
+    "Recoil" : 0
+  },
+  "5bb20e70d4351e0035629f8f" : {
+    "Ergonomics" : 5,
+    "Recoil" : -30
+  },
+  "5a0eb980fcdbcb001a3b00a6" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "587df3a12459772c28142567" : {
+    "Ergonomics" : -1
+  },
+  "5c503ac82e221602b21d6e9a" : {
+    "Ergonomics" : 1,
+    "LoadUnloadModifier" : -10,
+    "CheckTimeModifier" : -30
+  },
+  "5d026791d7ad1a04a067ea63" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -1,
+    "Recoil" : -15
+  },
+  "5df35e59c41b2312ea3334d5" : {
+    "Ergonomics" : 16,
+    "Recoil" : -2
+  },
+  "5fbcbd6c187fea44d52eda14" : {
+    "Ergonomics" : 6
+  },
+  "5cc701aae4a949000e1ea45c" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -3,
+    "Recoil" : -5
+  },
+  "5df916dfbb49d91fb446d6b9" : {
+    "Accuracy" : 1,
+    "Ergonomics" : 7,
+    "Recoil" : -1
+  },
+  "5f3e77f59103d430b93f94c1" : {
+    "Ergonomics" : -4,
+    "Recoil" : -3
+  },
+  "57ffb0e42459777d047111c5" : {
+    "Ergonomics" : -20,
+    "Recoil" : -10
+  },
+  "5a9ea27ca2750c00137fa672" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -3,
+    "Recoil" : -11
+  },
+  "57c55efc2459772d2c6271e7" : {
+    "Ergonomics" : 9
+  },
+  "5bc09a18d4351e003562b68e" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 1
+  },
+  "5a17fc70fcdbcb0176308b3d" : {
+    "Ergonomics" : 5
+  },
+  "58272d7f2459774f6311ddfd" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -1,
+    "Recoil" : -14
+  },
+  "60228a850ddce744014caf69" : { },
+  "5a9d6d34a2750c00141e07da" : {
+    "Ergonomics" : 5,
+    "Recoil" : -1
+  },
+  "5c079ed60db834001a66b372" : {
+    "Ergonomics" : -1
+  },
+  "5d2369418abbc306c62e0c80" : {
+    "Ergonomics" : -1
+  },
+  "5ae096d95acfc400185c2c81" : {
+    "Ergonomics" : 10,
+    "Recoil" : -29
+  },
+  "5ea17bbc09aa976f2e7a51cd" : {
+    "Ergonomics" : -14,
+    "Recoil" : -10
+  },
+  "55d614004bdc2d86028b4568" : {
+    "Ergonomics" : -13,
+    "Recoil" : -9
+  },
+  "595cf16b86f77427440c32e2" : {
+    "Ergonomics" : 9,
+    "Recoil" : -1
+  },
+  "5cbda392ae92155f3c17c39f" : {
+    "Ergonomics" : 5,
+    "Recoil" : 0
+  },
+  "5d2c770c48f0354b4a07c100" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 4,
+    "Recoil" : -1
+  },
+  "57af48872459771f0b2ebf11" : {
+    "Ergonomics" : 9
+  },
+  "59e5f5a486f7746c530b3ce2" : {
+    "Ergonomics" : -7,
+    "CheckTimeModifier" : 20
+  },
+  "5a718b548dc32e000d46d262" : {
+    "Ergonomics" : -1,
+    "LoadUnloadModifier" : -10,
+    "CheckTimeModifier" : -20
+  },
+  "5b7bed205acfc400161d08cc" : {
+    "Ergonomics" : 7,
+    "Recoil" : 0
+  },
+  "5de8fbad2fbe23140d3ee9c4" : {
+    "Ergonomics" : 6,
+    "Recoil" : 0
+  },
+  "5a7893c1c585673f2b5c374d" : {
+    "Ergonomics" : -1
+  },
+  "5bed61680db834001d2c45ab" : {
+    "Ergonomics" : -2,
+    "LoadUnloadModifier" : -10,
+    "CheckTimeModifier" : -20
+  },
+  "5998517986f7746017232f7e" : {
+    "Ergonomics" : 7
+  },
+  "574dad8024597745964bf05c" : {
+    "Ergonomics" : 6,
+    "Recoil" : -15
+  },
+  "5b099ac65acfc400186331e1" : {
+    "Ergonomics" : -5
+  },
+  "5dff8db859400025ea5150d4" : {
+    "Ergonomics" : -1
+  },
+  "5f6336bbda967c74a42e9932" : {
+    "Ergonomics" : 10,
+    "Recoil" : -1
+  },
+  "56d5a661d2720bd8418b456b" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "576a7c512459771e796e0e17" : {
+    "Ergonomics" : -1
+  },
+  "5fb653962b1b027b1f50bd03" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -2,
+    "Recoil" : -4
+  },
+  "5b3f7c005acfc4704b4a1de8" : {
+    "Ergonomics" : -1
+  },
+  "5fc4b9b17283c4046c5814d7" : {
+    "Accuracy" : 2,
+    "Ergonomics" : -16,
+    "Recoil" : -10
+  },
+  "5d10b49bd7ad1a1a560708b0" : {
+    "Ergonomics" : -2
+  },
+  "5d3eb536a4b9363b1f22f8e2" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "57dc324a24597759501edc20" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -2,
+    "Recoil" : -8
+  },
+  "5608379a4bdc2d26448b4569" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -17,
+    "Recoil" : -10
+  },
+  "5a788169c5856700142fdd9e" : {
+    "Ergonomics" : 6,
+    "Recoil" : -9
+  },
+  "560836b64bdc2d57468b4567" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -5,
+    "Recoil" : -3.5
+  },
+  "59c6633186f7740cf0493bb9" : {
+    "Ergonomics" : 0,
+    "Recoil" : 0
+  },
+  "5aaa5e60e5b5b000140293d6" : {
+    "Ergonomics" : 5
+  },
+  "5c6d7b3d2e221600114c9b7d" : {
+    "Ergonomics" : 7
+  },
+  "5c06595c0db834001a66af6c" : {
+    "Ergonomics" : -2
+  },
+  "5de65547883dde217541644b" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -8,
+    "Recoil" : -7
+  },
+  "56deeefcd2720bc8328b4568" : {
+    "Ergonomics" : -6
+  },
+  "5bfd37c80db834001d23e842" : {
+    "Ergonomics" : 11,
+    "Recoil" : -27
+  },
+  "57c55f172459772d27602381" : {
+    "Ergonomics" : 9
+  },
+  "5fbcbcf593164a5b6278efb2" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -1,
+    "Recoil" : -7
+  },
+  "5b237e425acfc4771e1be0b6" : {
+    "Ergonomics" : 10,
+    "Recoil" : -5
+  },
+  "5bb20dfcd4351e00334c9e24" : {
+    "Ergonomics" : 5,
+    "Recoil" : -2
+  },
+  "5649ade84bdc2d1b2b8b4587" : {
+    "Ergonomics" : 7
+  },
+  "5afd7e095acfc40017541f61" : {
+    "Ergonomics" : 0,
+    "Recoil" : -1
+  },
+  "56083cba4bdc2de22e8b456f" : {
+    "Ergonomics" : 6,
+    "Recoil" : -34
+  },
+  "576167ab2459773cad038c43" : {
+    "Ergonomics" : 1
+  },
+  "5e01ea19e9dc277128008c0b" : {
+    "Accuracy" : -2,
+    "Ergonomics" : -18,
+    "Recoil" : -10
+  },
+  "5b07dd285acfc4001754240d" : {
+    "Ergonomics" : -1
+  },
+  "587e08ee245977446b4410cf" : {
+    "Ergonomics" : -1
+  },
+  "5f3e7897ddc4f03b010e204a" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5a70366c8dc32e001207fb06" : {
+    "Accuracy" : 1,
+    "Ergonomics" : -1,
+    "Recoil" : -9
+  },
+  "5a9fbacda2750c00141e080f" : {
+    "Accuracy" : -2,
+    "Ergonomics" : -16,
+    "Recoil" : -9
+  },
+  "5a0ed824fcdbcb0176308b0d" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5c0e2f5cd174af02a012cfc9" : {
+    "Ergonomics" : 7,
+    "Recoil" : 0
+  },
+  "55d6190f4bdc2d87028b4567" : {
+    "Ergonomics" : -6,
+    "Recoil" : -7
+  },
+  "5c0000c00db834001a6697fc" : {
+    "Ergonomics" : -1,
+    "Recoil" : 0
+  },
+  "5648ac824bdc2ded0b8b457d" : {
+    "Ergonomics" : 1
+  },
+  "59fafc9386f774067d462453" : {
+    "Ergonomics" : -1,
+    "LoadUnloadModifier" : -10,
+    "CheckTimeModifier" : 0
+  },
+  "5c07b3850db834002330045b" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5ea034eb5aad6446a939737b" : {
+    "Ergonomics" : -3,
+    "LoadUnloadModifier" : 20,
+    "CheckTimeModifier" : 20
+  },
+  "5a78830bc5856700137e4c90" : {
+    "Ergonomics" : -2
+  },
+  "5b2cfa535acfc432ff4db7a0" : {
+    "Ergonomics" : 8,
+    "Recoil" : -3
+  },
+  "5b1faa0f5acfc40dc528aeb5" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 3,
+    "Recoil" : 0
+  },
+  "5d2f2d5748f03572ec0c0139" : {
+    "Ergonomics" : 0
+  },
+  "57c44f4f2459772d2c627113" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 2,
+    "Recoil" : 0
+  },
+  "59985a8086f77414ec448d1a" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 5,
+    "Recoil" : 0
+  },
+  "5f3e777688ca2d00ad199d25" : {
+    "Ergonomics" : 2
+  },
+  "56deee15d2720bee328b4567" : {
+    "Ergonomics" : 1
+  },
+  "5f6341043ada5942720e2dc5" : {
+    "Ergonomics" : 12
+  },
+  "5d440b93a4b9364276578d4b" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -16,
+    "Recoil" : -5
+  },
+  "5bae13ded4351e44f824bf38" : {
+    "Ergonomics" : -4
+  },
+  "5a718f958dc32e00094b97e7" : {
+    "Ergonomics" : -19,
+    "Recoil" : 0,
+    "LoadUnloadModifier" : -10,
+    "CheckTimeModifier" : 20
+  },
+  "5c064c400db834001d23f468" : {
+    "Ergonomics" : -1
+  },
+  "58272b392459774b4c7b3ccd" : {
+    "Ergonomics" : 2,
+    "Recoil" : -3
+  },
+  "5926d2be86f774134d668e4e" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5fc0fa957283c4046c58147e" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5f6339d53ada5942720e2dc3" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -3,
+    "Recoil" : -8
+  },
+  "56ea8d2fd2720b7c698b4570" : {
+    "Recoil" : -2
+  },
+  "5b7d37845acfc400170e2f87" : {
+    "Ergonomics" : -8
+  },
+  "57d1519e24597714373db79d" : {
+    "Ergonomics" : -2
+  },
+  "5bfe7fb30db8340018089fed" : {
+    "Ergonomics" : -2,
+    "Recoil" : 0
+  },
+  "5bffec120db834001c38f5fa" : {
+    "Ergonomics" : 7
+  },
+  "5ba36f85d4351e0085325c81" : {
+    "Ergonomics" : 6
+  },
+  "5a0060fc86f7745793204432" : {
+    "Ergonomics" : -1,
+    "LoadUnloadModifier" : -5,
+    "CheckTimeModifier" : -5
+  },
+  "5a37cb10c4a282329a73b4e7" : {
+    "Ergonomics" : -3
+  },
+  "5a33b2c9c4a282000c5a9511" : {
+    "Ergonomics" : -1
+  },
+  "5c4eec9b2e2216398b5aaba2" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -2,
+    "Recoil" : 0
+  },
+  "5d440625a4b9361eec4ae6c5" : {
+    "Accuracy" : 1,
+    "Ergonomics" : -2,
+    "Recoil" : -8.5
+  },
+  "5b80242286f77429445e0b47" : {
+    "Ergonomics" : 15,
+    "Recoil" : -3
+  },
+  "5addbfef5acfc400185c2857" : {
+    "Ergonomics" : -2
+  },
+  "5649a2464bdc2d91118b45a8" : {
+    "Ergonomics" : -1
+  },
+  "5a27bad7c4a282000b15184b" : {
+    "Ergonomics" : -1
+  },
+  "5b099a765acfc47a8607efe3" : {
+    "Accuracy" : 2,
+    "Ergonomics" : -5,
+    "Recoil" : -2
+  },
+  "5947db3f86f77447880cf76f" : {
+    "Ergonomics" : -3,
+    "Recoil" : 0
+  },
+  "5d443f8fa4b93678dd4a01aa" : {
+    "Accuracy" : 1,
+    "Ergonomics" : -1,
+    "Recoil" : -9
+  },
+  "593d493f86f7745e6b2ceb22" : {
+    "Accuracy" : -1,
+    "Ergonomics" : -18,
+    "Recoil" : -9
+  },
+  "57838c962459774a1651ec63" : {
+    "Ergonomics" : -4,
+    "Recoil" : -20
+  },
+  "5beec2820db834001b095426" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -11,
+    "Recoil" : -7
+  },
+  "5addbfbb5acfc400194dbcf7" : {
+    "Ergonomics" : -1
+  },
+  "5b39f8db5acfc40016387a1b" : {
+    "Ergonomics" : 9,
+    "Recoil" : -31
+  },
+  "5ef3448ab37dfd6af863525c" : {
+    "Ergonomics" : -3,
+    "LoadUnloadModifier" : -25,
+    "CheckTimeModifier" : -20
+  },
+  "560836fb4bdc2d773f8b4569" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -12,
+    "Recoil" : -6
+  },
+  "5894a51286f77426d13baf02" : {
+    "Ergonomics" : 5
+  },
+  "5c00076d0db834001d23ee1f" : {
+    "Ergonomics" : 8
+  },
+  "5cc700d4e4a949000f0f0f28" : {
+    "Ergonomics" : 2,
+    "Recoil" : -5
+  },
+  "5a787f7ac5856700177af660" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -8,
+    "Recoil" : -6
+  },
+  "5c88f24b2e22160bc12c69a6" : {
+    "Ergonomics" : -2
+  },
+  "5ae0973a5acfc4001562206c" : {
+    "Ergonomics" : -1
+  },
+  "5df8f541c41b2312ea3335e3" : {
+    "Ergonomics" : -4
+  },
+  "5d024f5cd7ad1a04a067e91a" : {
+    "Ergonomics" : -1
+  },
+  "5a787fdfc5856700142fdd9a" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 2,
+    "Recoil" : -1
+  },
+  "5a01ad4786f77450561fda02" : {
+    "Ergonomics" : 0,
+    "Recoil" : 0
+  },
+  "5d010d1cd7ad1a59283b1ce7" : {
+    "Ergonomics" : 13,
+    "Recoil" : -3
+  },
+  "5f3e772a670e2a7b01739a52" : {
+    "Ergonomics" : 2
+  },
+  "5ae30bad5acfc400185c2dc4" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "59ecc3dd86f7746dc827481c" : {
+    "Ergonomics" : 11,
+    "Recoil" : -38
+  },
+  "5d2703038abbc3105103d94c" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -10,
+    "Recoil" : -4
+  },
+  "5ac72e7d5acfc40016339a02" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -2,
+    "Recoil" : -10
+  },
+  "5cadd940ae9215051e1c2316" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5f2aa46b878ef416f538b567" : {
+    "Ergonomics" : -11,
+    "Recoil" : -6
+  },
+  "5a9d56c8a2750c0032157146" : {
+    "Ergonomics" : 6,
+    "Recoil" : -2
+  },
+  "5c1cd46f2e22164bef5cfedb" : {
+    "Ergonomics" : 2,
+    "Recoil" : -3
+  },
+  "599860ac86f77436b225ed1a" : {
+    "Ergonomics" : -2
+  },
+  "5888956924597752983e182d" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -13,
+    "Recoil" : -5
+  },
+  "5b3a16655acfc40016387a2a" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -1,
+    "Recoil" : -8
+  },
+  "5d02677ad7ad1a04a15c0f95" : {
+    "Accuracy" : 3,
+    "Ergonomics" : -1,
+    "Recoil" : -10
+  },
+  "5c878e9d2e2216000f201903" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -2,
+    "Recoil" : -15
+  },
+  "57486e672459770abd687134" : {
+    "Ergonomics" : -4
+  },
+  "5d123102d7ad1a004e475fe5" : {
+    "Ergonomics" : 6,
+    "Recoil" : -1
+  },
+  "59eb7ebe86f7740b373438ce" : {
+    "Ergonomics" : -1
+  },
+  "59ff3b6a86f77477562ff5ed" : {
+    "Ergonomics" : 9,
+    "Recoil" : -30
+  },
+  "5d0b5cd3d7ad1a3fe32ad263" : {
+    "Ergonomics" : 5
+  },
+  "5e81c6a2ac2bb513793cdc7f" : {
+    "Ergonomics" : 1
+  },
+  "5c6175362e221600133e3b94" : {
+    "Ergonomics" : -18,
+    "LoadUnloadModifier" : 60,
+    "CheckTimeModifier" : 15
+  },
+  "5ae099925acfc4001a5fc7b3" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "6033749e88382f4fab3fd2c5" : {
+    "Ergonomics" : 1
+  },
+  "5bfd4cc90db834001d23e846" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -2,
+    "Recoil" : 0
+  },
+  "59d6507c86f7741b846413a2" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 5,
+    "Recoil" : 0
+  },
+  "591af28e86f77414a27a9e1d" : {
+    "Ergonomics" : 5,
+    "Recoil" : -2
+  },
+  "5c9a07572e221644f31c4b32" : {
+    "Ergonomics" : 14,
+    "Recoil" : -1
+  },
+  "5a966f51a2750c00156aacf6" : {
+    "Ergonomics" : -7
+  },
+  "59d625f086f774661516605d" : {
+    "Ergonomics" : -4
+  },
+  "5926dad986f7741f82604363" : { },
+  "5c6d10e82e221601da357b07" : {
+    "Ergonomics" : 6,
+    "Recoil" : -3
+  },
+  "5ea172e498dacb342978818e" : {
+    "Accuracy" : 3,
+    "Ergonomics" : -1,
+    "Recoil" : -8
+  },
+  "570fd79bd2720bc7458b4583" : {
+    "Ergonomics" : -4
+  },
+  "5adf23995acfc400185c2aeb" : {
+    "Ergonomics" : 7,
+    "Recoil" : -38
+  },
+  "5df35eb2b11454561e3923e2" : {
+    "Ergonomics" : 0
+  },
+  "5df25b6c0b92095fd441e4cf" : {
+    "Ergonomics" : -3,
+    "LoadUnloadModifier" : -5,
+    "CheckTimeModifier" : 0
+  },
+  "5c471ba12e221602b3137d76" : { },
+  "5dfcd0e547101c39625f66f9" : {
+    "Ergonomics" : 11,
+    "Recoil" : -3
+  },
+  "56ea70acd2720b844b8b4594" : {
+    "Ergonomics" : -6
+  },
+  "59d6272486f77466146386ff" : {
+    "Ergonomics" : -1.5,
+    "LoadUnloadModifier" : -10,
+    "CheckTimeModifier" : 0
+  },
+  "5d3eb5b6a4b9361eab311902" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0,
+    "Recoil" : -3
+  },
+  "5cf7acfcd7f00c1084477cf2" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -5,
+    "Recoil" : 0
+  },
+  "5ef35f46382a846010715a96" : {
+    "Ergonomics" : 3
+  },
+  "56ea8180d2720bf2698b456a" : {
+    "Accuracy" : 3,
+    "Ergonomics" : -1,
+    "Recoil" : -8
+  },
+  "5bb20d92d4351e00853263eb" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -6,
+    "Recoil" : -2
+  },
+  "5cf78720d7f00c06595bc93e" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -3,
+    "Recoil" : -8
+  },
+  "5cff9e84d7ad1a049e54ed55" : {
+    "Accuracy" : -1,
+    "Ergonomics" : -14,
+    "Recoil" : -8
+  },
+  "5c78f2792e221600106f4683" : {
+    "Ergonomics" : 10,
+    "Recoil" : 0
+  },
+  "5882163224597757561aa920" : {
+    "Ergonomics" : -5
+  },
+  "5ac50c185acfc400163398d4" : {
+    "Ergonomics" : 5,
+    "Recoil" : -32
+  },
+  "564ca99c4bdc2d16268b4589" : {
+    "Ergonomics" : -3
+  },
+  "5a0071d486f77404e23a12b2" : {
+    "Ergonomics" : 6
+  },
+  "56ea8222d2720b69698b4567" : {
+    "Ergonomics" : 10,
+    "Recoil" : -5
+  },
+  "5c6d5d8b2e221644fc630b39" : {
+    "Ergonomics" : 8,
+    "Recoil" : -1
+  },
+  "5648b0744bdc2d363b8b4578" : {
+    "Ergonomics" : 4,
+    "Recoil" : 0
+  },
+  "59e8977386f77415a553c453" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5de8fb539f98ac2bc659513a" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5882163824597757561aa922" : {
+    "Ergonomics" : -3
+  },
+  "5ac72e945acfc43f3b691116" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -2,
+    "Recoil" : -8
+  },
+  "5ba264f6d4351e0034777d52" : {
+    "Ergonomics" : 2
+  },
+  "58949dea86f77409483e16a8" : {
+    "Accuracy" : 3,
+    "Ergonomics" : -1,
+    "Recoil" : -7
+  },
+  "5cc6ea78e4a949000e1ea3c1" : {
+    "Ergonomics" : 0
+  },
+  "577d128124597739d65d0e56" : {
+    "Ergonomics" : 0
+  },
+  "5d120a10d7ad1a4e1026ba85" : {
+    "Ergonomics" : 4,
+    "Recoil" : -32
+  },
+  "5fbc227aa56d053a3543f79e" : {
+    "Ergonomics" : 6,
+    "Recoil" : -1
+  },
+  "5fbcc3e4d6fa9c00c571bb58" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 5,
+    "Recoil" : 0
+  },
+  "5c0125fc0db834001a669aa3" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 2,
+    "Recoil" : -1
+  },
+  "59fb257e86f7742981561852" : {
+    "Accuracy" : -1,
+    "Ergonomics" : -17,
+    "Recoil" : -8.5
+  },
+  "5f63418ef5750b524b45f116" : {
+    "Ergonomics" : 5,
+    "Recoil" : -3
+  },
+  "5addbb6e5acfc408fb1393fd" : {
+    "Accuracy" : 2,
+    "Ergonomics" : -2,
+    "Recoil" : -7
+  },
+  "544909bb4bdc2d6f028b4577" : {
+    "Ergonomics" : -1
+  },
+  "56083a334bdc2dc8488b4571" : {
+    "Ergonomics" : 11,
+    "Recoil" : -9
+  },
+  "58d2912286f7744e27117493" : {
+    "Ergonomics" : 2,
+    "Recoil" : -3
+  },
+  "5aaa4194e5b5b055d06310a5" : {
+    "Ergonomics" : -1.5
+  },
+  "5fc0fa362770a0045c59c677" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 1
+  },
+  "5c99f3592e221644fc633070" : {
+    "Ergonomics" : 9,
+    "Recoil" : -42
+  },
+  "55d4ae6c4bdc2d8b2f8b456e" : {
+    "Ergonomics" : 4,
+    "Recoil" : -27
+  },
+  "587de5ba2459771c0f1e8a58" : {
+    "Ergonomics" : 1
+  },
+  "5b1fd4e35acfc40018633c39" : {
+    "Ergonomics" : 7,
+    "LoadUnloadModifier" : -5,
+    "CheckTimeModifier" : -5
+  },
+  "55d482194bdc2d1d4e8b456b" : {
+    "Ergonomics" : -16,
+    "LoadUnloadModifier" : 85,
+    "CheckTimeModifier" : 20
+  },
+  "5a9fb739a2750c003215717f" : {
+    "Accuracy" : -2,
+    "Ergonomics" : -14,
+    "Recoil" : -6.5
+  },
+  "5ef3553c43cb350a955a7ccb" : {
+    "Ergonomics" : 3
+  },
+  "560e620e4bdc2d724b8b456b" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -1,
+    "Recoil" : -7
+  },
+  "5ab372a310e891001717f0d8" : {
+    "Ergonomics" : 28,
+    "Recoil" : -10
+  },
+  "5a9d6d21a2750c00137fa649" : {
+    "Ergonomics" : 0
+  },
+  "5c0548ae0db834001966a3c2" : {
+    "Ergonomics" : -2,
+    "LoadUnloadModifier" : 0,
+    "CheckTimeModifier" : -50
+  },
+  "544a38634bdc2d58388b4568" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -1,
+    "Recoil" : -7
+  },
+  "564caa3d4bdc2d17108b458e" : {
+    "Accuracy" : -1,
+    "Ergonomics" : -20,
+    "Recoil" : -10.5
+  },
+  "5bfe86a20db834001d23e8f7" : {
+    "Ergonomics" : 9
+  },
+  "5d25a7b88abbc3054f3e60bc" : {
+    "Ergonomics" : -1,
+    "LoadUnloadModifier" : -30,
+    "CheckTimeModifier" : 0
+  },
+  "56deec93d2720bec348b4568" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -20,
+    "Recoil" : -10
+  },
+  "5c1bc7432e221602b412949d" : {
+    "Ergonomics" : 5,
+    "Recoil" : -2
+  },
+  "602a97060ddce744014caf6f" : {
+    "Accuracy" : 2,
+    "Ergonomics" : -13,
+    "Recoil" : -9
+  },
+  "5a787ebcc5856700142fdd98" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -7,
+    "Recoil" : -6
+  },
+  "5a705e128dc32e000d46d258" : {
+    "Accuracy" : -1,
+    "Ergonomics" : -1,
+    "Recoil" : -7
+  },
+  "59f99a7d86f7745b134aa97b" : {
+    "Ergonomics" : -1,
+    "LoadUnloadModifier" : 0,
+    "CheckTimeModifier" : -20
+  },
+  "57cff947245977638e6f2a19" : {
+    "Ergonomics" : 10,
+    "Recoil" : -2
+  },
+  "55802f5d4bdc2dac148b458f" : {
+    "Ergonomics" : 10
+  },
+  "5c17804b2e2216152006c02f" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 1
+  },
+  "5cadc2e0ae9215051e1c21e7" : {
+    "Ergonomics" : -1
+  },
+  "5c6c2c9c2e2216000f2002e4" : {
+    "Ergonomics" : 14,
+    "Recoil" : 0
+  },
+  "5a9548c9159bd400133e97b3" : {
+    "Ergonomics" : 6,
+    "Recoil" : 0
+  },
+  "59db3b0886f77429d72fb895" : {
+    "Ergonomics" : 11
+  },
+  "57fd23e32459772d0805bcf1" : {
+    "Ergonomics" : -2
+  },
+  "5894a81786f77427140b8347" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5e5699df2161e06ac158df6f" : {
+    "Ergonomics" : 7,
+    "Recoil" : -1
+  },
+  "5c82343a2e221644f31c0611" : {
+    "Ergonomics" : -7
+  },
+  "577d141e24597739c5255e01" : {
+    "Ergonomics" : 0
+  },
+  "5a0f096dfcdbcb0176308b15" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5c5970672e221602b21d7855" : {
+    "Ergonomics" : -7,
+    "LoadUnloadModifier" : 20,
+    "CheckTimeModifier" : 20
+  },
+  "5cf50fc5d7f00c056c53f83c" : {
+    "Ergonomics" : -1,
+    "Recoil" : -3
+  },
+  "5fce0cf655375d18a253eff0" : {
+    "Ergonomics" : 7,
+    "Recoil" : -2
+  },
+  "5cf6937cd7f00c056c53fb39" : {
+    "Accuracy" : 3,
+    "Ergonomics" : -1,
+    "Recoil" : -14
+  },
+  "5d3eb5eca4b9363b1f22f8e4" : {
+    "Ergonomics" : -1
+  },
+  "5de6558e9f98ac2bc65950fc" : {
+    "Ergonomics" : -1
+  },
+  "5c0102aa0db834001b734ba1" : {
+    "Ergonomics" : 0
+  },
+  "5bb20da5d4351e0035629dbf" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -16,
+    "Recoil" : -10
+  },
+  "5c5db6302e2216000e5e47f0" : {
+    "Ergonomics" : 9,
+    "Recoil" : -2
+  },
+  "5d0a29ead7ad1a0026013f27" : {
+    "Ergonomics" : -1
+  },
+  "5e56991336989c75ab4f03f6" : {
+    "Ergonomics" : 7,
+    "Recoil" : -4
+  },
+  "57a3459f245977764a01f703" : {
+    "Ergonomics" : -1
+  },
+  "5c010a700db834001d23ef5d" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 2,
+    "Recoil" : -3
+  },
+  "5b057b4f5acfc4771e1bd3e9" : {
+    "Ergonomics" : 8,
+    "Recoil" : -2
+  },
+  "5b3cadf35acfc400194776a0" : {
+    "Ergonomics" : 5
+  },
+  "5ac7655e5acfc40016339a19" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -2,
+    "Recoil" : -8
+  },
+  "5e87076ce2db31558c75a11d" : {
+    "Ergonomics" : 7,
+    "Recoil" : 0
+  },
+  "5a7afa25e899ef00135e31b0" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 5,
+    "Recoil" : -2
+  },
+  "5c78f2882e22165df16b832e" : {
+    "Accuracy" : 3,
+    "Ergonomics" : -2,
+    "Recoil" : -8
+  },
+  "5fbbc366ca32ed67276c1557" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0,
+    "Recoil" : -3
+  },
+  "5bfd35380db83400232fe5cc" : {
+    "Ergonomics" : 9,
+    "Recoil" : -29
+  },
+  "59bfe68886f7746004266202" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 8,
+    "Recoil" : -4
+  },
+  "5cde7b43d7f00c000d36b93e" : {
+    "Ergonomics" : 0
+  },
+  "5c0006470db834001a6697fe" : {
+    "Ergonomics" : 8
+  },
+  "5ba26b01d4351e0085325a51" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "57acb6222459771ec34b5cb0" : {
+    "Ergonomics" : -2
+  },
+  "5cc9a96cd7f00c011c04e04a" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -2,
+    "Recoil" : -15
+  },
+  "5d2f259b48f0355a844acd74" : {
+    "Ergonomics" : 12,
+    "Recoil" : -3
+  },
+  "57616c112459773cce774d66" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 2,
+    "Recoil" : 0
+  },
+  "5a27b3d0c4a282000d721ec1" : {
+    "Ergonomics" : -1
+  },
+  "5c6d710d2e22165df16b81e7" : {
+    "Accuracy" : 2,
+    "Ergonomics" : -1,
+    "Recoil" : -7
+  },
+  "5dfa3d2b0dee1b22f862eade" : {
+    "Accuracy" : -2,
+    "Ergonomics" : -19,
+    "Recoil" : -12
+  },
+  "5b0e794b5acfc47a877359b2" : {
+    "Ergonomics" : 15,
+    "Recoil" : -40
+  },
+  "5cf79389d7f00c10941a0c4d" : {
+    "Ergonomics" : 0
+  },
+  "5649b0544bdc2d1b2b8b458a" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5c7e5f112e221600106f4ede" : {
+    "Accuracy" : 3,
+    "Ergonomics" : -1,
+    "Recoil" : -8
+  },
+  "5aaf8e43e5b5b00015693246" : {
+    "Ergonomics" : 20,
+    "Recoil" : -35
+  },
+  "57cffe20245977632f391a9d" : {
+    "Ergonomics" : 10,
+    "Recoil" : -2
+  },
+  "5b04473a5acfc40018632f70" : {
+    "Ergonomics" : 16,
+    "Recoil" : -38
+  },
+  "5ef61964ec7f42238c31e0c1" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -2,
+    "Recoil" : -14
+  },
+  "5c6d11072e2216000e69d2e4" : {
+    "Ergonomics" : 10,
+    "Recoil" : -1
+  },
+  "5b7bef1e5acfc43d82528402" : {
+    "Ergonomics" : 2
+  },
+  "5ac733a45acfc400192630e2" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5d2c829448f0353a5c7d6674" : {
+    "Ergonomics" : 3,
+    "Recoil" : -1
+  },
+  "58d268fc86f774111273f8c2" : {
+    "Ergonomics" : 0
+  },
+  "57ffa9f4245977728561e844" : {
+    "Ergonomics" : 3,
+    "Recoil" : -1
+  },
+  "59fafc5086f7740dbe19f6c3" : {
+    "Ergonomics" : -1,
+    "LoadUnloadModifier" : -10,
+    "CheckTimeModifier" : 0
+  },
+  "59c63b4486f7747afb151c1c" : {
+    "Ergonomics" : -1
+  },
+  "57838f9f2459774a150289a0" : {
+    "Ergonomics" : -2
+  },
+  "587de4282459771bca0ec90b" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -4,
+    "Recoil" : -3
+  },
+  "5894a2c386f77427140b8342" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -6,
+    "Recoil" : -3
+  },
+  "5648b1504bdc2d9d488b4584" : {
+    "Ergonomics" : 5,
+    "Recoil" : 0
+  },
+  "599851db86f77467372f0a18" : {
+    "Ergonomics" : 6,
+    "Recoil" : -34
+  },
+  "5dfce88fe9dc277128008b2e" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 2,
+    "Recoil" : 0
+  },
+  "5c503ad32e2216398b5aada2" : {
+    "Ergonomics" : -3,
+    "LoadUnloadModifier" : 0,
+    "CheckTimeModifier" : -15
+  },
+  "5addbba15acfc400185c2854" : {
+    "Accuracy" : 2,
+    "Ergonomics" : -1,
+    "Recoil" : -5
+  },
+  "56eabf3bd2720b75698b4569" : {
+    "Ergonomics" : 8,
+    "Recoil" : -30
+  },
+  "5fbcbd02900b1d5091531dd3" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -1,
+    "Recoil" : -8
+  },
+  "5e848dc4e4dbc5266a4ec63d" : {
+    "Ergonomics" : 11,
+    "Recoil" : -25
+  },
+  "5888988e24597752fe43a6fa" : {
+    "Ergonomics" : -3,
+    "LoadUnloadModifier" : -15,
+    "CheckTimeModifier" : 0
+  },
+  "571a282c2459771fb2755a69" : {
+    "Ergonomics" : 5
+  },
+  "5ab3afb2d8ce87001660304d" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -1,
+    "Recoil" : -3
+  },
+  "5fc23426900b1d5091531e15" : {
+    "Ergonomics" : -6
+  },
+  "5aba639ed8ce8700182ece67" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5ba26ae8d4351e00367f9bdb" : {
+    "Ergonomics" : -16,
+    "Recoil" : -10
+  },
+  "5b4736a986f774040571e998" : {
+    "Ergonomics" : 0
+  },
+  "5a7ad4af51dfba0013379717" : {
+    "Ergonomics" : -1
+  },
+  "5b7bedd75acfc43d825283f9" : {
+    "Ergonomics" : 10,
+    "Recoil" : -3
+  },
+  "5c4eecc32e221602b412b440" : {
+    "Accuracy" : -2,
+    "Ergonomics" : -18,
+    "Recoil" : -12
+  },
+  "5a34fe59c4a282000b1521a2" : {
+    "Accuracy" : -1,
+    "Ergonomics" : -20,
+    "Recoil" : -14
+  },
+  "5eeb2ff5ea4f8b73c827350b" : {
+    "Ergonomics" : -2,
+    "Recoil" : -2
+  },
+  "5c878ebb2e2216001219d48a" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -2,
+    "Recoil" : -18
+  },
+  "5fbcc437d724d907e2077d5c" : {
+    "Ergonomics" : 5,
+    "Recoil" : -31
+  },
+  "5ae09bff5acfc4001562219d" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -13,
+    "Recoil" : -10
+  },
+  "5649af884bdc2d1b2b8b4589" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 7,
+    "Recoil" : -1.5
+  },
+  "5a27b281c4a28200741e1e52" : {
+    "Ergonomics" : -1
+  },
+  "5fb651b52b1b027b1f50bcff" : {
+    "Ergonomics" : -1,
+    "LoadUnloadModifier" : -10,
+    "CheckTimeModifier" : -20
+  },
+  "571a26d524597720680fbe8a" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -4,
+    "Recoil" : -3
+  },
+  "5fc235db2770a0045c59c683" : {
+    "Accuracy" : 1,
+    "Ergonomics" : 7,
+    "Recoil" : 0
+  },
+  "5a34fbadc4a28200741e230a" : {
+    "Ergonomics" : -2,
+    "Recoil" : -4
+  },
+  "5649d9a14bdc2d79388b4580" : {
+    "Ergonomics" : -1
+  },
+  "57d152ec245977144076ccdf" : {
+    "Ergonomics" : 5
+  },
+  "5bb20d9cd4351e00334c9d8a" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -10,
+    "Recoil" : -3
+  },
+  "5a7ad55551dfba0015068f42" : {
+    "Ergonomics" : -1
+  },
+  "5ac72e615acfc43f67248aa0" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -2,
+    "Recoil" : -8
+  },
+  "57c44dd02459772d2e0ae249" : {
+    "Ergonomics" : -4,
+    "Recoil" : -20
+  },
+  "55d44fd14bdc2d962f8b456e" : {
+    "Ergonomics" : 0
+  },
+  "5f2aa4559b44de6b1b4e68d1" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -1,
+    "Recoil" : -7
+  },
+  "5cc701d7e4a94900100ac4e7" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -13,
+    "Recoil" : -13
+  },
+  "5d123b70d7ad1a0ee35e0754" : {
+    "Ergonomics" : 3
+  },
+  "5c7954d52e221600106f4cc7" : {
+    "Ergonomics" : 0
+  },
+  "5a9d6d13a2750c00164f6b03" : {
+    "Ergonomics" : 0
+  },
+  "5dff77c759400025ea5150cf" : {
+    "Ergonomics" : -2
+  },
+  "5bc09a30d4351e00367fb7c8" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 1
+  },
+  "5b7be1125acfc4001876c0e5" : {
+    "Accuracy" : 5,
+    "Ergonomics" : -11,
+    "Recoil" : -6
+  },
+  "57cffd8224597763b03fc609" : {
+    "Ergonomics" : 10,
+    "Recoil" : -2
+  },
+  "599860e986f7743bb57573a6" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5a788068c5856700137e4c8f" : {
+    "Ergonomics" : 13,
+    "Recoil" : 0
+  },
+  "5c07a8770db8340023300450" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 13,
+    "Recoil" : -2
+  },
+  "5c48a14f2e2216152006edd7" : {
+    "Ergonomics" : 9,
+    "Recoil" : -1
+  },
+  "5c61a40d2e2216001403158d" : {
+    "Ergonomics" : -1
+  },
+  "5c6d42cb2e2216000e69d7d1" : {
+    "Ergonomics" : -2,
+    "LoadUnloadModifier" : 0,
+    "CheckTimeModifier" : 20
+  },
+  "5ef1b9f0c64c5d0dfc0571a1" : {
+    "Ergonomics" : 10,
+    "Recoil" : -2
+  },
+  "5ef35d2ac64c5d0dfc0571b0" : {
+    "Ergonomics" : 2
+  },
+  "5d133067d7ad1a33013f95b4" : {
+    "Ergonomics" : 0
+  },
+  "5b30ac585acfc433000eb79c" : {
+    "Ergonomics" : 12
+  },
+  "5a9e81fba2750c00164f6b11" : {
+    "Ergonomics" : -5
+  },
+  "5cadc1c6ae9215000f2775a4" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -4,
+    "Recoil" : -3
+  },
+  "5998597786f77414ea6da093" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -1,
+    "Recoil" : -6
+  },
+  "5649aa744bdc2ded0b8b457e" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -2,
+    "Recoil" : -8
+  },
+  "5a37ca54c4a282000d72296a" : {
+    "Ergonomics" : -1
+  },
+  "5e81ee213397a21db957f6a6" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "55d485be4bdc2d962f8b456f" : {
+    "Ergonomics" : -18,
+    "Recoil" : 0,
+    "LoadUnloadModifier" : 25,
+    "CheckTimeModifier" : 25
+  },
+  "5c5db5fc2e2216000f1b2842" : {
+    "Ergonomics" : 10,
+    "Recoil" : 0
+  },
+  "560837544bdc2de22e8b456e" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -12,
+    "Recoil" : -9
+  },
+  "5fc4b992187fea44d52edaa9" : {
+    "Ergonomics" : 0
+  },
+  "5448c1d04bdc2dff2f8b4569" : {
+    "Ergonomics" : 3
+  },
+  "5de8fc0b205ddc616a6bc51b" : {
+    "Ergonomics" : 0
+  },
+  "5caf1691ae92152ac412efb9" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -2
+  },
+  "5fc0f9cbd6fa9c00c571bb90" : {
+    "Ergonomics" : 5,
+    "Recoil" : -2
+  },
+  "5e81c550763d9f754677befd" : {
+    "Ergonomics" : 2
+  },
+  "5de910da8b6c4240ba2651b5" : {
+    "Ergonomics" : 3,
+    "Recoil" : -18
+  },
+  "576a63cd2459771e796e0e11" : {
+    "Ergonomics" : 5
+  },
+  "5cadd954ae921500103bb3c2" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -2
+  },
+  "5c6d46132e221601da357d56" : {
+    "Ergonomics" : -2,
+    "LoadUnloadModifier" : -10,
+    "CheckTimeModifier" : 0
+  },
+  "5ab626e4d8ce87272e4c6e43" : {
+    "Ergonomics" : 10,
+    "Recoil" : -30
+  },
+  "602e3f1254072b51b239f713" : {
+    "Recoil" : -1
+  },
+  "5e87114fe2db31558c75a120" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5e81edc13397a21db957f6a1" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 3,
+    "Recoil" : 0
+  },
+  "5bc5a351d4351e003477a414" : {
+    "Accuracy" : 3,
+    "Ergonomics" : -2,
+    "Recoil" : -23
+  },
+  "5bfe86df0db834001b734685" : {
+    "Ergonomics" : 13,
+    "Recoil" : -29
+  },
+  "602e620f9b513876d4338d9a" : {
+    "Ergonomics" : 15,
+    "Recoil" : -27
+  },
+  "5cdaa99dd7f00c002412d0b2" : {
+    "Ergonomics" : 5,
+    "Recoil" : 0
+  },
+  "5c079ec50db834001966a706" : {
+    "Ergonomics" : 13
+  },
+  "5aa66be6e5b5b0214e506e97" : {
+    "Ergonomics" : -8
+  },
+  "5a6f5e048dc32e00094b97da" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 3,
+    "Recoil" : 0
+  },
+  "5a718da68dc32e000d46d264" : {
+    "Ergonomics" : -2,
+    "LoadUnloadModifier" : -10,
+    "CheckTimeModifier" : -30
+  },
+  "602a95fe4e02ce1eaa358729" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -4,
+    "Recoil" : -3
+  },
+  "5ea16ada09aa976f2e7a51be" : {
+    "Ergonomics" : 10,
+    "Recoil" : -1
+  },
+  "5a7d9122159bd4001438dbf4" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5a787f25c5856700186c4ab9" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -3,
+    "Recoil" : -2
+  },
+  "5c05295e0db834001a66acbb" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 1
+  },
+  "5beec3420db834001b095429" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -1,
+    "Recoil" : -8
+  },
+  "5f633f68f5750b524b45f112" : {
+    "Ergonomics" : -2,
+    "Recoil" : -20
+  },
+  "5c07c5ed0db834001b73571c" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -3,
+    "Recoil" : -15
+  },
+  "55d4887d4bdc2d962f8b4570" : {
+    "Ergonomics" : -3
+  },
+  "59c0ec5b86f77435b128bfca" : {
+    "Accuracy" : -1,
+    "Ergonomics" : -22,
+    "Recoil" : -16
+  },
+  "5e81ee4dcb2b95385c177582" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5de653abf76fdc1ce94a5a2a" : {
+    "Ergonomics" : 1,
+    "LoadUnloadModifier" : 0,
+    "CheckTimeModifier" : -15
+  },
+  "59e6284f86f77440d569536f" : {
+    "Ergonomics" : 4,
+    "Recoil" : 0
+  },
+  "5ae35b315acfc4001714e8b0" : {
+    "Ergonomics" : 10,
+    "Recoil" : -2
+  },
+  "5d25af8f8abbc3055079fec5" : {
+    "Ergonomics" : 0,
+    "LoadUnloadModifier" : -15,
+    "CheckTimeModifier" : 0
+  },
+  "5cc70093e4a949033c734312" : {
+    "Ergonomics" : -5,
+    "LoadUnloadModifier" : 75,
+    "CheckTimeModifier" : -20
+  },
+  "5ef35bc243cb350a955a7ccd" : {
+    "Ergonomics" : 4
+  },
+  "5ce69cbad7f00c00b61c5098" : {
+    "Ergonomics" : 4,
+    "LoadUnloadModifier" : -30,
+    "CheckTimeModifier" : 0
+  },
+  "5addbac75acfc400194dbc56" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -17,
+    "Recoil" : -9
+  },
+  "5c1cdd512e22161b267d91ae" : {
+    "Ergonomics" : -3
+  },
+  "5d135e83d7ad1a21b83f42d8" : {
+    "Ergonomics" : 10,
+    "Recoil" : -32
+  },
+  "59e6227d86f77440d64f5dc2" : {
+    "Ergonomics" : 3,
+    "Recoil" : -33
+  },
+  "5bb20d53d4351e4502010a69" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 6,
+    "Recoil" : -1
+  },
+  "6034e3cb0ddce744014cb870" : {
+    "Ergonomics" : 6
+  },
+  "5c471be12e221602b66cd9ac" : {
+    "Ergonomics" : 5
+  },
+  "5c1bc7752e221602b1779b34" : {
+    "Ergonomics" : 5,
+    "Recoil" : -1
+  },
+  "5c78f2492e221600114c9f04" : {
+    "Ergonomics" : 12,
+    "Recoil" : -3
+  },
+  "5aafa49ae5b5b00015042a58" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5caf187cae92157c28402e43" : {
+    "Accuracy" : 10,
+    "Ergonomics" : -17,
+    "Recoil" : -18
+  },
+  "570fd6c2d2720bc6458b457f" : {
+    "Ergonomics" : -3
+  },
+  "56083e1b4bdc2dc8488b4572" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5894a13e86f7742405482982" : {
+    "Ergonomics" : 17,
+    "Recoil" : -26
+  },
+  "5c6d10fa2e221600106f3f23" : {
+    "Ergonomics" : 8,
+    "Recoil" : 0
+  },
+  "5f3e7823ddc4f03b010e2045" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 4,
+    "Recoil" : 0
+  },
+  "5b7bebc85acfc43bca706666" : {
+    "Ergonomics" : 9,
+    "Recoil" : 0
+  },
+  "5bb20e58d4351e00320205d7" : {
+    "Ergonomics" : 0,
+    "Recoil" : -3
+  },
+  "5bffef760db8340019668fe4" : {
+    "Ergonomics" : 12
+  },
+  "5a78813bc5856700186c4abe" : {
+    "Ergonomics" : 10,
+    "Recoil" : -42
+  },
+  "5a7880d0c5856700142fdd9d" : {
+    "Ergonomics" : 6,
+    "Recoil" : -34
+  },
+  "5cf79599d7f00c10875d9212" : {
+    "Ergonomics" : 0,
+    "Recoil" : -1
+  },
+  "5c7e8fab2e22165df16b889b" : {
+    "Accuracy" : 2,
+    "Ergonomics" : -12,
+    "Recoil" : -7
+  },
+  "5b2240bf5acfc40dc528af69" : {
+    "Ergonomics" : 3
+  },
+  "5c48a2a42e221602b66d1e07" : {
+    "Accuracy" : 1,
+    "Ergonomics" : -2,
+    "Recoil" : -8
+  },
+  "55d5f46a4bdc2d1b198b4567" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5f633ff5c444ce7e3c30a006" : {
+    "Ergonomics" : 3
+  },
+  "58949fac86f77409483e16aa" : {
+    "Ergonomics" : 0
+  },
+  "5b7c2d1d5acfc43d1028532a" : {
+    "Ergonomics" : -2,
+    "LoadUnloadModifier" : -10,
+    "CheckTimeModifier" : 0
+  },
+  "5fbbfabed5cb881a7363194e" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -4,
+    "Recoil" : -1
+  },
+  "5fbbc34106bde7524f03cbe9" : {
+    "Ergonomics" : 0
+  },
+  "5c5db6652e221600113fba51" : {
+    "Ergonomics" : -4,
+    "LoadUnloadModifier" : 0,
+    "CheckTimeModifier" : -50
+  },
+  "5c90c3622e221601da359851" : {
+    "Ergonomics" : -1
+  },
+  "5a6b592c8dc32e00094b97bf" : {
+    "Ergonomics" : 1
+  },
+  "5f3e7801153b8571434a924c" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -3,
+    "Recoil" : -3
+  },
+  "5b7d678a5acfc4001a5c4022" : {
+    "Ergonomics" : 5
+  },
+  "5b7bef9c5acfc43d102852ec" : {
+    "Ergonomics" : -20,
+    "LoadUnloadModifier" : 0,
+    "CheckTimeModifier" : 20
+  },
+  "5c6162682e22160010261a2b" : {
+    "Ergonomics" : 0
+  },
+  "5c87a07c2e2216001219d4a2" : {
+    "Ergonomics" : 4,
+    "Recoil" : -33
+  },
+  "56deed6ed2720b4c698b4583" : {
+    "Ergonomics" : 5
+  },
+  "5cf54404d7f00c108840b2ef" : {
+    "Ergonomics" : 9
+  },
+  "5c471bd12e221602b4129c3a" : {
+    "Ergonomics" : 2
+  },
+  "5b7be4575acfc400161d0832" : {
+    "Ergonomics" : 0
+  },
+  "5bf3f59f0db834001a6fa060" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0
+  },
+  "5aa66a9be5b5b0214e506e89" : {
+    "Ergonomics" : -2
+  },
+  "57f3a5ae2459772b0e0bf19e" : {
+    "Ergonomics" : 5
+  },
+  "5d44069ca4b9361ebd26fc37" : {
+    "Ergonomics" : 3,
+    "Recoil" : -34
+  },
+  "5b1fb3e15acfc4001637f068" : {
+    "Ergonomics" : -7,
+    "LoadUnloadModifier" : 0,
+    "CheckTimeModifier" : 20
+  },
+  "5bffd7ed0db834001d23ebf9" : {
+    "Accuracy" : 2,
+    "Ergonomics" : -1,
+    "Recoil" : -12
+  },
+  "5926d33d86f77410de68ebc0" : {
+    "Ergonomics" : -4,
+    "Recoil" : -22
+  },
+  "5bfd4cbe0db834001b73449f" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -8,
+    "Recoil" : -8
+  },
+  "5abcc328d8ce8700194394f3" : {
+    "Accuracy" : -1,
+    "Ergonomics" : -17,
+    "Recoil" : -9
+  },
+  "55802d5f4bdc2dac148b458e" : {
+    "Ergonomics" : -3,
+    "LoadUnloadModifier" : 0,
+    "CheckTimeModifier" : -35
+  },
+  "5d440b9fa4b93601354d480c" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -23,
+    "Recoil" : -6
+  },
+  "5addccf45acfc400185c2989" : {
+    "Ergonomics" : -17,
+    "LoadUnloadModifier" : 40,
+    "CheckTimeModifier" : 15
+  },
+  "564ca9df4bdc2d35148b4569" : {
+    "Ergonomics" : -7,
+    "LoadUnloadModifier" : 0,
+    "CheckTimeModifier" : 15
+  },
+  "602286df23506e50807090c6" : {
+    "Ergonomics" : -1,
+    "LoadUnloadModifier" : -10,
+    "CheckTimeModifier" : -20
+  },
+  "5888976c24597754281f93f5" : {
+    "Recoil" : 0
+  },
+  "5a351711c4a282000b1521a4" : {
+    "Ergonomics" : -15,
+    "LoadUnloadModifier" : 30,
+    "CheckTimeModifier" : 15
+  },
+  "595cfa8b86f77427437e845b" : {
+    "Ergonomics" : 10,
+    "Recoil" : -2
+  },
+  "5b86a0e586f7745b600ccb23" : {
+    "Accuracy" : -3,
+    "Ergonomics" : -16,
+    "Recoil" : -10
+  },
+  "591c4e1186f77410354b316e" : {
+    "Ergonomics" : 3
+  },
+  "5fb65363d1409e5ca04b54f5" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 0,
+    "Recoil" : -3
+  },
+  "5998529a86f774647f44f421" : {
+    "Ergonomics" : -2
+  },
+  "5b7bef5d5acfc43bca7067a3" : {
+    "Ergonomics" : -9
+  },
+  "59e0bed186f774156f04ce84" : {
+    "Ergonomics" : 0
+  },
+  "57c55f112459772d28133310" : {
+    "Ergonomics" : 9
+  },
+  "5c1bc5fb2e221602b1779b32" : {
+    "Ergonomics" : 4,
+    "Recoil" : -2
+  },
+  "5c0517910db83400232ffee5" : {
+    "Ergonomics" : -5
+  },
+  "5ea03e9400685063ec28bfa4" : {
+    "Ergonomics" : 28,
+    "Recoil" : -29
+  },
+  "5ef369b08cef260c0642acaf" : {
+    "Ergonomics" : -1,
+    "Recoil" : 0
+  },
+  "5926e16e86f7742f5a0f7ecb" : {
+    "Ergonomics" : 1
+  },
+  "5fbc22ccf24b94483f726483" : {
+    "Ergonomics" : 0
+  },
+  "5fbbc3324e8a554c40648348" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -1,
+    "Recoil" : -7
+  },
+  "5bfebc5e0db834001a6694e5" : {
+    "Ergonomics" : -1.5
+  },
+  "59e0be5d86f7742d48765bd2" : {
+    "Ergonomics" : 0
+  },
+  "59985a6c86f77414ec448d17" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 5,
+    "Recoil" : 0
+  },
+  "5d2dc3e548f035404a1a4798" : {
+    "Ergonomics" : -3
+  },
+  "5addc00b5acfc4001669f144" : {
+    "Ergonomics" : 0
+  },
+  "5fbb976df9986c4cff3fe5f2" : {
+    "Ergonomics" : 0
+  },
+  "5c7951452e221644f31bfd5c" : {
+    "Accuracy" : 2,
+    "Ergonomics" : -2,
+    "Recoil" : -17
+  },
+  "59fb137a86f7740adb646af1" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -5,
+    "Recoil" : -24
+  },
+  "5fb651dc85f90547f674b6f4" : {
+    "Ergonomics" : -5,
+    "LoadUnloadModifier" : -25,
+    "CheckTimeModifier" : -30
+  },
+  "5a6b5e468dc32e001207faf5" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -5,
+    "Recoil" : -3
+  },
+  "5de8e67c4a9f347bc92edbd7" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 5,
+    "Recoil" : 0
+  },
+  "587e0531245977466077a0f7" : {
+    "Ergonomics" : 6,
+    "Recoil" : -15
+  },
+  "5fb6558ad6f0b2136f2d7eb7" : {
+    "Ergonomics" : 7,
+    "Recoil" : -31
+  },
+  "5b7be47f5acfc400170e2dd2" : {
+    "Ergonomics" : 0
+  },
+  "571659bb2459771fb2755a12" : {
+    "Ergonomics" : 5
+  },
+  "5a329052c4a28200741e22d3" : {
+    "Ergonomics" : 5,
+    "Recoil" : -2
+  },
+  "5926c36d86f77467a92a8629" : {
+    "Ergonomics" : 10,
+    "Recoil" : 0
+  },
+  "59e62cc886f77440d40b52a1" : {
+    "Ergonomics" : 6
+  },
+  "58d2664f86f7747fec5834f6" : {
+    "Ergonomics" : 0
+  },
+  "5649be884bdc2d79388b4577" : {
+    "Ergonomics" : 0,
+    "Recoil" : -1
+  },
+  "5bae13bad4351e00320204af" : {
+    "Accuracy" : 3,
+    "Ergonomics" : 40,
+    "Recoil" : -38
+  },
+  "5c78f2612e221600114c9f0d" : {
+    "Ergonomics" : 10,
+    "Recoil" : -3
+  },
+  "5b7d645e5acfc400170e2f90" : {
+    "Ergonomics" : -4,
+    "Recoil" : -31
+  },
+  "5c0e2f26d174af02a9625114" : {
+    "Accuracy" : 0,
+    "Ergonomics" : 4,
+    "Recoil" : 0
+  },
+  "5de8ea8ffd6b4e6e2276dc35" : {
+    "Ergonomics" : 2
+  },
+  "602f85fd9b513876d4338d9c" : {
+    "Ergonomics" : 5
+  },
+  "5d25a6538abbc306c62e630d" : {
+    "Ergonomics" : -2,
+    "LoadUnloadModifier" : -15,
+    "CheckTimeModifier" : 0
+  },
+  "5649ae4a4bdc2d1b2b8b4588" : {
+    "Ergonomics" : 12
+  },
+  "5f633f791b231926f2329f13" : {
+    "Ergonomics" : -2,
+    "Recoil" : -19
+  },
+  "5b7d679f5acfc4001a5c4024" : {
+    "Ergonomics" : 13
+  },
+  "5cc9bcaed7f00c011c04e179" : {
+    "Ergonomics" : 10
+  },
+  "56d5a1f7d2720bb3418b456a" : {
+    "Accuracy" : 0,
+    "Ergonomics" : -5,
+    "Recoil" : -3
+  },
+  "58d39b0386f77443380bf13c" : {
+    "Ergonomics" : 0
+  },
+  "5a788031c585673f2b5c1c79" : {
+    "Ergonomics" : 5
+  },
+  "6034e3d953a60014f970617b" : {
+    "Ergonomics" : 5.5,
+    "Recoil" : -1
+  },
+  "5d4405f0a4b9361e6a4e6bd9" : {
+    "Accuracy" : 1,
+    "Ergonomics" : 11,
+    "Recoil" : -1
+  }
+}

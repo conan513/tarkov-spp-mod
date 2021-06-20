@@ -1,0 +1,1390 @@
+{
+  "56dff061d2720bb5668b4567" : {
+    "InitialSpeed" : 880,
+    "RicochetChance" : 0.37,
+    "FragmentationChance" : 0.16,
+    "PenetrationPower" : 37,
+    "ArmorDamage" : 49,
+    "Damage" : 44,
+    "Weight" : 0.01
+  },
+  "5efb0d4f4bc50b58e81710f3" : {
+    "InitialSpeed" : 290,
+    "RicochetChance" : 0.065,
+    "FragmentationChance" : 0.01,
+    "PenetrationPower" : 19,
+    "ArmorDamage" : 37,
+    "Damage" : 74,
+    "Weight" : 0.015
+  },
+  "5735fdcd2459776445391d61" : {
+    "InitialSpeed" : 425,
+    "RicochetChance" : 0.065,
+    "FragmentationChance" : 0.25,
+    "PenetrationPower" : 12,
+    "ArmorDamage" : 32,
+    "Damage" : 58,
+    "Weight" : 0.01
+  },
+  "5a3c16fe86f77452b62de32a" : {
+    "HeavyBleedingDelta" : 0.2,
+    "InitialSpeed" : 420,
+    "RicochetChance" : 0.065,
+    "FragmentationChance" : 0.25,
+    "PenetrationPower" : 10,
+    "LightBleedingDelta" : 0.2,
+    "ArmorDamage" : 38,
+    "Damage" : 70,
+    "Weight" : 0.015
+  },
+  "5d6e6a5fa4b93614ec501745" : {
+    "InitialSpeed" : 405,
+    "RicochetChance" : 0.1,
+    "FragmentationChance" : 1.0,
+    "PenetrationPower" : 5,
+    "ArmorDamage" : 13,
+    "Damage" : 198,
+    "Weight" : 0.029
+  },
+  "5d6e695fa4b936359b35d852" : {
+    "InitialSpeed" : 340,
+    "RicochetChance" : 0.0,
+    "FragmentationChance" : 0.0,
+    "ProjectileCount" : 8,
+    "PenetrationPower" : 1,
+    "ArmorDamage" : 12,
+    "Damage" : 26,
+    "Weight" : 0.028
+  },
+  "60194943740c5d77f6705eea" : {
+    "HeavyBleedingDelta" : 0.1,
+    "InitialSpeed" : 902,
+    "RicochetChance" : 0.1,
+    "FragmentationChance" : 0.15,
+    "PenetrationPower" : 21,
+    "LightBleedingDelta" : 0.1,
+    "ArmorDamage" : 35,
+    "Damage" : 65,
+    "Weight" : 0.012
+  },
+  "54527a984bdc2d4e668b4567" : {
+    "InitialSpeed" : 922,
+    "RicochetChance" : 0.4,
+    "FragmentationChance" : 0.4,
+    "PenetrationPower" : 28,
+    "ArmorDamage" : 37,
+    "Damage" : 50,
+    "Weight" : 0.012
+  },
+  "5887431f2459777e1612938f" : {
+    "InitialSpeed" : 865,
+    "RicochetChance" : 0.39,
+    "FragmentationChance" : 0.18,
+    "PenetrationPower" : 42,
+    "ArmorDamage" : 78,
+    "Damage" : 81,
+    "Weight" : 0.024
+  },
+  "5e023cf8186a883be655e54f" : {
+    "InitialSpeed" : 800,
+    "RicochetChance" : 0.3,
+    "FragmentationChance" : 0.18,
+    "PenetrationPower" : 41,
+    "ArmorDamage" : 83,
+    "Damage" : 82,
+    "Weight" : 0.025
+  },
+  "56dff421d2720b5f5a8b4567" : {
+    "HeavyBleedingDelta" : 0.1,
+    "InitialSpeed" : 873,
+    "RicochetChance" : 0.15,
+    "FragmentationChance" : 0.45,
+    "PenetrationPower" : 11,
+    "LightBleedingDelta" : 0.1,
+    "ArmorDamage" : 34,
+    "Damage" : 68,
+    "Weight" : 0.01
+  },
+  "59e6906286f7746c9f75e847" : {
+    "InitialSpeed" : 940,
+    "RicochetChance" : 0.38,
+    "FragmentationChance" : 0.32799998,
+    "PenetrationPower" : 37,
+    "ArmorDamage" : 52,
+    "Damage" : 51,
+    "Weight" : 0.012
+  },
+  "5ede474b0c226a66f5402622" : {
+    "InitialSpeed" : 76,
+    "RicochetChance" : 0.0,
+    "FragmentationChance" : 0.0,
+    "PenetrationPower" : 1,
+    "ArmorDamage" : 95,
+    "Damage" : 199,
+    "Weight" : 0.35
+  },
+  "57371aab2459775a77142f22" : {
+    "InitialSpeed" : 420,
+    "RicochetChance" : 0.075,
+    "FragmentationChance" : 0.17,
+    "PenetrationPower" : 24,
+    "ArmorDamage" : 33,
+    "Damage" : 58,
+    "Weight" : 0.009
+  },
+  "5d6e68c4a4b9361b93413f79" : {
+    "InitialSpeed" : 410,
+    "RicochetChance" : 0.1,
+    "FragmentationChance" : 0.05,
+    "PenetrationPower" : 26,
+    "ArmorDamage" : 57,
+    "Damage" : 197,
+    "Weight" : 0.055
+  },
+  "56dff2ced2720bb4668b4567" : {
+    "InitialSpeed" : 890,
+    "RicochetChance" : 0.38,
+    "FragmentationChance" : 0.17,
+    "PenetrationPower" : 30,
+    "ArmorDamage" : 32,
+    "Damage" : 46,
+    "Weight" : 0.01
+  },
+  "5a26ac0ec4a28200741e1e18" : {
+    "InitialSpeed" : 397,
+    "RicochetChance" : 0.4,
+    "FragmentationChance" : 0.2,
+    "PenetrationPower" : 39,
+    "ArmorDamage" : 47,
+    "Damage" : 63,
+    "Weight" : 0.023
+  },
+  "5d6e6911a4b9361bd5780d52" : {
+    "InitialSpeed" : 320,
+    "RicochetChance" : 0.0,
+    "FragmentationChance" : 0.0,
+    "ProjectileCount" : 8,
+    "PenetrationPower" : 31,
+    "ArmorDamage" : 26,
+    "Damage" : 25,
+    "Weight" : 0.04
+  },
+  "5ba26844d4351e00334c9475" : {
+    "InitialSpeed" : 290,
+    "RicochetChance" : 0.5,
+    "FragmentationChance" : 0.2,
+    "PenetrationPower" : 36,
+    "ArmorDamage" : 46,
+    "Damage" : 45,
+    "Weight" : 0.01
+  },
+  "560d5e524bdc2d25448b4571" : {
+    "InitialSpeed" : 415,
+    "RicochetChance" : 0.0,
+    "FragmentationChance" : 0.0,
+    "ProjectileCount" : 8,
+    "PenetrationPower" : 3,
+    "ArmorDamage" : 26,
+    "Damage" : 39,
+    "Weight" : 0.05
+  },
+  "58dd3ad986f77403051cba8f" : {
+    "InitialSpeed" : 833,
+    "RicochetChance" : 0.38,
+    "FragmentationChance" : 0.17,
+    "PenetrationPower" : 41,
+    "ArmorDamage" : 66,
+    "Damage" : 80,
+    "Weight" : 0.024
+  },
+  "58864a4f2459770fcc257101" : {
+    "InitialSpeed" : 340,
+    "RicochetChance" : 0.065,
+    "FragmentationChance" : 0.25,
+    "PenetrationPower" : 10,
+    "ArmorDamage" : 32,
+    "Damage" : 59,
+    "Weight" : 0.01
+  },
+  "5cc80f53e4a949000e1ea4f8" : {
+    "InitialSpeed" : 716,
+    "RicochetChance" : 0.6,
+    "FragmentationChance" : 0.2,
+    "PenetrationPower" : 33,
+    "ArmorDamage" : 41,
+    "Damage" : 58,
+    "Weight" : 0.006
+  },
+  "601aa3d2b2bcb34913271e6d" : {
+    "HeavyBleedingDelta" : 0.1,
+    "InitialSpeed" : 875,
+    "RicochetChance" : 0.435,
+    "FragmentationChance" : 0.05,
+    "PenetrationPower" : 58,
+    "LightBleedingDelta" : 0.1,
+    "ArmorDamage" : 76,
+    "Damage" : 46,
+    "Weight" : 0.01
+  },
+  "5e81f423763d9f754677bf2e" : {
+    "InitialSpeed" : 285,
+    "RicochetChance" : 0.065,
+    "FragmentationChance" : 0.01,
+    "PenetrationPower" : 23,
+    "ArmorDamage" : 36,
+    "Damage" : 69,
+    "Weight" : 0.015
+  },
+  "58820d1224597753c90aeb13" : {
+    "InitialSpeed" : 370,
+    "RicochetChance" : 0.1,
+    "FragmentationChance" : 0.2,
+    "PenetrationPower" : 15,
+    "ArmorDamage" : 55,
+    "Damage" : 167,
+    "Weight" : 0.05
+  },
+  "5efb0fc6aeb21837e749c801" : {
+    "HeavyBleedingDelta" : 0.3,
+    "InitialSpeed" : 274,
+    "RicochetChance" : 0.066,
+    "FragmentationChance" : 0.5,
+    "PenetrationPower" : 13,
+    "ArmorDamage" : 30,
+    "Damage" : 95,
+    "Weight" : 0.017
+  },
+  "5cc80f67e4a949035e43bbba" : {
+    "InitialSpeed" : 305,
+    "RicochetChance" : 0.3,
+    "FragmentationChance" : 0.2,
+    "PenetrationPower" : 35,
+    "ArmorDamage" : 37,
+    "Damage" : 54,
+    "Weight" : 0.007
+  },
+  "5c3df7d588a4501f290594e5" : {
+    "InitialSpeed" : 365,
+    "RicochetChance" : 0.05,
+    "FragmentationChance" : 0.15,
+    "PenetrationPower" : 14,
+    "ArmorDamage" : 33,
+    "Damage" : 58,
+    "Weight" : 0.006
+  },
+  "56dff4ecd2720b5f5a8b4568" : {
+    "InitialSpeed" : 303,
+    "RicochetChance" : 0.4,
+    "FragmentationChance" : 0.1,
+    "PenetrationPower" : 15,
+    "ArmorDamage" : 34,
+    "Damage" : 65,
+    "Weight" : 0.01
+  },
+  "59e6918f86f7746c9f75e849" : {
+    "InitialSpeed" : 936,
+    "RicochetChance" : 0.1,
+    "FragmentationChance" : 0.03,
+    "PenetrationPower" : 17,
+    "ArmorDamage" : 32,
+    "Damage" : 60,
+    "Weight" : 0.012
+  },
+  "59e6658b86f77411d949b250" : {
+    "HeavyBleedingDelta" : 0.15,
+    "InitialSpeed" : 550,
+    "RicochetChance" : 0.05,
+    "FragmentationChance" : 0.45,
+    "PenetrationPower" : 14,
+    "LightBleedingDelta" : 0.1,
+    "ArmorDamage" : 38,
+    "Damage" : 110,
+    "Weight" : 0.016
+  },
+  "5737207f24597760ff7b25f2" : {
+    "InitialSpeed" : 280,
+    "RicochetChance" : 0.01,
+    "FragmentationChance" : 0.4,
+    "PenetrationPower" : 3,
+    "LightBleedingDelta" : 0.1,
+    "ArmorDamage" : 5,
+    "Damage" : 69,
+    "Weight" : 0.012
+  },
+  "5cc80f79e4a949033c7343b2" : {
+    "InitialSpeed" : 792,
+    "RicochetChance" : 0.2,
+    "FragmentationChance" : 0.8,
+    "PenetrationPower" : 10,
+    "ArmorDamage" : 15,
+    "Damage" : 74,
+    "Weight" : 0.006
+  },
+  "5f647f31b6238e5dd066e196" : {
+    "InitialSpeed" : 375,
+    "RicochetChance" : 0.2,
+    "FragmentationChance" : 0.0,
+    "ProjectileCount" : 8,
+    "PenetrationPower" : 10,
+    "ArmorDamage" : 20,
+    "Damage" : 78,
+    "Weight" : 0.08
+  },
+  "5d6e6a05a4b93618084f58d0" : {
+    "InitialSpeed" : 415,
+    "RicochetChance" : 0.1,
+    "FragmentationChance" : 0.1,
+    "PenetrationPower" : 16,
+    "ArmorDamage" : 42,
+    "Damage" : 154,
+    "Weight" : 0.028
+  },
+  "5d6e6a42a4b9364f07165f52" : {
+    "InitialSpeed" : 445,
+    "RicochetChance" : 0.1,
+    "FragmentationChance" : 0.15,
+    "PenetrationPower" : 17,
+    "ArmorDamage" : 40,
+    "Damage" : 135,
+    "Weight" : 0.032
+  },
+  "57371eb62459776125652ac1" : {
+    "InitialSpeed" : 302,
+    "RicochetChance" : 0.005,
+    "FragmentationChance" : 0.3,
+    "PenetrationPower" : 6,
+    "LightBleedingDelta" : 0.15,
+    "ArmorDamage" : 16,
+    "Damage" : 58,
+    "Weight" : 0.011
+  },
+  "5e023d34e8a400319a28ed44" : {
+    "InitialSpeed" : 820,
+    "RicochetChance" : 0.265,
+    "FragmentationChance" : 0.081,
+    "PenetrationPower" : 59,
+    "ArmorDamage" : 87,
+    "Damage" : 78,
+    "Weight" : 0.024
+  },
+  "573603c924597764442bd9cb" : {
+    "InitialSpeed" : 415,
+    "RicochetChance" : 0.1,
+    "FragmentationChance" : 0.16600001,
+    "PenetrationPower" : 18,
+    "ArmorDamage" : 34,
+    "Damage" : 55,
+    "Weight" : 0.01
+  },
+  "56dff216d2720bbd668b4568" : {
+    "HeavyBleedingDelta" : 0.15,
+    "InitialSpeed" : 884,
+    "RicochetChance" : 0.2,
+    "FragmentationChance" : 0.35,
+    "PenetrationPower" : 11,
+    "LightBleedingDelta" : 0.15,
+    "ArmorDamage" : 20,
+    "Damage" : 74,
+    "Weight" : 0.01
+  },
+  "5cadf6ddae9215051e1c23b2" : {
+    "HeavyBleedingDelta" : 0.2,
+    "InitialSpeed" : 285,
+    "RicochetChance" : 0.4,
+    "FragmentationChance" : 0.3,
+    "PenetrationPower" : 28,
+    "ArmorDamage" : 60,
+    "Damage" : 115,
+    "Weight" : 0.07
+  },
+  "5d6e69b9a4b9361bc8618958" : {
+    "InitialSpeed" : 410,
+    "RicochetChance" : 0.0,
+    "FragmentationChance" : 0.0,
+    "ProjectileCount" : 8,
+    "PenetrationPower" : 2,
+    "ArmorDamage" : 13,
+    "Damage" : 22,
+    "Weight" : 0.032
+  },
+  "5cde8864d7f00c0010373be1" : {
+    "InitialSpeed" : 818,
+    "RicochetChance" : 0.38,
+    "FragmentationChance" : 0.17,
+    "PenetrationPower" : 88,
+    "ArmorDamage" : 88,
+    "Damage" : 182,
+    "Weight" : 0.133
+  },
+  "5e023e6e34d52a55c3304f71" : {
+    "InitialSpeed" : 808,
+    "RicochetChance" : 0.5,
+    "FragmentationChance" : 0.2,
+    "PenetrationPower" : 36,
+    "ArmorDamage" : 40,
+    "Damage" : 60,
+    "Weight" : 0.023
+  },
+  "5ede475b549eed7c6d5c18fb" : {
+    "InitialSpeed" : 76,
+    "RicochetChance" : 0.0,
+    "FragmentationChance" : 0.0,
+    "PenetrationPower" : 1,
+    "ArmorDamage" : 95,
+    "Damage" : 199,
+    "Weight" : 0.35
+  },
+  "56d59d3ad2720bdb418b4577" : {
+    "InitialSpeed" : 457,
+    "RicochetChance" : 0.05,
+    "FragmentationChance" : 0.15,
+    "PenetrationPower" : 20,
+    "ArmorDamage" : 33,
+    "Damage" : 54,
+    "Weight" : 0.005
+  },
+  "5cc80f38e4a949001152b560" : {
+    "InitialSpeed" : 716,
+    "RicochetChance" : 0.6,
+    "FragmentationChance" : 0.2,
+    "PenetrationPower" : 37,
+    "ArmorDamage" : 43,
+    "Damage" : 49,
+    "Weight" : 0.006
+  },
+  "5c0d668f86f7747ccb7f13b2" : {
+    "InitialSpeed" : 310,
+    "RicochetChance" : 0.4,
+    "FragmentationChance" : 0.2,
+    "PenetrationPower" : 50,
+    "ArmorDamage" : 56,
+    "Damage" : 64,
+    "Weight" : 0.023
+  },
+  "5a26abfac4a28232980eabff" : {
+    "HeavyBleedingDelta" : 0.1,
+    "InitialSpeed" : 413,
+    "RicochetChance" : 0.2,
+    "FragmentationChance" : 0.3,
+    "PenetrationPower" : 18,
+    "LightBleedingDelta" : 0.15,
+    "ArmorDamage" : 44,
+    "Damage" : 65,
+    "Weight" : 0.023
+  },
+  "5fbe3ffdf8b6a877a729ea82" : {
+    "InitialSpeed" : 605,
+    "RicochetChance" : 0.3,
+    "FragmentationChance" : 0.3,
+    "PenetrationPower" : 28,
+    "ArmorDamage" : 36,
+    "Damage" : 60,
+    "Weight" : 0.015
+  },
+  "56dff026d2720bb8668b4567" : {
+    "InitialSpeed" : 830,
+    "RicochetChance" : 0.38,
+    "FragmentationChance" : 0.17,
+    "PenetrationPower" : 51,
+    "ArmorDamage" : 57,
+    "Damage" : 40,
+    "Weight" : 0.01
+  },
+  "5fc382b6d6fa9c00c571bbc3" : {
+    "HeavyBleedingDelta" : 0.5,
+    "InitialSpeed" : 880,
+    "RicochetChance" : 0.4,
+    "FragmentationChance" : 0.5,
+    "PenetrationPower" : 18,
+    "LightBleedingDelta" : 0.8,
+    "ArmorDamage" : 55,
+    "Damage" : 196,
+    "Weight" : 0.044
+  },
+  "5c0d591486f7744c505b416f" : {
+    "HeavyBleedingDelta" : 0.2,
+    "InitialSpeed" : 410,
+    "RicochetChance" : 0.01,
+    "FragmentationChance" : 1.0,
+    "PenetrationPower" : 2,
+    "LightBleedingDelta" : 0.4,
+    "ArmorDamage" : 11,
+    "Damage" : 265,
+    "Weight" : 0.04
+  },
+  "5d6e6891a4b9361bd473feea" : {
+    "InitialSpeed" : 410,
+    "RicochetChance" : 0.1,
+    "FragmentationChance" : 0.2,
+    "PenetrationPower" : 17,
+    "ArmorDamage" : 40,
+    "Damage" : 140,
+    "Weight" : 0.044
+  },
+  "59e4d24686f7741776641ac7" : {
+    "InitialSpeed" : 300,
+    "RicochetChance" : 0.35799998,
+    "FragmentationChance" : 0.075,
+    "PenetrationPower" : 29,
+    "ArmorDamage" : 42,
+    "Damage" : 56,
+    "Weight" : 0.01
+  },
+  "5e023e53d4353e3302577c4c" : {
+    "InitialSpeed" : 840,
+    "RicochetChance" : 0.2,
+    "FragmentationChance" : 0.25,
+    "PenetrationPower" : 31,
+    "ArmorDamage" : 33,
+    "Damage" : 88,
+    "Weight" : 0.022
+  },
+  "5ede475339ee016e8c534742" : {
+    "InitialSpeed" : 269,
+    "RicochetChance" : 0.0,
+    "FragmentationChance" : 0.0,
+    "ProjectileCount" : 15,
+    "PenetrationPower" : 5,
+    "ArmorDamage" : 95,
+    "Damage" : 160,
+    "Weight" : 0.35
+  },
+  "5d6e68e6a4b9361c140bcfe0" : {
+    "InitialSpeed" : 480,
+    "RicochetChance" : 0.1,
+    "FragmentationChance" : 0.1,
+    "PenetrationPower" : 20,
+    "ArmorDamage" : 50,
+    "Damage" : 183,
+    "Weight" : 0.026
+  },
+  "5e85a9a6eacf8c039e4e2ac1" : {
+    "InitialSpeed" : 270,
+    "RicochetChance" : 0.2,
+    "FragmentationChance" : 0.0,
+    "ProjectileCount" : 8,
+    "PenetrationPower" : 11,
+    "ArmorDamage" : 20,
+    "Damage" : 87,
+    "Weight" : 0.08
+  },
+  "56dfef82d2720bbd668b4567" : {
+    "InitialSpeed" : 890,
+    "RicochetChance" : 0.36,
+    "FragmentationChance" : 0.16,
+    "PenetrationPower" : 32,
+    "ArmorDamage" : 41,
+    "Damage" : 48,
+    "Weight" : 0.01
+  },
+  "5ba2678ad4351e44f824b344" : {
+    "InitialSpeed" : 620,
+    "RicochetChance" : 0.4,
+    "FragmentationChance" : 0.2,
+    "PenetrationPower" : 40,
+    "ArmorDamage" : 41,
+    "Damage" : 43,
+    "Weight" : 0.007
+  },
+  "59e4d3d286f774176a36250a" : {
+    "HeavyBleedingDelta" : 0.15,
+    "InitialSpeed" : 754,
+    "RicochetChance" : 0.175,
+    "FragmentationChance" : 0.26299998,
+    "PenetrationPower" : 15,
+    "LightBleedingDelta" : 0.15,
+    "ArmorDamage" : 35,
+    "Damage" : 87
+  },
+  "5efb0da7a29a85116f6ea05f" : {
+    "InitialSpeed" : 560,
+    "RicochetChance" : 0.2,
+    "FragmentationChance" : 0.05,
+    "PenetrationPower" : 39,
+    "ArmorDamage" : 55,
+    "Damage" : 52,
+    "Weight" : 0.009
+  },
+  "573602322459776445391df1" : {
+    "HeavyBleedingDelta" : 0.1,
+    "InitialSpeed" : 385,
+    "RicochetChance" : 0.05,
+    "FragmentationChance" : 0.35,
+    "PenetrationPower" : 7,
+    "LightBleedingDelta" : 0.15,
+    "ArmorDamage" : 27,
+    "Damage" : 66,
+    "Weight" : 0.01
+  },
+  "57a0dfb82459774d3078b56c" : {
+    "InitialSpeed" : 290,
+    "RicochetChance" : 0.4,
+    "FragmentationChance" : 0.2,
+    "PenetrationPower" : 38,
+    "ArmorDamage" : 52,
+    "Damage" : 68,
+    "Weight" : 0.023
+  },
+  "57371b192459775a9f58a5e0" : {
+    "InitialSpeed" : 297,
+    "RicochetChance" : 0.05,
+    "FragmentationChance" : 0.35,
+    "PenetrationPower" : 7,
+    "LightBleedingDelta" : 0.15,
+    "ArmorDamage" : 15,
+    "Damage" : 61,
+    "Weight" : 0.009
+  },
+  "5ede47405b097655935d7d16" : {
+    "InitialSpeed" : 76,
+    "RicochetChance" : 0.0,
+    "FragmentationChance" : 0.0,
+    "PenetrationPower" : 1,
+    "ArmorDamage" : 95,
+    "Damage" : 199,
+    "Weight" : 0.35
+  },
+  "5f0596629e22f464da6bbdd9" : {
+    "InitialSpeed" : 602,
+    "RicochetChance" : 0.065,
+    "FragmentationChance" : 0.01,
+    "PenetrationPower" : 42,
+    "ArmorDamage" : 60,
+    "Damage" : 90,
+    "Weight" : 0.019
+  },
+  "59e4cf5286f7741778269d8a" : {
+    "InitialSpeed" : 720,
+    "RicochetChance" : 0.35,
+    "FragmentationChance" : 0.12,
+    "PenetrationPower" : 30,
+    "ArmorDamage" : 46,
+    "Damage" : 62,
+    "Weight" : 0.01
+  },
+  "5a38ebd9c4a282000d722a5b" : {
+    "InitialSpeed" : 430,
+    "RicochetChance" : 0.0,
+    "FragmentationChance" : 0.0,
+    "ProjectileCount" : 8,
+    "PenetrationPower" : 3,
+    "ArmorDamage" : 14,
+    "Damage" : 25,
+    "Weight" : 0.04
+  },
+  "5fd20ff893a8961fc660a954" : {
+    "HeavyBleedingDelta" : 0.15,
+    "InitialSpeed" : 720,
+    "RicochetChance" : 0.3,
+    "FragmentationChance" : 0.1,
+    "PenetrationPower" : 44,
+    "LightBleedingDelta" : 0.15,
+    "ArmorDamage" : 60,
+    "Damage" : 55,
+    "Weight" : 0.014
+  },
+  "601949593ae8f707c4608daa" : {
+    "InitialSpeed" : 1050,
+    "RicochetChance" : 0.48,
+    "FragmentationChance" : 0.2,
+    "PenetrationPower" : 56,
+    "ArmorDamage" : 64,
+    "Damage" : 36,
+    "Weight" : 0.013
+  },
+  "59e77a2386f7742ee578960a" : {
+    "InitialSpeed" : 875,
+    "RicochetChance" : 0.285,
+    "FragmentationChance" : 0.083000004,
+    "PenetrationPower" : 45,
+    "ArmorDamage" : 84,
+    "Damage" : 86,
+    "Weight" : 0.024
+  },
+  "59e6920f86f77411d82aa167" : {
+    "InitialSpeed" : 957,
+    "RicochetChance" : 0.26,
+    "FragmentationChance" : 0.5,
+    "PenetrationPower" : 24,
+    "ArmorDamage" : 33,
+    "Damage" : 52,
+    "Weight" : 0.012
+  },
+  "573601b42459776410737435" : {
+    "HeavyBleedingDelta" : 0.1,
+    "InitialSpeed" : 375,
+    "RicochetChance" : 0.05,
+    "FragmentationChance" : 0.35,
+    "PenetrationPower" : 8,
+    "LightBleedingDelta" : 0.15,
+    "ArmorDamage" : 28,
+    "Damage" : 64,
+    "Weight" : 0.01
+  },
+  "5656d7c34bdc2d9d198b4587" : {
+    "InitialSpeed" : 700,
+    "RicochetChance" : 0.35,
+    "FragmentationChance" : 0.25,
+    "PenetrationPower" : 32,
+    "ArmorDamage" : 52,
+    "Damage" : 57,
+    "Weight" : 0.016
+  },
+  "5fc382c1016cce60e8341b20" : {
+    "HeavyBleedingDelta" : 0.4,
+    "InitialSpeed" : 849,
+    "RicochetChance" : 0.4,
+    "FragmentationChance" : 0.6,
+    "PenetrationPower" : 32,
+    "LightBleedingDelta" : 0.5,
+    "ArmorDamage" : 70,
+    "Damage" : 142,
+    "Weight" : 0.045
+  },
+  "5efb0e16aeb21837e749c7ff" : {
+    "HeavyBleedingDelta" : 0.22,
+    "InitialSpeed" : 290,
+    "RicochetChance" : 0.1,
+    "FragmentationChance" : 0.1,
+    "PenetrationPower" : 8,
+    "LightBleedingDelta" : 0.15,
+    "ArmorDamage" : 22,
+    "Damage" : 85,
+    "Weight" : 0.013
+  },
+  "5e023d48186a883be655e551" : {
+    "InitialSpeed" : 785,
+    "RicochetChance" : 0.34,
+    "FragmentationChance" : 0.083000004,
+    "PenetrationPower" : 70,
+    "ArmorDamage" : 88,
+    "Damage" : 72,
+    "Weight" : 0.025
+  },
+  "57371f2b24597761224311f1" : {
+    "InitialSpeed" : 330,
+    "RicochetChance" : 0.03,
+    "FragmentationChance" : 0.25,
+    "PenetrationPower" : 6,
+    "LightBleedingDelta" : 0.15,
+    "ArmorDamage" : 16,
+    "Damage" : 55,
+    "Weight" : 0.01
+  },
+  "5d6e68b3a4b9361bca7e50b5" : {
+    "HeavyBleedingDelta" : 0.2,
+    "InitialSpeed" : 442,
+    "RicochetChance" : 0.1,
+    "FragmentationChance" : 0.38,
+    "PenetrationPower" : 14,
+    "LightBleedingDelta" : 0.3,
+    "ArmorDamage" : 46,
+    "Damage" : 206,
+    "Weight" : 0.043
+  },
+  "5d6e6a53a4b9361bd473feec" : {
+    "InitialSpeed" : 425,
+    "RicochetChance" : 0.1,
+    "FragmentationChance" : 0.2,
+    "PenetrationPower" : 14,
+    "ArmorDamage" : 35,
+    "Damage" : 140,
+    "Weight" : 0.029
+  },
+  "59e690b686f7746c9f75e848" : {
+    "InitialSpeed" : 1013,
+    "RicochetChance" : 0.36,
+    "FragmentationChance" : 0.32,
+    "PenetrationPower" : 53,
+    "ArmorDamage" : 58,
+    "Damage" : 40,
+    "Weight" : 0.012
+  },
+  "57372140245977611f70ee91" : {
+    "InitialSpeed" : 420,
+    "RicochetChance" : 0.05,
+    "FragmentationChance" : 0.02,
+    "PenetrationPower" : 2,
+    "ArmorDamage" : 5,
+    "Damage" : 77,
+    "Weight" : 0.011
+  },
+  "5cc86840d7f00c002412c56c" : {
+    "HeavyBleedingDelta" : 0.2,
+    "InitialSpeed" : 724,
+    "RicochetChance" : 0.1,
+    "FragmentationChance" : 0.7,
+    "PenetrationPower" : 11,
+    "LightBleedingDelta" : 0.1,
+    "ArmorDamage" : 14,
+    "Damage" : 81,
+    "Weight" : 0.006
+  },
+  "573718ba2459775a75491131" : {
+    "HeavyBleedingDelta" : 0.1,
+    "InitialSpeed" : 325,
+    "RicochetChance" : 0.095,
+    "FragmentationChance" : 0.17,
+    "PenetrationPower" : 18,
+    "LightBleedingDelta" : 0.15,
+    "ArmorDamage" : 28,
+    "Damage" : 53,
+    "Weight" : 0.01
+  },
+  "5efb0cabfb3e451d70735af5" : {
+    "InitialSpeed" : 299,
+    "RicochetChance" : 0.1,
+    "FragmentationChance" : 0.01,
+    "PenetrationPower" : 36,
+    "ArmorDamage" : 43,
+    "Damage" : 70,
+    "Weight" : 0.015
+  },
+  "5a608bf24f39f98ffc77720e" : {
+    "InitialSpeed" : 816,
+    "RicochetChance" : 0.38,
+    "FragmentationChance" : 0.14,
+    "PenetrationPower" : 44,
+    "ArmorDamage" : 75,
+    "Damage" : 79,
+    "Weight" : 0.024
+  },
+  "573603562459776430731618" : {
+    "InitialSpeed" : 430,
+    "RicochetChance" : 0.1,
+    "FragmentationChance" : 0.2,
+    "PenetrationPower" : 25,
+    "ArmorDamage" : 36,
+    "Damage" : 50,
+    "Weight" : 0.01
+  },
+  "56dff338d2720bbd668b4569" : {
+    "InitialSpeed" : 890,
+    "RicochetChance" : 0.04,
+    "FragmentationChance" : 0.3,
+    "PenetrationPower" : 14,
+    "ArmorDamage" : 28,
+    "Damage" : 60,
+    "Weight" : 0.01
+  },
+  "5d6e68a8a4b9360b6c0d54e2" : {
+    "InitialSpeed" : 510,
+    "RicochetChance" : 0.1,
+    "FragmentationChance" : 0.03,
+    "PenetrationPower" : 37,
+    "ArmorDamage" : 65,
+    "Damage" : 164,
+    "Weight" : 0.05
+  },
+  "5cc80f8fe4a949033b0224a2" : {
+    "InitialSpeed" : 594,
+    "RicochetChance" : 0.2,
+    "FragmentationChance" : 0.5,
+    "PenetrationPower" : 20,
+    "ArmorDamage" : 22,
+    "Damage" : 62,
+    "Weight" : 0.007
+  },
+  "5c925fa22e221601da359b7b" : {
+    "InitialSpeed" : 392,
+    "RicochetChance" : 0.2,
+    "FragmentationChance" : 0.05,
+    "PenetrationPower" : 30,
+    "ArmorDamage" : 48,
+    "Damage" : 52,
+    "Weight" : 0.009
+  },
+  "5cadf6eeae921500134b2799" : {
+    "InitialSpeed" : 300,
+    "RicochetChance" : 0.5,
+    "FragmentationChance" : 0.3,
+    "PenetrationPower" : 46,
+    "ArmorDamage" : 57,
+    "Damage" : 102,
+    "Weight" : 0.055
+  },
+  "56dff3afd2720bba668b4567" : {
+    "InitialSpeed" : 890,
+    "RicochetChance" : 0.4,
+    "FragmentationChance" : 0.4,
+    "PenetrationPower" : 25,
+    "ArmorDamage" : 35,
+    "Damage" : 50,
+    "Weight" : 0.01
+  },
+  "5cadf6e5ae921500113bb973" : {
+    "HeavyBleedingDelta" : 0.3,
+    "InitialSpeed" : 290,
+    "RicochetChance" : 0.2,
+    "FragmentationChance" : 0.7,
+    "PenetrationPower" : 10,
+    "LightBleedingDelta" : 0.3,
+    "ArmorDamage" : 22,
+    "Damage" : 165,
+    "Weight" : 0.044
+  },
+  "5c0d56a986f774449d5de529" : {
+    "HeavyBleedingDelta" : 0.1,
+    "InitialSpeed" : 381,
+    "RicochetChance" : 0.002,
+    "FragmentationChance" : 1.0,
+    "PenetrationPower" : 2,
+    "LightBleedingDelta" : 0.3,
+    "ArmorDamage" : 11,
+    "Damage" : 102,
+    "Weight" : 0.013
+  },
+  "5e85aa1a988a8701445df1f5" : {
+    "InitialSpeed" : 420,
+    "RicochetChance" : 0.4,
+    "FragmentationChance" : 0.2,
+    "PenetrationPower" : 39,
+    "ArmorDamage" : 75,
+    "Damage" : 192,
+    "Weight" : 0.08
+  },
+  "5ea2a8e200685063ec28c05a" : {
+    "HeavyBleedingDelta" : 0.2,
+    "InitialSpeed" : 293,
+    "RicochetChance" : 0.002,
+    "FragmentationChance" : 1.0,
+    "PenetrationPower" : 3,
+    "LightBleedingDelta" : 0.3,
+    "ArmorDamage" : 12,
+    "Damage" : 127,
+    "Weight" : 0.019
+  },
+  "5735ff5c245977640e39ba7e" : {
+    "InitialSpeed" : 427,
+    "RicochetChance" : 0.065,
+    "FragmentationChance" : 0.25,
+    "PenetrationPower" : 11,
+    "ArmorDamage" : 29,
+    "Damage" : 60,
+    "Weight" : 0.01
+  },
+  "5ba26835d4351e0035628ff5" : {
+    "InitialSpeed" : 680,
+    "RicochetChance" : 0.6,
+    "FragmentationChance" : 0.1,
+    "PenetrationPower" : 53,
+    "ArmorDamage" : 46,
+    "Damage" : 35,
+    "Weight" : 0.007
+  },
+  "5d6e6806a4b936088465b17e" : {
+    "HeavyBleedingDelta" : 0.1,
+    "InitialSpeed" : 385,
+    "RicochetChance" : 0.0,
+    "FragmentationChance" : 0.0,
+    "ProjectileCount" : 8,
+    "PenetrationPower" : 2,
+    "LightBleedingDelta" : 0.2,
+    "ArmorDamage" : 26,
+    "Damage" : 50,
+    "Weight" : 0.059
+  },
+  "573720e02459776143012541" : {
+    "InitialSpeed" : 330,
+    "RicochetChance" : 0.05,
+    "FragmentationChance" : 0.02,
+    "PenetrationPower" : 13,
+    "ArmorDamage" : 26,
+    "Damage" : 65,
+    "Weight" : 0.011
+  },
+  "56dff0bed2720bb0668b4567" : {
+    "InitialSpeed" : 884,
+    "RicochetChance" : 0.26,
+    "FragmentationChance" : 0.25,
+    "PenetrationPower" : 20,
+    "ArmorDamage" : 30,
+    "Damage" : 54,
+    "Weight" : 0.01
+  },
+  "5e85a9f4add9fe03027d9bf1" : {
+    "InitialSpeed" : 0,
+    "RicochetChance" : 0.4,
+    "FragmentationChance" : 0.3,
+    "PenetrationPower" : 0,
+    "ArmorDamage" : 0,
+    "Damage" : 0,
+    "Weight" : 0.07
+  },
+  "5ba26812d4351e003201fef1" : {
+    "InitialSpeed" : 690,
+    "RicochetChance" : 0.3,
+    "FragmentationChance" : 0.5,
+    "PenetrationPower" : 18,
+    "ArmorDamage" : 39,
+    "Damage" : 65,
+    "Weight" : 0.007
+  },
+  "59e6927d86f77411da468256" : {
+    "HeavyBleedingDelta" : 0.15,
+    "InitialSpeed" : 947,
+    "RicochetChance" : 0.2,
+    "FragmentationChance" : 0.7,
+    "PenetrationPower" : 9,
+    "LightBleedingDelta" : 0.15,
+    "ArmorDamage" : 22,
+    "Damage" : 72,
+    "Weight" : 0.012
+  },
+  "5d6e68dea4b9361bcc29e659" : {
+    "InitialSpeed" : 415,
+    "RicochetChance" : 0.1,
+    "FragmentationChance" : 0.1,
+    "ProjectileCount" : 2,
+    "PenetrationPower" : 17,
+    "ArmorDamage" : 65,
+    "Damage" : 85,
+    "Weight" : 0.05
+  },
+  "560d61e84bdc2da74d8b4571" : {
+    "InitialSpeed" : 875,
+    "RicochetChance" : 0.285,
+    "FragmentationChance" : 0.08,
+    "PenetrationPower" : 62,
+    "ArmorDamage" : 87,
+    "Damage" : 75,
+    "Weight" : 0.024
+  },
+  "5a269f97c4a282000b151807" : {
+    "InitialSpeed" : 410,
+    "RicochetChance" : 0.4,
+    "FragmentationChance" : 0.2,
+    "PenetrationPower" : 35,
+    "ArmorDamage" : 46,
+    "Damage" : 49,
+    "Weight" : 0.023
+  },
+  "5d6e69c7a4b9360b6c0d54e4" : {
+    "InitialSpeed" : 475,
+    "RicochetChance" : 0.0,
+    "FragmentationChance" : 0.0,
+    "ProjectileCount" : 9,
+    "PenetrationPower" : 3,
+    "ArmorDamage" : 13,
+    "Damage" : 23,
+    "Weight" : 0.032
+  },
+  "5cc86832d7f00c000d3a6e6c" : {
+    "HeavyBleedingDelta" : 0.15,
+    "InitialSpeed" : 729,
+    "RicochetChance" : 0.05,
+    "FragmentationChance" : 1.0,
+    "PenetrationPower" : 8,
+    "LightBleedingDelta" : 0.15,
+    "ArmorDamage" : 7,
+    "Damage" : 98,
+    "Weight" : 0.006
+  },
+  "5d6e67fba4b9361bc73bc779" : {
+    "InitialSpeed" : 430,
+    "RicochetChance" : 0.0,
+    "FragmentationChance" : 0.0,
+    "ProjectileCount" : 9,
+    "PenetrationPower" : 3,
+    "ArmorDamage" : 26,
+    "Damage" : 35,
+    "Weight" : 0.048
+  },
+  "59e655cb86f77411dc52a77b" : {
+    "InitialSpeed" : 770,
+    "RicochetChance" : 0.1,
+    "FragmentationChance" : 0.2,
+    "PenetrationPower" : 30,
+    "ArmorDamage" : 40,
+    "Damage" : 73,
+    "Weight" : 0.01
+  },
+  "5e023e88277cce2b522ff2b1" : {
+    "HeavyBleedingDelta" : 0.2,
+    "InitialSpeed" : 822,
+    "RicochetChance" : 0.2,
+    "FragmentationChance" : 0.7,
+    "PenetrationPower" : 15,
+    "LightBleedingDelta" : 0.2,
+    "ArmorDamage" : 20,
+    "Damage" : 107,
+    "Weight" : 0.021
+  },
+  "59e68f6f86f7746c9f75e846" : {
+    "InitialSpeed" : 874,
+    "RicochetChance" : 0.38,
+    "FragmentationChance" : 0.32799998,
+    "PenetrationPower" : 23,
+    "ArmorDamage" : 34,
+    "Damage" : 55,
+    "Weight" : 0.012
+  },
+  "5d70e500a4b9364de70d38ce" : {
+    "InitialSpeed" : 185,
+    "RicochetChance" : 0.0,
+    "FragmentationChance" : 0.0,
+    "PenetrationPower" : 1,
+    "ArmorDamage" : 95,
+    "Damage" : 199,
+    "Weight" : 0.35
+  },
+  "57371e4124597760ff7b25f1" : {
+    "InitialSpeed" : 301,
+    "RicochetChance" : 0.1,
+    "FragmentationChance" : 0.16600001,
+    "PenetrationPower" : 8,
+    "LightBleedingDelta" : 0.15,
+    "ArmorDamage" : 22,
+    "Damage" : 59,
+    "Weight" : 0.01
+  },
+  "59e6542b86f77411dc52a77a" : {
+    "InitialSpeed" : 580,
+    "RicochetChance" : 0.065,
+    "FragmentationChance" : 0.25,
+    "PenetrationPower" : 23,
+    "ArmorDamage" : 48,
+    "Damage" : 98,
+    "Weight" : 0.016
+  },
+  "5d6e6869a4b9361c140bcfde" : {
+    "InitialSpeed" : 390,
+    "RicochetChance" : 0.1,
+    "FragmentationChance" : 0.12,
+    "PenetrationPower" : 12,
+    "ArmorDamage" : 48,
+    "Damage" : 190,
+    "Weight" : 0.055
+  },
+  "5d6e68d1a4b93622fe60e845" : {
+    "HeavyBleedingDelta" : 0.3,
+    "InitialSpeed" : 594,
+    "RicochetChance" : 0.1,
+    "FragmentationChance" : 0.39,
+    "PenetrationPower" : 5,
+    "LightBleedingDelta" : 0.3,
+    "ArmorDamage" : 12,
+    "Damage" : 220,
+    "Weight" : 0.034
+  },
+  "5a6086ea4f39f99cd479502f" : {
+    "InitialSpeed" : 849,
+    "RicochetChance" : 0.3,
+    "FragmentationChance" : 0.13,
+    "PenetrationPower" : 64,
+    "ArmorDamage" : 83,
+    "Damage" : 70,
+    "Weight" : 0.024
+  },
+  "5efb0c1bd79ff02a1f5e68d9" : {
+    "InitialSpeed" : 910,
+    "RicochetChance" : 0.28,
+    "FragmentationChance" : 0.13,
+    "PenetrationPower" : 70,
+    "ArmorDamage" : 85,
+    "Damage" : 67,
+    "Weight" : 0.024
+  },
+  "573719df2459775a626ccbc2" : {
+    "InitialSpeed" : 519,
+    "RicochetChance" : 0.09,
+    "FragmentationChance" : 0.16,
+    "PenetrationPower" : 28,
+    "ArmorDamage" : 30,
+    "Damage" : 40,
+    "Weight" : 0.007
+  },
+  "57a0e5022459774d1673f889" : {
+    "InitialSpeed" : 305,
+    "RicochetChance" : 0.5,
+    "FragmentationChance" : 0.1,
+    "PenetrationPower" : 46,
+    "ArmorDamage" : 60,
+    "Damage" : 58,
+    "Weight" : 0.023
+  },
+  "5c0d5ae286f7741e46554302" : {
+    "HeavyBleedingDelta" : 0.2,
+    "InitialSpeed" : 910,
+    "RicochetChance" : 0.05,
+    "FragmentationChance" : 0.9,
+    "PenetrationPower" : 3,
+    "LightBleedingDelta" : 0.2,
+    "ArmorDamage" : 14,
+    "Damage" : 85,
+    "Weight" : 0.011
+  },
+  "59e0d99486f7744a32234762" : {
+    "InitialSpeed" : 730,
+    "RicochetChance" : 0.315,
+    "FragmentationChance" : 0.12,
+    "PenetrationPower" : 47,
+    "ArmorDamage" : 63,
+    "Damage" : 58,
+    "Weight" : 0.01
+  },
+  "5d6e689ca4b9361bc8618956" : {
+    "InitialSpeed" : 430,
+    "RicochetChance" : 0.1,
+    "FragmentationChance" : 0.15,
+    "PenetrationPower" : 20,
+    "ArmorDamage" : 50,
+    "Damage" : 150,
+    "Weight" : 0.048
+  },
+  "5737218f245977612125ba51" : {
+    "HeavyBleedingDelta" : 0.1,
+    "InitialSpeed" : 250,
+    "RicochetChance" : 0.05,
+    "FragmentationChance" : 0.6,
+    "PenetrationPower" : 1,
+    "LightBleedingDelta" : 0.15,
+    "ArmorDamage" : 2,
+    "Damage" : 67,
+    "Weight" : 0.009
+  },
+  "5736026a245977644601dc61" : {
+    "InitialSpeed" : 430,
+    "RicochetChance" : 0.065,
+    "FragmentationChance" : 0.25,
+    "PenetrationPower" : 14,
+    "ArmorDamage" : 32,
+    "Damage" : 58,
+    "Weight" : 0.01
+  },
+  "5c0d5e4486f77478390952fe" : {
+    "InitialSpeed" : 905,
+    "RicochetChance" : 0.38,
+    "FragmentationChance" : 0.02,
+    "PenetrationPower" : 62,
+    "ArmorDamage" : 60,
+    "Damage" : 37,
+    "Weight" : 0.011
+  },
+  "5a26ac06c4a282000c5a90a8" : {
+    "HeavyBleedingDelta" : 0.1,
+    "InitialSpeed" : 415,
+    "RicochetChance" : 0.2,
+    "FragmentationChance" : 0.35,
+    "PenetrationPower" : 15,
+    "LightBleedingDelta" : 0.15,
+    "ArmorDamage" : 63,
+    "Damage" : 80,
+    "Weight" : 0.023
+  },
+  "57371f8d24597761006c6a81" : {
+    "InitialSpeed" : 315,
+    "RicochetChance" : 0.065,
+    "FragmentationChance" : 0.35,
+    "PenetrationPower" : 5,
+    "LightBleedingDelta" : 0.15,
+    "ArmorDamage" : 13,
+    "Damage" : 54,
+    "Weight" : 0.008
+  },
+  "5c0d688c86f77413ae3407b2" : {
+    "InitialSpeed" : 295,
+    "RicochetChance" : 0.5,
+    "FragmentationChance" : 0.1,
+    "PenetrationPower" : 55,
+    "ArmorDamage" : 68,
+    "Damage" : 60,
+    "Weight" : 0.023
+  },
+  "5fc275cf85fd526b824a571a" : {
+    "HeavyBleedingDelta" : 0.5,
+    "InitialSpeed" : 900,
+    "RicochetChance" : 0.4,
+    "FragmentationChance" : 0.2,
+    "PenetrationPower" : 47,
+    "LightBleedingDelta" : 0.35,
+    "ArmorDamage" : 83,
+    "Damage" : 122,
+    "Weight" : 0.047
+  },
+  "5f0c892565703e5c461894e9" : {
+    "InitialSpeed" : 76,
+    "RicochetChance" : 0.0,
+    "FragmentationChance" : 0.0,
+    "PenetrationPower" : 1,
+    "ArmorDamage" : 95,
+    "Damage" : 199,
+    "Weight" : 0.35
+  },
+  "5ede4739e0350d05467f73e8" : {
+    "InitialSpeed" : 76,
+    "RicochetChance" : 0.0,
+    "FragmentationChance" : 0.0,
+    "PenetrationPower" : 1,
+    "ArmorDamage" : 95,
+    "Damage" : 199,
+    "Weight" : 0.23
+  },
+  "573719762459775a626ccbc1" : {
+    "InitialSpeed" : 302,
+    "RicochetChance" : 0.065,
+    "FragmentationChance" : 0.25,
+    "PenetrationPower" : 5,
+    "LightBleedingDelta" : 0.1,
+    "ArmorDamage" : 16,
+    "Damage" : 50,
+    "Weight" : 0.011
+  },
+  "5d2f2ab648f03550091993ca" : {
+    "InitialSpeed" : 818,
+    "RicochetChance" : 0.38,
+    "FragmentationChance" : 0.17,
+    "PenetrationPower" : 80,
+    "ArmorDamage" : 95,
+    "Damage" : 199,
+    "Weight" : 0.133
+  },
+  "56dff4a2d2720bbd668b456a" : {
+    "InitialSpeed" : 883,
+    "RicochetChance" : 0.4,
+    "FragmentationChance" : 0.16,
+    "PenetrationPower" : 20,
+    "ArmorDamage" : 38,
+    "Damage" : 57,
+    "Weight" : 0.01
+  },
+  "5d6e6772a4b936088465b17c" : {
+    "InitialSpeed" : 330,
+    "RicochetChance" : 0.0,
+    "FragmentationChance" : 0.0,
+    "ProjectileCount" : 8,
+    "PenetrationPower" : 1,
+    "ArmorDamage" : 15,
+    "Damage" : 37,
+    "Weight" : 0.044
+  },
+  "5737201124597760fc4431f1" : {
+    "InitialSpeed" : 298,
+    "RicochetChance" : 0.1,
+    "FragmentationChance" : 0.2,
+    "PenetrationPower" : 12,
+    "ArmorDamage" : 26,
+    "Damage" : 50,
+    "Weight" : 0.01
+  },
+  "5fc382a9d724d907e2077dab" : {
+    "HeavyBleedingDelta" : 0.55,
+    "InitialSpeed" : 849,
+    "RicochetChance" : 0.3,
+    "FragmentationChance" : 0.13,
+    "PenetrationPower" : 79,
+    "LightBleedingDelta" : 0.2,
+    "ArmorDamage" : 89,
+    "Damage" : 115,
+    "Weight" : 0.049
+  },
+  "54527ac44bdc2d36668b4567" : {
+    "InitialSpeed" : 945,
+    "RicochetChance" : 0.38,
+    "FragmentationChance" : 0.34,
+    "PenetrationPower" : 43,
+    "ArmorDamage" : 52,
+    "Damage" : 45,
+    "Weight" : 0.012
+  }
+}
