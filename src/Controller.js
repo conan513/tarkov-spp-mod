@@ -51,7 +51,6 @@ class LC {
         LC.cheatStims();
         LC.fixTraders();
         LC.fixInsurance();
-        LC.fixMarketPrice();
         LC.fixRates();
         LC.fixScavCooldown();
         LC.fixLoadTimer();

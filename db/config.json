@@ -1,6 +1,4 @@
 {
-  "priceMultiplier": 1
-
   "hardcore_challenge": {
     "enabled": false,
     "comment_0": "rules 1 - DeadlySlob's hardcore challenge - Season 5",
@@ -96,7 +94,7 @@
   },
   "check_inventory_integrity": {
     "comment": "recovery for lost stash items (it's not caused by this mod)",
-    "enabled": false
+    "enabled": true
   },
   "no_save_ticket": {
     "comment": "possessing no_save_ticket prevents your profile from being saved after raid",
@@ -124,7 +122,7 @@
     "comment_1": "pistolier_chance - chance for pmc bot to be a pistolier, 0 to 100",
     "comment_2": "faction_armband - blue for usec, yellow for bear",
     "pistolier_chance": 10,
-    "faction_armband": true
+    "faction_armband": false
   },
   "fix_containers": {
     "comment": "fix for containers",
@@ -132,12 +130,12 @@
   },
   "fix_hideout_speed": {
     "comment": "fix for hideout upgrade/production speed",
-    "enabled": false,
+    "enabled": true,
     "exclude_bitcoin_production": true
   },
   "fix_https_server": {
     "comment": "fix for HttpServer.js",
-    "enabled": false
+    "enabled": true
   },
   "fix_inraid_controller": {
     "comment": "fix for InraidController.js",
@@ -226,7 +224,7 @@
     "enabled": true
   },
   "location": {
-    "enabled" : true,
+    "enabled" : false,
     "comment_0": "WIP. not effective.",
     "bigmap": {
       "comment": "default - 265 / 300",
