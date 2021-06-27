@@ -545,16 +545,17 @@ class LI {
                     continue;
                 }
                 let applyDiscount = true;
-                for (let childItem of ItemHelper.findAndReturnChildrenAsItems(pmcData.Inventory.items, item._id)) {
-                    let tempPrice = DatabaseServer.tables.templates.handbook.Items.find((i) => {
+                for (const childItem of ItemHelper.findAndReturnChildrenAsItems(pmcData.Inventory.items, item._id)) {
+                    const handbookItem = DatabaseServer.tables.templates.handbook.Items.find((i) => {
                         return childItem._tpl === i.Id;
-                    }).Price || 1;
+                    });
+                    const count = ("upd" in childItem && "StackObjectsCount" in childItem.upd) ? childItem.upd.StackObjectsCount : 1;
                     if (marketEnabled && traderID === '579dc571d53a0658a154fbec' && childItem.upd && childItem.upd.SpawnedInSession) {
                         applyDiscount = false;
-                        tempPrice = LI.getMarketPrice(childItem._tpl);
+                        price += LI.getMarketPrice(childItem._tpl) * count;
+                    } else {
+                        price += (!handbookItem) ? 1 : (handbookItem.Price * count);
                     }
-                    let count = ("upd" in childItem && "StackObjectsCount" in childItem.upd) ? childItem.upd.StackObjectsCount : 1;
-                    price = price + (tempPrice * count);
                 }
                 if (item._tpl === '59faff1d86f7746c51718c9c') {
                     applyDiscount = false;

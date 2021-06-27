@@ -39,7 +39,7 @@
     "from": 0,
     "to": 0,
     "usec_chance": 50,
-    "peek_spawn": true
+    "peek_spawn": false
   },
   "bot_waves": {
     "enabled" : true,
@@ -82,15 +82,17 @@
     "pmc_hp_boost": false
   },
   "boss_chance": {
-    "enabled" : true,
-    "comment_0": "default - true / 38 / 38 / 43 / 35 / 39",
-    "comment_1": "adaptive - true: bosses wil spawn more frequently when you have tasks",
+    "enabled" : false,
+    "comment_0": "changes boss spawn chance by boss name regardless of locations",
+    "comment_1": "default - true / 28 / 38 / 38 / 43 / 35 / 39",
+    "comment_2": "adaptive - true: bosses wil spawn more frequently when you have tasks",
     "adaptive": true,
-    "bigmap": 38,
-    "interchange": 38,
-    "rezervbase": 43,
-    "shoreline": 35,
-    "woods": 39
+    "sectantPriest": 28,
+    "bossBully": 38,
+    "bossKilla": 38,
+    "bossGluhar": 43,
+    "bossSanitar": 35,
+    "bossKojaniy": 39
   },
   "check_inventory_integrity": {
     "comment": "recovery for lost stash items (it's not caused by this mod)",
@@ -102,7 +104,7 @@
   },
   "fix_ammunitions": {
     "comment": "fix for ammunitions",
-    "enabled": true
+    "enabled": false
   },
   "fix_assorts": {
     "comment": "fix for trader assorts",
@@ -114,7 +116,11 @@
   },
   "fix_bosses": {
     "comment": "fix for bosses",
-    "enabled": true
+    "enabled": true,
+    "loose_loot_min": 4,
+    "loose_loot_max": 8,
+    "special_items_min": 1,
+    "special_items_max": 2
   },
   "fix_bot_generation": {
     "comment_0": "fix for bot generation",
@@ -135,7 +141,7 @@
   },
   "fix_https_server": {
     "comment": "fix for HttpServer.js",
-    "enabled": true
+    "enabled": false
   },
   "fix_inraid_controller": {
     "comment": "fix for InraidController.js",
@@ -161,7 +167,7 @@
     "comment_0": "fix for LocationGenerator.js",
     "enabled": true,
     "comment_1": "peek_spawn - true: print rare item spawns to log",
-    "peek_spawn": true
+    "peek_spawn": false
   },
   "fix_logger": {
     "comment": "fix for Logger.js",
@@ -169,11 +175,11 @@
   },
   "fix_meds": {
     "comment": "fix for meds",
-    "enabled": true
+    "enabled": false
   },
   "fix_mods": {
     "comment": "fix for mods",
-    "enabled": true
+    "enabled": false
   },
   "fix_notifier": {
     "comment": "fix for notifier",
@@ -217,14 +223,14 @@
   },
   "fix_weapons": {
     "comment": "fix for weapons",
-    "enabled": true
+    "enabled": false
   },
   "fix_weather": {
     "comment": "fix for horrible weather",
     "enabled": true
   },
   "location": {
-    "enabled" : false,
+    "enabled" : true,
     "comment_0": "WIP. not effective.",
     "bigmap": {
       "comment": "default - 265 / 300",

@@ -258,8 +258,6 @@ class LC {
         }
         if (LC.config.hardcore_challenge.rules === 1) {
             const startingInventory = '{"items":[{"_id":"5fe4977574f15b4ad31b6631","_tpl":"55d7217a4bdc2d86028b456d"},{"_id":"5fe4977574f15b4ad31b66b6","_tpl":"566abbc34bdc2d92178b4576"},{"_id":"5fe4977574f15b4ad31b6625","_tpl":"544a11ac4bdc2d470e8b456a","parentId":"5fe4977574f15b4ad31b6631","slotId":"SecuredContainer"},{"_id":"5fe4a9fcf5aec236ec38363a","_tpl":"557ffd194bdc2d28148b457f","parentId":"5fe4977574f15b4ad31b6631","slotId":"Pockets"},{"_id":"5fe4977574f15b4ad31b66b7","_tpl":"5963866b86f7747bfa1c4462"},{"_id":"5fe4977574f15b4ad31b66b8","_tpl":"5963866286f7747bf429b572"}],"equipment":"5fe4977574f15b4ad31b6631","stash":"5fe4977574f15b4ad31b66b6","questRaidItems":"5fe4977574f15b4ad31b66b7","questStashItems":"5fe4977574f15b4ad31b66b8","fastPanel":{}}';
-            const stash4 = '[{"type":3,"level":4,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":0,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":1,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":2,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":4,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":5,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":6,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":7,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":8,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":9,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":10,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":11,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":12,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":13,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":14,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":15,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":16,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":17,"level":0,"active":true,"passiveBonusesEnabled":false,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":18,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":19,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":20,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":21,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""}]';
-            const bonuses4 = '[{"type":"StashSize","templateId":"566abbc34bdc2d92178b4576"},{"type":"StashSize","templateId":"5811ce572459770cba1a34ea"},{"type":"StashSize","templateId":"5811ce662459770f6f490f32"},{"type":"StashSize","templateId":"5811ce772459770e9e5f9532"}]';
             const profiles = DatabaseServer.tables.templates.profiles;
             profiles['Standard'].bear.character.Inventory = JSON.parse(startingInventory);
             profiles['Standard'].usec.character.Inventory = JSON.parse(startingInventory);
@@ -269,18 +267,8 @@ class LC {
             profiles['Prepare To Escape'].usec.character.Inventory = JSON.parse(startingInventory);
             profiles['Edge Of Darkness'].bear.character.Inventory = JSON.parse(startingInventory);
             profiles['Edge Of Darkness'].usec.character.Inventory = JSON.parse(startingInventory);
-            profiles['Standard'].bear.character.Hideout.Areas = JSON.parse(stash4);
-            profiles['Standard'].bear.character.Bonuses = JSON.parse(bonuses4);
-            profiles['Left Behind'].bear.character.Hideout.Areas = JSON.parse(stash4);
-            profiles['Left Behind'].bear.character.Bonuses = JSON.parse(bonuses4);
-            profiles['Prepare To Escape'].bear.character.Hideout.Areas = JSON.parse(stash4);
-            profiles['Prepare To Escape'].bear.character.Bonuses = JSON.parse(bonuses4);
-            profiles['Edge Of Darkness'].bear.character.Hideout.Areas = JSON.parse(stash4);
-            profiles['Edge Of Darkness'].bear.character.Bonuses = JSON.parse(bonuses4);
         } else if (LC.config.hardcore_challenge.rules === 2) {
             const startingInventory = '{"items":[{"_id":"5fe4977574f15b4ad31b6631","_tpl":"55d7217a4bdc2d86028b456d"},{"_id":"5fe4977574f15b4ad31b66b6","_tpl":"566abbc34bdc2d92178b4576"},{"_id":"5fe49cdfa19cac3fa9054069","_tpl":"54491bb74bdc2d09088b4567","parentId":"5fe4977574f15b4ad31b6631","slotId":"Scabbard","upd":{"Repairable":{"MaxDurability":70,"Durability":70}}},{"_id":"5fe4a9fcf5aec236ec38363a","_tpl":"557ffd194bdc2d28148b457f","parentId":"5fe4977574f15b4ad31b6631","slotId":"Pockets"},{"_id":"5fe4977574f15b4ad31b66b7","_tpl":"5963866b86f7747bfa1c4462"},{"_id":"5fe4977574f15b4ad31b66b8","_tpl":"5963866286f7747bf429b572"}],"equipment":"5fe4977574f15b4ad31b6631","stash":"5fe4977574f15b4ad31b66b6","questRaidItems":"5fe4977574f15b4ad31b66b7","questStashItems":"5fe4977574f15b4ad31b66b8","fastPanel":{}}';
-            const stash1 = '[{"type":3,"level":1,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":0,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":1,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":2,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":4,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":5,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":6,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":7,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":8,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":9,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":10,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":11,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":12,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":13,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":14,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":15,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":16,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":17,"level":0,"active":true,"passiveBonusesEnabled":false,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":18,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":19,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":20,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""},{"type":21,"level":0,"active":true,"passiveBonusesEnabled":true,"completeTime":0,"constructing":false,"slots":[],"lastRecipe":""}]';
-            const bonuses1 = '[{"type":"StashSize","templateId":"566abbc34bdc2d92178b4576"}]';
             const profiles = DatabaseServer.tables.templates.profiles;
             profiles['Standard'].bear.character.Inventory = JSON.parse(startingInventory);
             profiles['Standard'].usec.character.Inventory = JSON.parse(startingInventory);
@@ -290,14 +278,6 @@ class LC {
             profiles['Prepare To Escape'].usec.character.Inventory = JSON.parse(startingInventory);
             profiles['Edge Of Darkness'].bear.character.Inventory = JSON.parse(startingInventory);
             profiles['Edge Of Darkness'].usec.character.Inventory = JSON.parse(startingInventory);
-            profiles['Standard'].bear.character.Hideout.Areas = JSON.parse(stash1);
-            profiles['Standard'].bear.character.Bonuses = JSON.parse(bonuses1);
-            profiles['Left Behind'].bear.character.Hideout.Areas = JSON.parse(stash1);
-            profiles['Left Behind'].bear.character.Bonuses = JSON.parse(bonuses1);
-            profiles['Prepare To Escape'].bear.character.Hideout.Areas = JSON.parse(stash1);
-            profiles['Prepare To Escape'].bear.character.Bonuses = JSON.parse(bonuses1);
-            profiles['Edge Of Darkness'].bear.character.Hideout.Areas = JSON.parse(stash1);
-            profiles['Edge Of Darkness'].bear.character.Bonuses = JSON.parse(bonuses1);
         }
     }
 
@@ -362,23 +342,23 @@ class LC {
             return;
         }
         ;
-        DatabaseServer.tables.locales.global.en.templates["training_stim_01"] = JSON.parse('{"Name":"Training stim 01","ShortName":"Training 1","Description":"Training stim for stamina recovery."}');
+        DatabaseServer.tables.locales.global.en.templates["training_stim_01"] = JSON.parse('{"Name":"Training stim 01","ShortName":"Training 1","Description":"Training stim of stamina recovery and carrying weight."}');
         DatabaseServer.tables.templates.handbook.Items.push(JSON.parse('{"Id":"training_stim_01","ParentId":"5b47574386f77428ca22b33a","Price":1000}'));
         DatabaseServer.tables.templates.items["training_stim_01"] = JSON.parse('{"_id":"training_stim_01","_name":"training_stim_01","_parent":"5448f3a64bdc2d60728b456a","_type":"Item","_props":{"Name":"SJ1 TGLabs","ShortName":"SJ1 TGLabs","Description":"","Weight":0.05,"BackgroundColor":"yellow","Width":1,"Height":1,"StackMaxSize":1,"Rarity":"Not_exist","SpawnChance":1,"CreditsPrice":1000,"ItemSound":"med_stimulator","Prefab":{"path":"assets/content/weapons/usable_items/item_syringe/item_stimulator_sj1_loot.bundle","rcid":""},"UsePrefab":{"path":"assets/content/weapons/usable_items/item_syringe/item_stimulator_sj1_container.bundle","rcid":""},"StackObjectsCount":1,"NotShownInSlot":false,"ExaminedByDefault":false,"ExamineTime":1,"IsUndiscardable":false,"IsUnsaleable":false,"IsUnbuyable":false,"IsUngivable":false,"IsLockedafterEquip":false,"QuestItem":false,"LootExperience":20,"ExamineExperience":8,"HideEntrails":false,"RepairCost":0,"RepairSpeed":0,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"MergesWithChildren":false,"CanSellOnRagfair":true,"CanRequireOnRagfair":true,"ConflictingItems":[],"FixedPrice":false,"Unlootable":false,"UnlootableFromSlot":"FirstPrimaryWeapon","UnlootableFromSide":[],"ChangePriceCoef":1,"AllowSpawnOnLocations":["laboratory"],"SendToClient":true,"AnimationVariantsNumber":0,"DiscardingBlock":false,"RagFairCommissionModifier":1,"medUseTime":2,"medEffectType":"duringUse","MaxHpResource":0,"hpResourceRate":0,"StimulatorBuffs":"Buffs_Traning_01","effects_health":[],"effects_damage":[]},"_proto":"544fb3f34bdc2d03748b456a"}');
-        DatabaseServer.tables.globals.config.Health.Effects.Stimulator.Buffs.Buffs_Traning_01 = JSON.parse('[{"BuffType":"StaminaRate","Chance":1,"Delay":1,"Duration":3000,"Value":3,"AbsoluteValue":true,"SkillName":""}]');
+        DatabaseServer.tables.globals.config.Health.Effects.Stimulator.Buffs.Buffs_Traning_01 = JSON.parse('[{"BuffType":"StaminaRate","Chance":1,"Delay":1,"Duration":3000,"Value":3,"AbsoluteValue":true,"SkillName":""},{"BuffType":"WeightLimit","Chance":1,"Delay":1,"Duration":3000,"Value":0.27,"AbsoluteValue":false,"SkillName":""}]');
         LC.addAssort(LC.traders.therapist, 'therapist_training_stim_01', 1, null,
             '{"_id":"therapist_training_stim_01","_tpl":"training_stim_01","parentId":"hideout","slotId":"hideout","upd":{"UnlimitedCount":true,"StackObjectsCount":999999999}}',
             '[[{"count":1000,"_tpl":"5449016a4bdc2d6f028b456f"}]]',
             null);
-        DatabaseServer.tables.locales.global.en.templates["training_stim_02"] = JSON.parse('{"Name":"Training stim 02","ShortName":"Training 2","Description":"Training stim for increased carrying weight."}');
+        DatabaseServer.tables.locales.global.en.templates["training_stim_02"] = JSON.parse('{"Name":"Training stim 02","ShortName":"Training 2","Description":"Training stim of increased recoil control."}');
         DatabaseServer.tables.templates.handbook.Items.push(JSON.parse('{"Id":"training_stim_02","ParentId":"5b47574386f77428ca22b33a","Price":100000}'));
         DatabaseServer.tables.templates.items["training_stim_02"] = JSON.parse('{"_id":"training_stim_02","_name":"training_stim_02","_parent":"5448f3a64bdc2d60728b456a","_type":"Item","_props":{"Name":"M.U.L.E","ShortName":"M.U.L.E","Description":"","Weight":0.05,"BackgroundColor":"yellow","Width":1,"Height":1,"StackMaxSize":1,"Rarity":"Superrare","SpawnChance":1,"CreditsPrice":1000,"ItemSound":"med_stimulator","Prefab":{"path":"assets/content/weapons/usable_items/item_syringe/item_stimulator_mule_loot.bundle","rcid":""},"UsePrefab":{"path":"assets/content/weapons/usable_items/item_syringe/item_stimulator_mule_container.bundle","rcid":""},"StackObjectsCount":1,"NotShownInSlot":false,"ExaminedByDefault":false,"ExamineTime":1,"IsUndiscardable":false,"IsUnsaleable":false,"IsUnbuyable":false,"IsUngivable":false,"IsLockedafterEquip":false,"QuestItem":false,"LootExperience":20,"ExamineExperience":8,"HideEntrails":false,"RepairCost":0,"RepairSpeed":0,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"MergesWithChildren":false,"CanSellOnRagfair":true,"CanRequireOnRagfair":true,"ConflictingItems":[],"FixedPrice":false,"Unlootable":false,"UnlootableFromSlot":"FirstPrimaryWeapon","UnlootableFromSide":[],"ChangePriceCoef":1,"AllowSpawnOnLocations":["laboratory"],"SendToClient":true,"AnimationVariantsNumber":0,"DiscardingBlock":false,"RagFairCommissionModifier":1,"IsAlwaysAvailableForInsurance":false,"medUseTime":2,"medEffectType":"duringUse","MaxHpResource":0,"hpResourceRate":0,"StimulatorBuffs":"Buffs_Traning_02","effects_health":[],"effects_damage":[]},"_proto":"544fb3f34bdc2d03748b456a"}');
-        DatabaseServer.tables.globals.config.Health.Effects.Stimulator.Buffs.Buffs_Traning_02 = JSON.parse('[{"BuffType":"WeightLimit","Chance":1,"Delay":1,"Duration":3000,"Value":0.27,"AbsoluteValue":false,"SkillName":""}]');
+        DatabaseServer.tables.globals.config.Health.Effects.Stimulator.Buffs.Buffs_Traning_02 = JSON.parse('[{"BuffType":"SkillRate","Chance":1,"Delay":1,"Duration":3000,"Value":25,"AbsoluteValue":true,"SkillName":"RecoilControl"}]');
         LC.addAssort(LC.traders.therapist, 'therapist_training_stim_02', 1, null,
             '{"_id":"therapist_training_stim_02","_tpl":"training_stim_02","parentId":"hideout","slotId":"hideout","upd":{"UnlimitedCount":true,"StackObjectsCount":999999999}}',
-            '[[{"count":100000,"_tpl":"5449016a4bdc2d6f028b456f"}]]',
+            '[[{"count":10000,"_tpl":"5449016a4bdc2d6f028b456f"}]]',
             null);
-        DatabaseServer.tables.locales.global.en.templates["training_stim_03"] = JSON.parse('{"Name":"Training stim 03","ShortName":"Training 3","Description":"Training stim for increased strength."}');
+        DatabaseServer.tables.locales.global.en.templates["training_stim_03"] = JSON.parse('{"Name":"Training stim 03","ShortName":"Training 3","Description":"Training stim of increased endurance and strength."}');
         DatabaseServer.tables.templates.handbook.Items.push(JSON.parse('{"Id":"training_stim_03","ParentId":"5b47574386f77428ca22b33a","Price":100000}'));
         DatabaseServer.tables.templates.items["training_stim_03"] = JSON.parse('{"_id":"training_stim_03","_name":"training_stim_03","_parent":"5448f3a64bdc2d60728b456a","_type":"Item","_props":{"Name":"SJ9 TGLabs","ShortName":"SJ9 TGLabs","Description":"","Weight":0.05,"BackgroundColor":"yellow","Width":1,"Height":1,"StackMaxSize":1,"Rarity":"Not_exist","SpawnChance":1,"CreditsPrice":1000,"ItemSound":"med_stimulator","Prefab":{"path":"assets/content/weapons/usable_items/item_syringe/item_stimulator_sj9_tglabs_loot.bundle","rcid":""},"UsePrefab":{"path":"assets/content/weapons/usable_items/item_syringe/item_stimulator_sj9_tglabs_container.bundle","rcid":""},"StackObjectsCount":1,"NotShownInSlot":false,"ExaminedByDefault":false,"ExamineTime":1,"IsUndiscardable":false,"IsUnsaleable":false,"IsUnbuyable":false,"IsUngivable":false,"IsLockedafterEquip":false,"QuestItem":false,"LootExperience":20,"ExamineExperience":8,"HideEntrails":false,"RepairCost":0,"RepairSpeed":0,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"MergesWithChildren":false,"CanSellOnRagfair":true,"CanRequireOnRagfair":true,"ConflictingItems":[],"FixedPrice":false,"Unlootable":false,"UnlootableFromSlot":"FirstPrimaryWeapon","UnlootableFromSide":[],"ChangePriceCoef":1,"AllowSpawnOnLocations":["laboratory"],"SendToClient":true,"AnimationVariantsNumber":0,"DiscardingBlock":false,"RagFairCommissionModifier":1,"medUseTime":2,"medEffectType":"duringUse","MaxHpResource":0,"hpResourceRate":0,"StimulatorBuffs":"Buffs_Traning_03","effects_health":[],"effects_damage":[]},"_proto":"544fb3f34bdc2d03748b456a"}');
         DatabaseServer.tables.globals.config.Health.Effects.Stimulator.Buffs.Buffs_Traning_03 = JSON.parse('[{"BuffType":"SkillRate","Chance":1,"Delay":1,"Duration":3000,"Value":10,"AbsoluteValue":true,"SkillName":"Endurance"},{"BuffType":"SkillRate","Chance":1,"Delay":1,"Duration":3000,"Value":30,"AbsoluteValue":true,"SkillName":"Strength"}]');
@@ -386,13 +366,21 @@ class LC {
             '{"_id":"therapist_training_stim_03","_tpl":"training_stim_03","parentId":"hideout","slotId":"hideout","upd":{"UnlimitedCount":true,"StackObjectsCount":999999999}}',
             '[[{"count":100000,"_tpl":"5449016a4bdc2d6f028b456f"}]]',
             null);
-        DatabaseServer.tables.locales.global.en.templates["training_stim_04"] = JSON.parse('{"Name":"Training stim 04","ShortName":"Training 4","Description":"Training stim for damage reduction."}');
+        DatabaseServer.tables.locales.global.en.templates["training_stim_04"] = JSON.parse('{"Name":"Training stim 04","ShortName":"Training 4","Description":"Training stim of damage reduction."}');
         DatabaseServer.tables.templates.handbook.Items.push(JSON.parse('{"Id":"training_stim_04","ParentId":"5b47574386f77428ca22b33a","Price":200000}'));
         DatabaseServer.tables.templates.items["training_stim_04"] = JSON.parse('{"_id":"training_stim_04","_name":"training_stim_04","_parent":"5448f3a64bdc2d60728b456a","_type":"Item","_props":{"Name":"SJ6 TGLabs","ShortName":"SJ6 TGLabs","Description":"","Weight":0.05,"BackgroundColor":"yellow","Width":1,"Height":1,"StackMaxSize":1,"Rarity":"Not_exist","SpawnChance":1,"CreditsPrice":1000,"ItemSound":"med_stimulator","Prefab":{"path":"assets/content/weapons/usable_items/item_syringe/item_stimulator_sj6_loot.bundle","rcid":""},"UsePrefab":{"path":"assets/content/weapons/usable_items/item_syringe/item_stimulator_sj6_container.bundle","rcid":""},"StackObjectsCount":1,"NotShownInSlot":false,"ExaminedByDefault":false,"ExamineTime":1,"IsUndiscardable":false,"IsUnsaleable":false,"IsUnbuyable":false,"IsUngivable":false,"IsLockedafterEquip":false,"QuestItem":false,"LootExperience":20,"ExamineExperience":8,"HideEntrails":false,"RepairCost":0,"RepairSpeed":0,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"MergesWithChildren":false,"CanSellOnRagfair":true,"CanRequireOnRagfair":true,"ConflictingItems":[],"FixedPrice":false,"Unlootable":false,"UnlootableFromSlot":"FirstPrimaryWeapon","UnlootableFromSide":[],"ChangePriceCoef":1,"AllowSpawnOnLocations":["laboratory"],"SendToClient":true,"AnimationVariantsNumber":0,"DiscardingBlock":false,"RagFairCommissionModifier":1,"medUseTime":2,"medEffectType":"duringUse","MaxHpResource":0,"hpResourceRate":0,"StimulatorBuffs":"Buffs_Traning_04","effects_health":[],"effects_damage":[]},"_proto":"544fb3f34bdc2d03748b456a"}');
         DatabaseServer.tables.globals.config.Health.Effects.Stimulator.Buffs.Buffs_Traning_04 = JSON.parse('[{"BuffType":"DamageModifier","Chance":1,"Delay":1,"Duration":3000,"Value":-0.5,"AbsoluteValue":true,"SkillName":""}]');
         LC.addAssort(LC.traders.therapist, 'therapist_training_stim_04', 1, null,
             '{"_id":"therapist_training_stim_04","_tpl":"training_stim_04","parentId":"hideout","slotId":"hideout","upd":{"UnlimitedCount":true,"StackObjectsCount":999999999}}',
             '[[{"count":200000,"_tpl":"5449016a4bdc2d6f028b456f"}]]',
+            null);
+        DatabaseServer.tables.locales.global.en.templates["training_stim_05"] = JSON.parse('{"Name":"Training stim 05","ShortName":"Training 5","Description":"Training stim of max endurance, strength and recoil control."}');
+        DatabaseServer.tables.templates.handbook.Items.push(JSON.parse('{"Id":"training_stim_05","ParentId":"5b47574386f77428ca22b33a","Price":200000}'));
+        DatabaseServer.tables.templates.items["training_stim_05"] = JSON.parse('{"_id":"training_stim_05","_name":"training_stim_05","_parent":"5448f3a64bdc2d60728b456a","_type":"Item","_props":{"Name":"SJ9 TGLabs","ShortName":"SJ9 TGLabs","Description":"","Weight":0.05,"BackgroundColor":"yellow","Width":1,"Height":1,"StackMaxSize":1,"Rarity":"Not_exist","SpawnChance":1,"CreditsPrice":1000,"ItemSound":"med_stimulator","Prefab":{"path":"assets/content/weapons/usable_items/item_syringe/item_stimulator_sj9_tglabs_loot.bundle","rcid":""},"UsePrefab":{"path":"assets/content/weapons/usable_items/item_syringe/item_stimulator_sj9_tglabs_container.bundle","rcid":""},"StackObjectsCount":1,"NotShownInSlot":false,"ExaminedByDefault":false,"ExamineTime":1,"IsUndiscardable":false,"IsUnsaleable":false,"IsUnbuyable":false,"IsUngivable":false,"IsLockedafterEquip":false,"QuestItem":false,"LootExperience":20,"ExamineExperience":8,"HideEntrails":false,"RepairCost":0,"RepairSpeed":0,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"MergesWithChildren":false,"CanSellOnRagfair":true,"CanRequireOnRagfair":true,"ConflictingItems":[],"FixedPrice":false,"Unlootable":false,"UnlootableFromSlot":"FirstPrimaryWeapon","UnlootableFromSide":[],"ChangePriceCoef":1,"AllowSpawnOnLocations":["laboratory"],"SendToClient":true,"AnimationVariantsNumber":0,"DiscardingBlock":false,"RagFairCommissionModifier":1,"medUseTime":2,"medEffectType":"duringUse","MaxHpResource":0,"hpResourceRate":0,"StimulatorBuffs":"Buffs_Traning_05","effects_health":[],"effects_damage":[]},"_proto":"544fb3f34bdc2d03748b456a"}');
+        DatabaseServer.tables.globals.config.Health.Effects.Stimulator.Buffs.Buffs_Traning_05 = JSON.parse('[{"BuffType":"SkillRate","Chance":1,"Delay":1,"Duration":3000,"Value":50,"AbsoluteValue":true,"SkillName":"Endurance"},{"BuffType":"SkillRate","Chance":1,"Delay":1,"Duration":3000,"Value":50,"AbsoluteValue":true,"SkillName":"Strength"},{"BuffType":"SkillRate","Chance":1,"Delay":1,"Duration":3000,"Value":50,"AbsoluteValue":true,"SkillName":"RecoilControl"}]');
+        LC.addAssort(LC.traders.therapist, 'therapist_training_stim_05', 1, null,
+            '{"_id":"therapist_training_stim_05","_tpl":"training_stim_05","parentId":"hideout","slotId":"hideout","upd":{"UnlimitedCount":true,"StackObjectsCount":999999999}}',
+            '[[{"count":300000,"_tpl":"5449016a4bdc2d6f028b456f"}]]',
             null);
     }
 
@@ -435,6 +423,21 @@ class LC {
         LC.traders.prapor.base.insurance.min_return_hour = 0;
         LC.traders.prapor.base.insurance.max_return_hour = 0;
         ;
+    }
+
+    static getMarketPrice(tpl) {
+        let ret = 1;
+        if (DatabaseServer.tables.templates.prices[tpl]) {
+            ret = DatabaseServer.tables.templates.prices[tpl];
+        } else {
+            for (let x of DatabaseServer.tables.templates.handbook.Items) {
+                if (x.Id === tpl) {
+                    ret = x.Price;
+                    break;
+                }
+            }
+        }
+        return ret;
     }
 
     static fixRates() {
@@ -582,31 +585,35 @@ class LC {
             return;
         }
         ;
-        const bully = DatabaseServer.tables.bots.types.bossbully;
-        bully.generation.items.looseLoot.min = 4;
-        bully.generation.items.looseLoot.max = 8;
-        DatabaseServer.tables.locations.bigmap.base.BossLocationSpawn[0].Time = IMMEDIATE_SPAWN;
-        DatabaseServer.tables.locations.bigmap.base.BossLocationSpawn[1].Time = IMMEDIATE_SPAWN;
-        const gluhar = DatabaseServer.tables.bots.types.bossgluhar;
-        gluhar.generation.items.looseLoot.min = 4;
-        gluhar.generation.items.looseLoot.max = 8;
-        DatabaseServer.tables.locations.rezervbase.base.BossLocationSpawn[0].Time = IMMEDIATE_SPAWN;
-        const killa = DatabaseServer.tables.bots.types.bosskilla;
-        killa.generation.items.looseLoot.min = 4;
-        killa.generation.items.looseLoot.max = 8;
-        DatabaseServer.tables.locations.interchange.base.BossLocationSpawn[0].Time = IMMEDIATE_SPAWN;
-        const kojaniy = DatabaseServer.tables.bots.types.bosskojaniy;
-        kojaniy.generation.items.looseLoot.min = 4;
-        kojaniy.generation.items.looseLoot.max = 4;
-        DatabaseServer.tables.locations.woods.base.BossLocationSpawn[0].Time = IMMEDIATE_SPAWN;
-        DatabaseServer.tables.locations.woods.base.BossLocationSpawn[1].Time = IMMEDIATE_SPAWN;
-        const sanitar = DatabaseServer.tables.bots.types.bosssanitar;
-        sanitar.generation.items.healing.min = 2;
-        sanitar.generation.items.healing.max = 8;
-        sanitar.generation.items.looseLoot.min = 4;
-        sanitar.generation.items.looseLoot.max = 8;
-        DatabaseServer.tables.locations.shoreline.base.BossLocationSpawn[0].Time = IMMEDIATE_SPAWN;
-        DatabaseServer.tables.locations.shoreline.base.BossLocationSpawn[1].Time = IMMEDIATE_SPAWN;
+        const locations = DatabaseServer.tables.locations;
+        for (let locationIdx in locations) {
+            const location = locations[locationIdx];
+            if (location.base && location.base.BossLocationSpawn) {
+                for (let bossIdx in location.base.BossLocationSpawn) {
+                    const boss = location.base.BossLocationSpawn[bossIdx];
+                    switch (boss.BossName) {
+                        case 'bossSanitar':
+                            if (boss.generation && boss.generation.items) {
+                                boss.generation.items.healing.min = 2;
+                                boss.generation.items.healing.max = 8;
+                            }
+                        case 'bossBully':
+                        case 'bossKilla':
+                        case 'bossGluhar':
+                        case 'bossKojaniy':
+                            if (boss.generation && boss.generation.items) {
+                                boss.generation.items.looseLoot.min = LC.config.fix_bosses.loose_loot_min;
+                                boss.generation.items.looseLoot.max = LC.config.fix_bosses.loose_loot_max;
+                                boss.generation.items.specialItems.min = LC.config.fix_bosses.special_items_min;
+                                boss.generation.items.specialItems.max = LC.config.fix_bosses.special_items_max;
+                            }
+                            boss.Time = IMMEDIATE_SPAWN;
+                            break;
+                        default:
+                    }
+                }
+            }
+        }
     }
 
     static fixBotGeneration() {
@@ -2103,29 +2110,44 @@ class LC {
                 }
             }
             let me = this;
+            let findBoss = function (map, name) {
+                let ret = null;
+                for (let bossIdx in locations[map].base.BossLocationSpawn) {
+                    const boss = locations[map].base.BossLocationSpawn[bossIdx];
+                    if (boss.BossName === name) {
+                        ret = boss;
+                        break;
+                    }
+                }
+                return ret;
+            };
             let setBossZone = function (map) {
                 let bossZone = null;
-                let bossIdx = -1;
+                let boss = null;
                 switch (map) {
                     case 'bigmap':
-                    case 'shoreline':
-                    case 'woods':
-                        bossIdx = 1;
+                        boss = findBoss(map, 'bossBully');
                         break;
                     case 'interchange':
+                        boss = findBoss(map, 'bossKilla');
+                        break;
                     case 'rezervbase':
-                        bossIdx = 0;
+                        boss = findBoss(map, 'bossGluhar');
+                        break;
+                    case 'shoreline':
+                        boss = findBoss(map, 'bossSanitar');
+                        break;
+                    case 'woods':
+                        boss = findBoss(map, 'bossKojaniy');
                         break;
                     default:
-                        break;
                 }
-                if (bossIdx >= 0) {
-                    let spawn = locations[map].base.BossLocationSpawn[bossIdx];
-                    const zones = spawn.BossZone.split(',');
+                if (boss) {
+                    const zones = boss.BossZone.split(',');
                     bossZone = zones[LC.getRandomInt(0, zones.length)];
-                    spawn.BossZone = bossZone;
+                    boss.BossZone = bossZone;
                     if (LC.config.pmc_conversion_chance.peek_spawn) {
-                        Logger.log(`${map} : Boss at ${bossZone}`, "yellow", "blue");
+                        Logger.log(`${map} : ${boss.BossName} at ${bossZone}`, "yellow", "blue");
                     }
                 }
                 return bossZone;
@@ -2776,11 +2798,6 @@ class LC {
         }
         ;
         const boss_chance = LC.config.boss_chance;
-        DatabaseServer.tables.locations.bigmap.base.BossLocationSpawn[1].BossChance = boss_chance.bigmap;
-        DatabaseServer.tables.locations.interchange.base.BossLocationSpawn[0].BossChance = boss_chance.interchange;
-        DatabaseServer.tables.locations.rezervbase.base.BossLocationSpawn[0].BossChance = boss_chance.rezervbase;
-        DatabaseServer.tables.locations.shoreline.base.BossLocationSpawn[1].BossChance = boss_chance.shoreline;
-        DatabaseServer.tables.locations.woods.base.BossLocationSpawn[1].BossChance = boss_chance.woods;
         if (boss_chance.adaptive && sessionID &&
             SaveServer.profiles[sessionID].characters &&
             SaveServer.profiles[sessionID].characters.pmc) {
@@ -2792,37 +2809,51 @@ class LC {
                         case '5d25e2c386f77443e7549029':
                         case '5d25e43786f7740a212217fa':
                             ;
-                            DatabaseServer.tables.locations.bigmap.base.BossLocationSpawn[1].BossChance = 100;
+                            boss_chance.bossBully = 100;
                             break;
                         case '5d25e2e286f77444001e2e48':
                         case '5dc53acb86f77469c740c893':
                             ;
-                            DatabaseServer.tables.locations.interchange.base.BossLocationSpawn[0].BossChance = 100;
+                            boss_chance.bossKilla = 100;
                             break;
                         case '5d25e44f86f77443e625e385':
                             ;
-                            DatabaseServer.tables.locations.rezervbase.base.BossLocationSpawn[0].BossChance = 100;
+                            boss_chance.bossGluhar = 100;
                             break;
                         case '5edab4b1218d181e29451435':
                             ;
-                            DatabaseServer.tables.locations.shoreline.base.BossLocationSpawn[1].BossChance = 100;
+                            boss_chance.bossSanitar = 100;
                             break;
                         case '5d25e2ee86f77443e35162ea':
                         case '5d25e4ca86f77409dd5cdf2c':
                         case '600302d73b897b11364cd161':
                             ;
-                            DatabaseServer.tables.locations.woods.base.BossLocationSpawn[1].BossChance = 100;
+                            boss_chance.bossKojaniy = 100;
                             break;
                     }
                 }
             }
         }
-        if (DatabaseServer.tables.locations.bigmap.base.BossLocationSpawn[1].BossChance >= 100)
-            DatabaseServer.tables.locations.bigmap.base.BossLocationSpawn[0].BossChance = 0;
-        if (DatabaseServer.tables.locations.shoreline.base.BossLocationSpawn[1].BossChance >= 100)
-            DatabaseServer.tables.locations.shoreline.base.BossLocationSpawn[0].BossChance = 0;
-        if (DatabaseServer.tables.locations.woods.base.BossLocationSpawn[1].BossChance >= 100)
-            DatabaseServer.tables.locations.woods.base.BossLocationSpawn[0].BossChance = 0;
+        const locations = DatabaseServer.tables.locations;
+        for (let locationIdx in locations) {
+            const location = locations[locationIdx];
+            if (location.base && location.base.BossLocationSpawn) {
+                for (let bossIdx in location.base.BossLocationSpawn) {
+                    const boss = location.base.BossLocationSpawn[bossIdx];
+                    switch (boss.BossName) {
+                        case 'sectantPriest':
+                        case 'bossSanitar':
+                        case 'bossBully':
+                        case 'bossKilla':
+                        case 'bossGluhar':
+                        case 'bossKojaniy':
+                            boss.BossChance = boss_chance[boss.BossName];
+                            break;
+                        default:
+                    }
+                }
+            }
+        }
     }
 
     static setPmcConversionChance(map, sessionID) {

@@ -1,0 +1,79 @@
+{
+	"AllowWeaponModsInLootPool": false,
+	"ArmoredVestMinLevel": 4,
+	"ArmoredVestMaxLevel": 6,
+	"HeadwearMinLevel": 4,
+	"HeadwearMaxLevel": 6,
+	"BlacklistEquipment": {
+		"BlacklistHeadwear": [
+			"PasteYourIDHere"
+		],
+		"BlacklistEarpiece": [
+			"PasteYourIDHere"
+		],
+		"BlacklistFaceCover": [
+			"PasteYourIDHere"
+		],
+		"BlacklistArmorVests": [
+			"PasteYourIDHere"
+		],
+		"BlacklistEyewear": [
+			"PasteYourIDHere"
+		],
+		"BlacklistArmbands": [
+			"PasteYourIDHere"
+		],
+		"BlacklistRigs": [
+			"PasteYourIDHere"
+		],
+		"BlacklistBackpacks": [
+			"56e294cdd2720b603a8b4575"
+		],
+		"BlacklistWeap": [
+			"5d52cc5ba4b9367408500062",
+			"5cdeb229d7f00c000e7ce174",
+			"5e81ebcd8e146c7080625e15",
+			"5a38e6bac4a2826c6e06d79b",
+			"5fc64ea372b0dd78d51159dc",
+			"57f4c844245977379d5c14d1",
+			"57f3c6bd24597738e730fa2f",
+			"57d14d2524597714373db789",
+			"KSG",
+			"ak74_squad",
+			"hk416_squad",
+			"ak74m_squad",
+			"ak74n_squad",
+			"ak101_squad",
+			"ak102_squad",
+			"ak103_squad",
+			"ak104_squad",
+			"ak105_squad",
+			"akm_squad",
+			"akmn_squad",
+			"akmsn_squad",
+			"akms_squad",
+			"aks74_squad",
+			"aks74n_squad",
+			"fnfal_squad",
+			"vpo209_squad",
+			"m4a1_squad",
+			"tx15_squad",
+			"vpo136_akm_squad",
+			"AR-50"
+		],
+		"BlacklistItems": [
+			"59f32bb586f774757e1e8442",
+			"59f32c3b86f77472a31742f0",
+			"UNTARdogtag",
+			"RemnantDogtag",
+			"RUAFdogtag",
+			"terragroupSpecialist_scrap_metal",
+			"terragroupSpecialist_nutsBottle",
+			"terragroupSpecialist_chemical",
+			"terragroupSpecialist_ssdDrive",
+			"terragroupSpecialist_grendel_intelligence",
+			"terragroupSpecialist_jammer",
+			"terragroupSpecialist_beacon"
+		]
+	}
+}
