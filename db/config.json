@@ -32,8 +32,8 @@
     "comment_5": "from / to - scav to pmc conversion chance",
     "comment_6": "usec_chance - 0: all bears, 100: all usecs",
     "comment_7": "peek_spawn - true: print pmc bot spawns to log",
-    "as_boss": true,
-    "as_assault": false,
+    "as_boss": false,
+    "as_assault": true,
     "adaptive": false,
     "apply_assault_group": false,
     "from": 0,
@@ -59,7 +59,7 @@
     "local_bots_count": 60
   },
   "bot_difficulty": {
-    "enabled" : true,
+    "enabled" : false,
     "comment_0": "default - AsOnline / false / false / true / 71 / 25 / 72 / 41 / 58 / true",
     "comment_1": "default_raid_difficulty - Easy / Medium / AsOnline / Hard / Impossible ",
     "comment_2": "raider_ai_for_scav - apply raider AI to scavs",
