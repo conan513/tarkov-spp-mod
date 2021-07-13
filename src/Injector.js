@@ -577,7 +577,7 @@ class LI {
     }
 
     static loadDynamicConfig() {
-        LI.config = JSON.parse(VFS.readFile(`user\\mods\\spp-mod\\db\\config.json`));
+        LI.config = JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\config.json`));
     }
 
     static getMarketPrice(tpl) {

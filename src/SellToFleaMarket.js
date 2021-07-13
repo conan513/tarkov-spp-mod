@@ -11,7 +11,7 @@ class SellToFleaMarket
 	
 	static onLoad()
 	{
-		SellToFleaMarket.config = JsonUtil.deserialize(VFS.readFile(`user\\mods\\spp-mod\\db\\fleamarket.json`));
+		SellToFleaMarket.config = JsonUtil.deserialize(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\fleamarket.json`));
 		RagfairController.processOffers = SellToFleaMarket.processOffers;
 		RagfairServer.generateDynamicOffers = SellToFleaMarket.generateDynamicOffers;
 		

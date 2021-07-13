@@ -1122,7 +1122,7 @@ class LC {
             return;
         }
         ;
-        let npcPrices = JSON.parse(VFS.readFile(`user\\mods\\spp-mod\\db\\npc_prices.json`));
+        let npcPrices = JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\npc_prices.json`));
         for (let traderId in npcPrices) {
             let items = npcPrices[traderId];
             let trader = DatabaseServer.tables.traders[traderId];
@@ -1142,7 +1142,7 @@ class LC {
                 }
             }
         }
-        let sellers = JSON.parse(VFS.readFile(`user\\mods\\spp-mod\\db\\sellers.json`));
+        let sellers = JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\sellers.json`));
         for (let traderId in sellers) {
             let items = sellers[traderId];
             let trader = DatabaseServer.tables.traders[traderId];
@@ -1782,7 +1782,7 @@ class LC {
             return;
         }
         ;
-        let barterTrades = JSON.parse(VFS.readFile(`user\\mods\\spp-mod\\db\\barter_trades.json`));
+        let barterTrades = JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\barter_trades.json`));
         for (let traderId in barterTrades) {
             let trader = DatabaseServer.tables.traders[traderId];
             let barters = barterTrades[traderId];
@@ -1912,7 +1912,7 @@ class LC {
             return;
         }
         ;
-        let weapons = JSON.parse(VFS.readFile(`user\\mods\\spp-mod\\db\\weapons.json`));
+        let weapons = JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\weapons.json`));
         for (let id in weapons) {
             let weapon = weapons[id];
             let target = DatabaseServer.tables.templates.items[id];
@@ -1927,7 +1927,7 @@ class LC {
             return;
         }
         ;
-        let mods = JSON.parse(VFS.readFile(`user\\mods\\spp-mod\\db\\mods.json`));
+        let mods = JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\mods.json`));
         for (let id in mods) {
             let mod = mods[id];
             let target = DatabaseServer.tables.templates.items[id];
@@ -1942,7 +1942,7 @@ class LC {
             return;
         }
         ;
-        let ammunitions = JSON.parse(VFS.readFile(`user\\mods\\spp-mod\\db\\ammunitions.json`));
+        let ammunitions = JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\ammunitions.json`));
         for (let id in ammunitions) {
             let ammunition = ammunitions[id];
             let target = DatabaseServer.tables.templates.items[id];
@@ -2040,7 +2040,7 @@ class LC {
     }
 
     static loadConfig() {
-        LC.config = JSON.parse(VFS.readFile(`user\\mods\\spp-mod\\db\\config.json`));
+        LC.config = JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\config.json`));
     }
 
     static applyDynamicConfig(sessionID, map) {
@@ -2304,10 +2304,10 @@ class LC {
             botType.difficulty.normal = JSON.parse(JSON.stringify(assault.difficulty.normal));
         }
         bear.difficulty = {
-            "easy": JSON.parse(VFS.readFile(`user\\mods\\spp-mod\\db\\pmc_difficulty_easy.json`)),
-            "normal": JSON.parse(VFS.readFile(`user\\mods\\spp-mod\\db\\pmc_difficulty_normal.json`)),
-            "hard": JSON.parse(VFS.readFile(`user\\mods\\spp-mod\\db\\pmc_difficulty_hard.json`)),
-            "impossible": JSON.parse(VFS.readFile(`user\\mods\\spp-mod\\db\\pmc_difficulty_impossible.json`))
+            "easy": JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_easy.json`)),
+            "normal": JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_normal.json`)),
+            "hard": JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_hard.json`)),
+            "impossible": JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_impossible.json`))
         };
         usec.difficulty = JSON.parse(JSON.stringify(bear.difficulty));
         if (bot_difficulty.raider_ai_for_scav && !LC.isNewbie(sessionID)) {

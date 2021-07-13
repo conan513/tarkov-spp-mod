@@ -12,7 +12,7 @@ class PMC_loadouts
 	static onLoadMod()
 	{
 		// Constants
-		const Config = JsonUtil.deserialize(VFS.readFile(`user\\mods\\spp-mod\\db\\pmc_loadout.json`));
+		const Config = JsonUtil.deserialize(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_loadout.json`));
 		const Items = DatabaseServer.tables.templates.items;
 		const Bots = DatabaseServer.tables.bots.types;
 		const HeadWearMaxLevel = (Config.HeadwearMaxLevel + 1)
