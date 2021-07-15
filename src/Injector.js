@@ -250,7 +250,7 @@ class LI {
             }
             let rndLootTypeIndex = RandomUtil.getInt(0, rndLoot.data.length - 1);
             let data = rndLoot.data[rndLootTypeIndex];
-            let position = data.Position.x + "," + data.Position.y + "," + data.Position.z;
+            let position = `${data.Position.x},${data.Position.y},${data.Position.z}`;
             if (!LocationConfig.allowLootOverlay && lootPositions.includes(position)) {
                 dynamic[rndLootIndex].data.splice(rndLootTypeIndex, 1);
                 if (dynamic[rndLootIndex].data.length === 0) {
@@ -529,12 +529,13 @@ class LI {
         }
         ;
         TraderController.getPurchasesData = function (traderID, sessionID) {
-            let pmcData = ProfileController.getPmcProfile(sessionID);
-            let trader = DatabaseServer.tables.traders[traderID].base;
-            let currency = PaymentController.getCurrency(trader.currency);
+            const pmcData = ProfileController.getPmcProfile(sessionID);
+            const trader = DatabaseServer.tables.traders[traderID].base;
+            const buy_price_coef = TraderController.getLoyaltyLevel(traderID, pmcData).buy_price_coef;
+            const currency = PaymentController.getCurrency(trader.currency);
             let output = {};
             let marketEnabled = SaveServer.profiles[sessionID].characters.pmc.Info.Level >= DatabaseServer.tables.globals.config.RagFair.minUserLevel;
-            for (let item of pmcData.Inventory.items) {
+            for (const item of pmcData.Inventory.items) {
                 let price = 0;
                 if (item._id === pmcData.Inventory.equipment
                     || item._id === pmcData.Inventory.stash
@@ -565,19 +566,20 @@ class LI {
                     price *= item.upd.Dogtag.Level;
                 }
                 price *= ItemHelper.getItemQualityPrice(item);
-                if (applyDiscount && trader.discount > 0) {
-                    price -= (trader.discount / 100) * price;
+                let discount = trader.discount + buy_price_coef;
+                if (applyDiscount && discount > 0) {
+                    price -= (discount / 100) * price;
                 }
                 price = PaymentController.fromRUB(price, currency);
                 price = (price > 0) ? price : 1;
-                output[item._id] = [[{"_tpl": currency, "count": price.toFixed(0)}]];
+                output[item._id] = [[{"count": price.toFixed(0), "_tpl": currency}]];
             }
             return output;
         };
     }
 
     static loadDynamicConfig() {
-        LI.config = JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\config.json`));
+        LI.config = JSON.parse(VFS.readFile(`user\\mods\\butter\\db\\config.json`));
     }
 
     static getMarketPrice(tpl) {

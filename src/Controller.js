@@ -413,9 +413,9 @@ class LC {
             return;
         }
         ;
-        InsuranceConfig.priceMultiplier = 0.35;
+        InsuranceConfig.priceMultiplier = LC.config.fix_insurance.price_multiplier;
         ;
-        InsuranceConfig.returnChance = 40;
+        InsuranceConfig.returnChance = LC.config.fix_insurance.return_chance;
         ;
         LC.traders.therapist.base.insurance.min_return_hour = 0;
         LC.traders.therapist.base.insurance.max_return_hour = 0;
@@ -801,19 +801,29 @@ class LC {
             const healingMeds = [
                 "590c661e86f7741e566b646a",
                 "590c678286f77426c9660122",
+                "590c678286f77426c9660122",
                 "60098ad7c2240c0fe85c570a",
-                "544fb45d4bdc2dee738b4568"
+                "544fb45d4bdc2dee738b4568",
+                "544fb45d4bdc2dee738b4568",
             ];
             const hemostats = [
-                "5e8488fa988a8701445df1e4"
+                "5e831507ea0a7c419c2f9bd9",
+                "5e831507ea0a7c419c2f9bd9",
+                "5e8488fa988a8701445df1e4",
+                "60098af40accd37ef2175f27",
+                "60098af40accd37ef2175f27",
             ];
             const fractureMeds = [
-                "5af0454c86f7746bf20992e8"
+                "544fb3364bdc2d34748b456a",
+                "544fb3364bdc2d34748b456a",
+                "544fb3364bdc2d34748b456a",
+                "5af0454c86f7746bf20992e8",
             ];
             const painMeds = [
                 "544fb37f4bdc2dee738b4567",
+                "544fb37f4bdc2dee738b4567",
                 "5755383e24597772cb798966",
-                "5c0e530286f7747fa1419862"
+                "5c0e530286f7747fa1419862",
             ];
             const healingItems = lootTemplates.filter(template => healingMeds.includes(template._id));
             const hemostatItems = lootTemplates.filter(template => hemostats.includes(template._id));
@@ -836,9 +846,12 @@ class LC {
             BotGenerator.addLootFromPool(specialLootItems, [EquipmentSlots.Pockets, EquipmentSlots.Backpack, EquipmentSlots.TacticalVest], specialLootItemCount);
             BotGenerator.addLootFromPool(lootItems, [EquipmentSlots.Backpack, EquipmentSlots.Pockets, EquipmentSlots.TacticalVest], lootItemCount);
             BotGenerator.addLootFromPool(healingItems, [EquipmentSlots.TacticalVest, EquipmentSlots.Pockets, EquipmentSlots.Backpack, EquipmentSlots.SecuredContainer], healingItemCount);
-            BotGenerator.addLootFromPool(hemostatItems, [EquipmentSlots.TacticalVest, EquipmentSlots.Pockets, EquipmentSlots.Backpack, EquipmentSlots.SecuredContainer], 1);
-            BotGenerator.addLootFromPool(fractureItems, [EquipmentSlots.TacticalVest, EquipmentSlots.Pockets, EquipmentSlots.Backpack, EquipmentSlots.SecuredContainer], 1);
-            BotGenerator.addLootFromPool(painItems, [EquipmentSlots.TacticalVest, EquipmentSlots.Pockets, EquipmentSlots.Backpack, EquipmentSlots.SecuredContainer], 1);
+            const hemostatCount = BotGenerator.getBiasedRandomNumber(0, 1, 1, 3);
+            const fractureCount = BotGenerator.getBiasedRandomNumber(0, 1, 1, 3);
+            const painCount = BotGenerator.getBiasedRandomNumber(0, 1, 1, 3);
+            BotGenerator.addLootFromPool(hemostatItems, [EquipmentSlots.TacticalVest, EquipmentSlots.Pockets, EquipmentSlots.Backpack, EquipmentSlots.SecuredContainer], hemostatCount);
+            BotGenerator.addLootFromPool(fractureItems, [EquipmentSlots.TacticalVest, EquipmentSlots.Pockets, EquipmentSlots.Backpack, EquipmentSlots.SecuredContainer], fractureCount);
+            BotGenerator.addLootFromPool(painItems, [EquipmentSlots.TacticalVest, EquipmentSlots.Pockets, EquipmentSlots.Backpack, EquipmentSlots.SecuredContainer], painCount);
             BotGenerator.addLootFromPool(grenadeItems, [EquipmentSlots.TacticalVest, EquipmentSlots.Pockets], grenadeCount);
         };
         BotGenerator.getBiasedRandomNumber = function (min, max, shift, n) {
@@ -2079,36 +2092,7 @@ class LC {
         }
         if (LC.config.pmc_conversion_chance && LC.config.pmc_conversion_chance.enabled) {
             ;
-            let pmcSlots = {
-                "bigmap": {
-                    "min": 7,
-                    "max": 11,
-                    "spawn_points": "ZoneBrige,ZoneCrossRoad,ZoneFactorySide,ZoneOldAZS,ZoneBlockPost,ZoneTankSquare,ZoneCustoms,ZoneDormitory,ZoneGasStation,ZoneFactoryCenter,ZoneWade,ZoneScavBase"
-                },
-                "factory4_day": {"min": 4, "max": 5, "spawn_points": "BotZone"},
-                "factory4_night": {"min": 4, "max": 5, "spawn_points": "BotZone"},
-                "interchange": {
-                    "min": 9,
-                    "max": 13,
-                    "spawn_points": "ZoneIDEA,ZoneRoad,ZoneCenter,ZoneCenterBot,ZoneOLI,ZoneOLIPark,ZoneGoshan,ZonePowerStation,ZoneTrucks,ZoneIDEAPark"
-                },
-                "laboratory": {"min": 5, "max": 9, "spawn_points": "BotZoneMain"},
-                "rezervbase": {
-                    "min": 8,
-                    "max": 11,
-                    "spawn_points": "ZoneRailStrorage,ZonePTOR1,ZonePTOR2,ZoneBarrack,ZoneBunkerStorage,ZoneSubStorage,ZoneSubCommand"
-                },
-                "shoreline": {
-                    "min": 9,
-                    "max": 12,
-                    "spawn_points": "ZoneSanatorium,ZonePassFar,ZonePassClose,ZoneTunnel,ZoneStartVillage,ZoneBunker,ZoneGreenHouses,ZoneIsland,ZoneGasStation,ZoneMeteoStation,ZonePowerStation,ZoneBusStation,ZoneRailWays,ZonePort,ZoneForestTruck,ZoneForestSpawn"
-                },
-                "woods": {
-                    "min": 7,
-                    "max": 13,
-                    "spawn_points": "ZoneClearVill,ZoneScavBase2,ZoneRedHouse,ZoneHighRocks,ZoneWoodCutter,ZoneHouse,ZoneBigRocks,ZoneRoad,ZoneMiniHouse,ZoneBrokenVill"
-                }
-            }
+            let pmcSlots = LC.config.pmc_conversion_chance.pmc_slots;
             let me = this;
             let findBoss = function (map, name) {
                 let ret = null;
@@ -2304,12 +2288,17 @@ class LC {
             botType.difficulty.normal = JSON.parse(JSON.stringify(assault.difficulty.normal));
         }
         bear.difficulty = {
-            "easy": JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_easy.json`)),
-            "normal": JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_normal.json`)),
-            "hard": JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_hard.json`)),
-            "impossible": JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_impossible.json`))
+            "easy": JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_easy_${LC.getRandomInt(1, 2)}.json`)),
+            "normal": JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_normal_${LC.getRandomInt(1, 2)}.json`)),
+            "hard": JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_hard_${LC.getRandomInt(1, 2)}.json`)),
+            "impossible": JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_impossible_${LC.getRandomInt(1, 2)}.json`))
         };
-        usec.difficulty = JSON.parse(JSON.stringify(bear.difficulty));
+        usec.difficulty = {
+            "easy": JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_easy_${LC.getRandomInt(1, 2)}.json`)),
+            "normal": JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_normal_${LC.getRandomInt(1, 2)}.json`)),
+            "hard": JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_hard_${LC.getRandomInt(1, 2)}.json`)),
+            "impossible": JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_impossible_${LC.getRandomInt(1, 2)}.json`))
+        };
         if (bot_difficulty.raider_ai_for_scav && !LC.isNewbie(sessionID)) {
             ;
             assault.difficulty = JSON.parse(JSON.stringify(assaultgroup.difficulty));
@@ -2355,11 +2344,11 @@ class LC {
         DatabaseServer.tables.bots.types.usec.chances.mods.nvg =
             DatabaseServer.tables.bots.types.bear.chances.mods.nvg = bot_difficulty.pmc_helmet_nvg;
         DatabaseServer.tables.bots.types.bear.generation.items.magazines.min =
-            DatabaseServer.tables.bots.types.usec.generation.items.magazines.min = 3;
+            DatabaseServer.tables.bots.types.usec.generation.items.magazines.min = 2;
         DatabaseServer.tables.bots.types.bear.generation.items.magazines.max =
-            DatabaseServer.tables.bots.types.usec.generation.items.magazines.max = 4;
+            DatabaseServer.tables.bots.types.usec.generation.items.magazines.max = 3;
         DatabaseServer.tables.bots.types.bear.generation.items.healing.min =
-            DatabaseServer.tables.bots.types.usec.generation.items.healing.min = 2;
+            DatabaseServer.tables.bots.types.usec.generation.items.healing.min = 1;
         DatabaseServer.tables.bots.types.bear.generation.items.healing.max =
             DatabaseServer.tables.bots.types.usec.generation.items.healing.max = 2;
         let bodyParts_regular = '{"Head":{"min":35,"max":35},"Chest":{"min":85,"max":85},"Stomach":{"min":70,"max":70},"LeftArm":{"min":60,"max":60},"RightArm":{"min":60,"max":60},"LeftLeg":{"min":65,"max":65},"RightLeg":{"min":65,"max":65}}';
@@ -2416,6 +2405,10 @@ class LC {
         const rig_c4 = ["5d5d646386f7742797261fd9", "5c0e446786f7742013381639", "5ab8dced86f774646209ec87", "5c0e722886f7740458316a57", "544a5caa4bdc2d1a388b4568",
             "5d5d87f786f77427997cfaef", "5c0e746986f7741453628fe5"];
         const rig_c5 = ["5b44cad286f77402a54ae7e5", "5e4ac41886f77406a511c9a8"];
+        const bp_20 = ["56e335e4d2720b6c058b456d", "5e9dcf5986f7746c417435b3", "5ca20d5986f774331e7c9602"];
+        const bp_30 = ["5f5e467b0bc58666c37e7821", "5b44c6ae86f7742d1627baea", "545cdae64bdc2d39198b4568"];
+        const bp_35 = ["6034d2d697633951dc245ea6", "5c0e805e86f774683f3dd637", "59e763f286f7742ee57895da", "5ab8ebf186f7742d8b372e80"];
+        const bp_40 = ["5f5e46b96bdad616ad46d613", "5c0e774286f77468413cc5b2", "5df8a4d786f77412672a1e3b"];
         if (geared_scav && !LC.isNewbie(sessionID)) {
             assaultEquip.Headwear = [];
             assaultEquip.Headwear = assaultEquip.Headwear.concat(LC.getRandomList(head_c0, 15));
@@ -2537,11 +2530,11 @@ class LC {
         bearEquip.TacticalVest = bearEquip.TacticalVest.concat(LC.getRandomList(rig_c4, 12));
         bearEquip.TacticalVest = bearEquip.TacticalVest.concat(LC.getRandomList(rig_c5, 23));
         usecEquip.TacticalVest = JSON.parse(JSON.stringify(bearEquip.TacticalVest));
-        bearEquip.Backpack = [
-            "5f5e467b0bc58666c37e7821", "5b44c6ae86f7742d1627baea", "545cdae64bdc2d39198b4568", "5d5d940f86f7742797262046",
-            "6034d2d697633951dc245ea6", "5c0e805e86f774683f3dd637", "59e763f286f7742ee57895da", "5ab8ebf186f7742d8b372e80",
-            "5f5e46b96bdad616ad46d613", "5c0e774286f77468413cc5b2", "5df8a4d786f77412672a1e3b"
-        ];
+        bearEquip.Backpack = [];
+        bearEquip.Backpack = bearEquip.Backpack.concat(LC.getRandomList(bp_20, 15));
+        bearEquip.Backpack = bearEquip.Backpack.concat(LC.getRandomList(bp_30, 40));
+        bearEquip.Backpack = bearEquip.Backpack.concat(LC.getRandomList(bp_35, 30));
+        bearEquip.Backpack = bearEquip.Backpack.concat(LC.getRandomList(bp_40, 15));
         usecEquip.Backpack = JSON.parse(JSON.stringify(bearEquip.Backpack));
         const ump45_base = '{"mod_magazine":["5fc3e466187fea44d52eda90"],"mod_scope":["591c4efa86f7741030027726"],"mod_stock":["5fc3e4ee7283c4046c5814af"],"mod_barrel":["5fc3e4a27283c4046c5814ab"],"mod_mount_000":["5fc53954f8b6a877a729eaeb"],"mod_mount_001":["5fc5396e900b1d5091531e72"],"mod_mount_002":["5fc5396e900b1d5091531e72"]}';
         addWeapon("5fc3e272f8b6a877a729eac5", "FirstPrimaryWeapon", false);
