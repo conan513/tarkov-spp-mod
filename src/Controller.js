@@ -425,21 +425,6 @@ class LC {
         ;
     }
 
-    static getMarketPrice(tpl) {
-        let ret = 1;
-        if (DatabaseServer.tables.templates.prices[tpl]) {
-            ret = DatabaseServer.tables.templates.prices[tpl];
-        } else {
-            for (let x of DatabaseServer.tables.templates.handbook.Items) {
-                if (x.Id === tpl) {
-                    ret = x.Price;
-                    break;
-                }
-            }
-        }
-        return ret;
-    }
-
     static fixRates() {
         if (!LC.config.fix_rates || !LC.config.fix_rates.enabled) {
             return;
@@ -2279,27 +2264,35 @@ class LC {
         const sectantpriest = JSON.parse(LC.backup.bots.sectantpriest);
         const sectantwarrior = JSON.parse(LC.backup.bots.sectantwarrior);
         const usec = JSON.parse(LC.backup.bots.usec);
-        const targetBotTypes = [assaultgroup, bossbully, bossgluhar, bosskilla, bosskojaniy, bosssanitar,
-            cursedassault, followerbully, followergluharassault, followergluharscout, followergluharsecurity,
-            followergluharsnipe, followerkojaniy, followersanitar, playerscav, pmcbot, sectantpriest, sectantwarrior];
-        for (let botTypeIdx in targetBotTypes) {
-            const botType = targetBotTypes[botTypeIdx];
-            botType.difficulty.easy = JSON.parse(JSON.stringify(assault.difficulty.easy));
-            botType.difficulty.normal = JSON.parse(JSON.stringify(assault.difficulty.normal));
+        if (LC.config.bot_difficulty.support_easy_mode) {
+            const targetBotTypes = [assaultgroup, bossbully, bossgluhar, bosskilla, bosskojaniy, bosssanitar,
+                cursedassault, followerbully, followergluharassault, followergluharscout, followergluharsecurity,
+                followergluharsnipe, followerkojaniy, followersanitar, playerscav, pmcbot, sectantpriest, sectantwarrior];
+            for (let botTypeIdx in targetBotTypes) {
+                const botType = targetBotTypes[botTypeIdx];
+                botType.difficulty.easy = JSON.parse(JSON.stringify(assault.difficulty.easy));
+                botType.difficulty.normal = JSON.parse(JSON.stringify(assault.difficulty.normal));
+            }
         }
         bear.difficulty = {
-            "easy": JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_easy_${LC.getRandomInt(1, 2)}.json`)),
-            "normal": JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_normal_${LC.getRandomInt(1, 2)}.json`)),
+            "easy": JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_hard_${LC.getRandomInt(1, 2)}.json`)),
+            "normal": JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_hard_${LC.getRandomInt(1, 2)}.json`)),
             "hard": JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_hard_${LC.getRandomInt(1, 2)}.json`)),
             "impossible": JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_impossible_${LC.getRandomInt(1, 2)}.json`))
         };
         usec.difficulty = {
-            "easy": JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_easy_${LC.getRandomInt(1, 2)}.json`)),
-            "normal": JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_normal_${LC.getRandomInt(1, 2)}.json`)),
+            "easy": JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_hard_${LC.getRandomInt(1, 2)}.json`)),
+            "normal": JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_hard_${LC.getRandomInt(1, 2)}.json`)),
             "hard": JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_hard_${LC.getRandomInt(1, 2)}.json`)),
             "impossible": JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_impossible_${LC.getRandomInt(1, 2)}.json`))
         };
-        if (bot_difficulty.raider_ai_for_scav && !LC.isNewbie(sessionID)) {
+        if (LC.config.bot_difficulty.support_easy_mode) {
+            bear.difficulty.easy = JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_easy_${LC.getRandomInt(1, 2)}.json`));
+            bear.difficulty.normal = JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_normal_${LC.getRandomInt(1, 2)}.json`));
+            usec.difficulty.easy = JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_easy_${LC.getRandomInt(1, 2)}.json`));
+            usec.difficulty.normal = JSON.parse(VFS.readFile(`user\\mods\\tarkov-spp-mod\\db\\pmc_difficulty_normal_${LC.getRandomInt(1, 2)}.json`));
+        }
+        if (bot_difficulty.raider_ai_for_scav) {
             ;
             assault.difficulty = JSON.parse(JSON.stringify(assaultgroup.difficulty));
         }
@@ -2409,42 +2402,6 @@ class LC {
         const bp_30 = ["5f5e467b0bc58666c37e7821", "5b44c6ae86f7742d1627baea", "545cdae64bdc2d39198b4568"];
         const bp_35 = ["6034d2d697633951dc245ea6", "5c0e805e86f774683f3dd637", "59e763f286f7742ee57895da", "5ab8ebf186f7742d8b372e80"];
         const bp_40 = ["5f5e46b96bdad616ad46d613", "5c0e774286f77468413cc5b2", "5df8a4d786f77412672a1e3b"];
-        if (geared_scav && !LC.isNewbie(sessionID)) {
-            assaultEquip.Headwear = [];
-            assaultEquip.Headwear = assaultEquip.Headwear.concat(LC.getRandomList(head_c0, 15));
-            assaultEquip.Headwear = assaultEquip.Headwear.concat(LC.getRandomList(head_c3, 45));
-            assaultEquip.Headwear = assaultEquip.Headwear.concat(LC.getRandomList(head_c4, 35));
-            assaultEquip.Headwear = assaultEquip.Headwear.concat(LC.getRandomList(head_c5, 5));
-            assaultEquip.ArmorVest = [];
-            assaultEquip.ArmorVest = assaultEquip.ArmorVest.concat(LC.getRandomList(armor_c3, 15));
-            assaultEquip.ArmorVest = assaultEquip.ArmorVest.concat(LC.getRandomList(armor_c4, 60));
-            assaultEquip.ArmorVest = assaultEquip.ArmorVest.concat(LC.getRandomList(armor_c5, 20));
-            assaultEquip.ArmorVest = assaultEquip.ArmorVest.concat(LC.getRandomList(armor_c6, 5));
-            assaultEquip.TacticalVest = [];
-            assaultEquip.TacticalVest = assaultEquip.TacticalVest.concat(LC.getRandomList(rig_06, 5));
-            assaultEquip.TacticalVest = assaultEquip.TacticalVest.concat(LC.getRandomList(rig_08, 5));
-            assaultEquip.TacticalVest = assaultEquip.TacticalVest.concat(LC.getRandomList(rig_10, 10));
-            assaultEquip.TacticalVest = assaultEquip.TacticalVest.concat(LC.getRandomList(rig_16, 25));
-            assaultEquip.TacticalVest = assaultEquip.TacticalVest.concat(LC.getRandomList(rig_20, 25));
-            assaultEquip.TacticalVest = assaultEquip.TacticalVest.concat(LC.getRandomList(rig_c4, 20));
-            assaultEquip.TacticalVest = assaultEquip.TacticalVest.concat(LC.getRandomList(rig_c5, 10));
-        } else {
-            assaultEquip.Headwear = [];
-            assaultEquip.Headwear = assaultEquip.Headwear.concat(LC.getRandomList(head_c0, 30));
-            assaultEquip.Headwear = assaultEquip.Headwear.concat(LC.getRandomList(head_c3, 60));
-            assaultEquip.Headwear = assaultEquip.Headwear.concat(LC.getRandomList(head_c4, 10));
-            assaultEquip.ArmorVest = [];
-            assaultEquip.ArmorVest = assaultEquip.ArmorVest.concat(LC.getRandomList(armor_c2, 30));
-            assaultEquip.ArmorVest = assaultEquip.ArmorVest.concat(LC.getRandomList(armor_c3, 30));
-            assaultEquip.ArmorVest = assaultEquip.ArmorVest.concat(LC.getRandomList(armor_c4, 40));
-            assaultEquip.TacticalVest = [];
-            assaultEquip.TacticalVest = assaultEquip.TacticalVest.concat(LC.getRandomList(rig_06, 10));
-            assaultEquip.TacticalVest = assaultEquip.TacticalVest.concat(LC.getRandomList(rig_08, 10));
-            assaultEquip.TacticalVest = assaultEquip.TacticalVest.concat(LC.getRandomList(rig_10, 10));
-            assaultEquip.TacticalVest = assaultEquip.TacticalVest.concat(LC.getRandomList(rig_16, 25));
-            assaultEquip.TacticalVest = assaultEquip.TacticalVest.concat(LC.getRandomList(rig_20, 15));
-            assaultEquip.TacticalVest = assaultEquip.TacticalVest.concat(LC.getRandomList(rig_c4, 30));
-        }
         bearItems.TacticalVest = [
             "5448be9a4bdc2dfd2f8b456a", "5e32f56fcb6d5863cc5e5ee4", "5710c24ad2720bc3458b45a3", "5a2a57cfc4a2826c6e06d44a",
             "5e831507ea0a7c419c2f9bd9", "5e8488fa988a8701445df1e4", "5c0e530286f7747fa1419862", "544fb37f4bdc2dee738b4567",
@@ -2486,13 +2443,6 @@ class LC {
             bearInven.mods[itemId] = JSON.parse(mods);
             usecInven.mods[itemId] = JSON.parse(mods);
         };
-        bearEquip.Headwear = [];
-        bearEquip.Headwear = bearEquip.Headwear.concat(LC.getRandomList(head_c0, 7));
-        bearEquip.Headwear = bearEquip.Headwear.concat(LC.getRandomList(head_c3, 28));
-        bearEquip.Headwear = bearEquip.Headwear.concat(LC.getRandomList(head_c4, 56));
-        bearEquip.Headwear = bearEquip.Headwear.concat(LC.getRandomList(head_c5, 6));
-        bearEquip.Headwear = bearEquip.Headwear.concat(LC.getRandomList(head_c6, 3));
-        usecEquip.Headwear = JSON.parse(JSON.stringify(bearEquip.Headwear));
         setMods('5c0e874186f7745dc7616606', '{"mod_equipment":["5c0919b50db834001b7ce3b9"]}', false);
         setMods('5f60b34a41e30a4ab12a6947', '{"mod_equipment_000":["5f60c076f2bcbb675b00dac2"],"mod_nvg":["5f60bf4558eff926626a60f2"],"mod_equipment_002":["5f60b85bbdb8e27dee3dc985"]}', false);
         setMods('5e00c1ad86f774747333222c', '{"mod_equipment_000":["5e00cfa786f77469dc6e5685"],"mod_equipment_001":["5e00cdd986f7747473332240"]}', false);
@@ -2519,22 +2469,176 @@ class LC {
             "5b432b965acfc47a8774094e", "6033fa48ffd42c541047f728", "5645bcc04bdc2d363b8b4572", "5aa2ba71e5b5b000137b758f", "5c165d832e2216398b5a7e36"
         ];
         usecEquip.Earpiece = JSON.parse(JSON.stringify(bearEquip.Earpiece));
+        const playerLevel = LC.getPlayerLevel(sessionID);
+        let asl_head = [];
+        let asl_armor = [];
+        let asl_rig = [];
+        let pmc_head = [];
+        let pmc_armor = [];
+        let pmc_rig = [];
+        let pmc_bp = [];
+        if (playerLevel < 10) {
+            asl_head = [60, 40, 0, 0, 0];
+            pmc_head = [50, 50, 0, 0, 0];
+        } else if (playerLevel < 15) {
+            asl_head = [55, 42, 3, 0, 0];
+            pmc_head = [40, 55, 5, 0, 0];
+        } else if (playerLevel < 20) {
+            asl_head = [50, 45, 5, 0, 0];
+            pmc_head = [30, 60, 10, 0, 0];
+        } else if (playerLevel < 25) {
+            asl_head = [45, 50, 5, 0, 0];
+            pmc_head = [30, 55, 15, 0, 0];
+        } else if (playerLevel < 30) {
+            asl_head = [40, 55, 5, 0, 0];
+            pmc_head = [30, 50, 20, 0, 0];
+        } else if (playerLevel < 35) {
+            asl_head = [33, 60, 7, 0, 0];
+            pmc_head = [20, 39, 38, 3, 0];
+        } else if (playerLevel < 40) {
+            asl_head = [25, 65, 10, 0, 0];
+            pmc_head = [10, 28, 56, 6, 0];
+        } else if (playerLevel < 45) {
+            asl_head = [13, 72, 12, 3, 0];
+            pmc_head = [5, 29, 58, 6, 2];
+        } else if (playerLevel < 50) {
+            asl_head = [0, 80, 15, 5, 0];
+            pmc_head = [0, 30, 60, 6, 4];
+        } else {
+            asl_head = [0, 60, 35, 5, 0];
+            pmc_head = [0, 20, 70, 6, 4];
+        }
+        assaultEquip.Headwear = [];
+        assaultEquip.Headwear = assaultEquip.Headwear.concat(LC.getRandomList(head_c0, asl_head[0]));
+        assaultEquip.Headwear = assaultEquip.Headwear.concat(LC.getRandomList(head_c3, asl_head[1]));
+        assaultEquip.Headwear = assaultEquip.Headwear.concat(LC.getRandomList(head_c4, asl_head[2]));
+        assaultEquip.Headwear = assaultEquip.Headwear.concat(LC.getRandomList(head_c5, asl_head[3]));
+        assaultEquip.Headwear = assaultEquip.Headwear.concat(LC.getRandomList(head_c6, asl_head[4]));
+        bearEquip.Headwear = [];
+        bearEquip.Headwear = bearEquip.Headwear.concat(LC.getRandomList(head_c0, pmc_head[0]));
+        bearEquip.Headwear = bearEquip.Headwear.concat(LC.getRandomList(head_c3, pmc_head[1]));
+        bearEquip.Headwear = bearEquip.Headwear.concat(LC.getRandomList(head_c4, pmc_head[2]));
+        bearEquip.Headwear = bearEquip.Headwear.concat(LC.getRandomList(head_c5, pmc_head[3]));
+        bearEquip.Headwear = bearEquip.Headwear.concat(LC.getRandomList(head_c6, pmc_head[4]));
+        usecEquip.Headwear = JSON.parse(JSON.stringify(bearEquip.Headwear));
+        if (playerLevel < 10) {
+            asl_armor = [50, 25, 25, 0, 0];
+            pmc_armor = [50, 30, 20, 0, 0];
+        } else if (playerLevel < 15) {
+            asl_armor = [40, 30, 30, 0, 0];
+            pmc_armor = [40, 30, 30, 0, 0];
+        } else if (playerLevel < 20) {
+            asl_armor = [30, 35, 35, 0, 0];
+            pmc_armor = [30, 30, 40, 0, 0];
+        } else if (playerLevel < 25) {
+            asl_armor = [25, 38, 37, 0, 0];
+            pmc_armor = [15, 30, 50, 5, 0];
+        } else if (playerLevel < 30) {
+            asl_armor = [20, 40, 40, 0, 0];
+            pmc_armor = [0, 30, 60, 10, 0];
+        } else if (playerLevel < 35) {
+            asl_armor = [17, 43, 40, 0, 0];
+            pmc_armor = [0, 15, 45, 33, 7];
+        } else if (playerLevel < 40) {
+            asl_armor = [15, 45, 40, 0, 0];
+            pmc_armor = [0, 0, 30, 55, 15];
+        } else if (playerLevel < 45) {
+            asl_armor = [8, 30, 50, 10, 2];
+            pmc_armor = [0, 0, 23, 52, 25];
+        } else if (playerLevel < 50) {
+            asl_armor = [0, 15, 60, 20, 5];
+            pmc_armor = [0, 0, 15, 50, 35];
+        } else {
+            asl_armor = [0, 5, 35, 45, 15];
+            pmc_armor = [0, 0, 5, 55, 40];
+        }
+        assaultEquip.ArmorVest = [];
+        assaultEquip.ArmorVest = assaultEquip.ArmorVest.concat(LC.getRandomList(armor_c2, asl_armor[0]));
+        assaultEquip.ArmorVest = assaultEquip.ArmorVest.concat(LC.getRandomList(armor_c3, asl_armor[1]));
+        assaultEquip.ArmorVest = assaultEquip.ArmorVest.concat(LC.getRandomList(armor_c4, asl_armor[2]));
+        assaultEquip.ArmorVest = assaultEquip.ArmorVest.concat(LC.getRandomList(armor_c5, asl_armor[3]));
+        assaultEquip.ArmorVest = assaultEquip.ArmorVest.concat(LC.getRandomList(armor_c6, asl_armor[4]));
         bearEquip.ArmorVest = [];
-        bearEquip.ArmorVest = bearEquip.ArmorVest.concat(LC.getRandomList(armor_c4, 27));
-        bearEquip.ArmorVest = bearEquip.ArmorVest.concat(LC.getRandomList(armor_c5, 53));
-        bearEquip.ArmorVest = bearEquip.ArmorVest.concat(LC.getRandomList(armor_c6, 15));
+        bearEquip.ArmorVest = bearEquip.ArmorVest.concat(LC.getRandomList(armor_c2, pmc_armor[0]));
+        bearEquip.ArmorVest = bearEquip.ArmorVest.concat(LC.getRandomList(armor_c3, pmc_armor[1]));
+        bearEquip.ArmorVest = bearEquip.ArmorVest.concat(LC.getRandomList(armor_c4, pmc_armor[2]));
+        bearEquip.ArmorVest = bearEquip.ArmorVest.concat(LC.getRandomList(armor_c5, pmc_armor[3]));
+        bearEquip.ArmorVest = bearEquip.ArmorVest.concat(LC.getRandomList(armor_c6, pmc_armor[4]));
         usecEquip.ArmorVest = JSON.parse(JSON.stringify(bearEquip.ArmorVest));
+        if (playerLevel < 10) {
+            asl_rig = [20, 20, 20, 20, 10, 10, 0];
+            pmc_rig = [20, 20, 25, 20, 0, 15, 0];
+        } else if (playerLevel < 15) {
+            asl_rig = [15, 15, 20, 20, 15, 15, 0];
+            pmc_rig = [20, 20, 20, 22, 0, 18, 0];
+        } else if (playerLevel < 20) {
+            asl_rig = [10, 10, 20, 20, 20, 20, 0];
+            pmc_rig = [20, 20, 15, 25, 0, 20, 0];
+        } else if (playerLevel < 25) {
+            asl_rig = [10, 10, 20, 20, 20, 20, 0];
+            pmc_rig = [12, 13, 15, 25, 12, 23, 0];
+        } else if (playerLevel < 30) {
+            asl_rig = [10, 10, 20, 20, 20, 20, 0];
+            pmc_rig = [5, 5, 15, 25, 25, 25, 0];
+        } else if (playerLevel < 35) {
+            asl_rig = [7, 8, 17, 23, 22, 23, 0];
+            pmc_rig = [2, 3, 7, 25, 33, 19, 11];
+        } else if (playerLevel < 40) {
+            asl_rig = [5, 5, 15, 25, 25, 25, 0];
+            pmc_rig = [0, 0, 0, 25, 40, 12, 23];
+        } else if (playerLevel < 45) {
+            asl_rig = [5, 5, 12, 25, 25, 23, 5];
+            pmc_rig = [0, 0, 0, 17, 40, 11, 32];
+        } else if (playerLevel < 50) {
+            asl_rig = [5, 5, 10, 25, 25, 20, 10];
+            pmc_rig = [0, 0, 0, 10, 40, 10, 40];
+        } else {
+            asl_rig = [0, 0, 5, 25, 25, 25, 20];
+            pmc_rig = [0, 0, 0, 10, 45, 0, 45];
+        }
+        assaultEquip.TacticalVest = [];
+        assaultEquip.TacticalVest = assaultEquip.TacticalVest.concat(LC.getRandomList(rig_06, asl_rig[0]));
+        assaultEquip.TacticalVest = assaultEquip.TacticalVest.concat(LC.getRandomList(rig_08, asl_rig[1]));
+        assaultEquip.TacticalVest = assaultEquip.TacticalVest.concat(LC.getRandomList(rig_10, asl_rig[2]));
+        assaultEquip.TacticalVest = assaultEquip.TacticalVest.concat(LC.getRandomList(rig_16, asl_rig[3]));
+        assaultEquip.TacticalVest = assaultEquip.TacticalVest.concat(LC.getRandomList(rig_20, asl_rig[4]));
+        assaultEquip.TacticalVest = assaultEquip.TacticalVest.concat(LC.getRandomList(rig_c4, asl_rig[5]));
+        assaultEquip.TacticalVest = assaultEquip.TacticalVest.concat(LC.getRandomList(rig_c5, asl_rig[6]));
         bearEquip.TacticalVest = [];
-        bearEquip.TacticalVest = bearEquip.TacticalVest.concat(LC.getRandomList(rig_16, 25));
-        bearEquip.TacticalVest = bearEquip.TacticalVest.concat(LC.getRandomList(rig_20, 40));
-        bearEquip.TacticalVest = bearEquip.TacticalVest.concat(LC.getRandomList(rig_c4, 12));
-        bearEquip.TacticalVest = bearEquip.TacticalVest.concat(LC.getRandomList(rig_c5, 23));
+        bearEquip.TacticalVest = bearEquip.TacticalVest.concat(LC.getRandomList(rig_06, pmc_rig[0]));
+        bearEquip.TacticalVest = bearEquip.TacticalVest.concat(LC.getRandomList(rig_08, pmc_rig[1]));
+        bearEquip.TacticalVest = bearEquip.TacticalVest.concat(LC.getRandomList(rig_10, pmc_rig[2]));
+        bearEquip.TacticalVest = bearEquip.TacticalVest.concat(LC.getRandomList(rig_16, pmc_rig[3]));
+        bearEquip.TacticalVest = bearEquip.TacticalVest.concat(LC.getRandomList(rig_20, pmc_rig[4]));
+        bearEquip.TacticalVest = bearEquip.TacticalVest.concat(LC.getRandomList(rig_c4, pmc_rig[5]));
+        bearEquip.TacticalVest = bearEquip.TacticalVest.concat(LC.getRandomList(rig_c5, pmc_rig[6]));
         usecEquip.TacticalVest = JSON.parse(JSON.stringify(bearEquip.TacticalVest));
+        if (playerLevel < 10) {
+            pmc_bp = [75, 25, 0, 0];
+        } else if (playerLevel < 15) {
+            pmc_bp = [67, 30, 3, 0];
+        } else if (playerLevel < 20) {
+            pmc_bp = [60, 35, 5, 0];
+        } else if (playerLevel < 25) {
+            pmc_bp = [45, 47, 8, 0];
+        } else if (playerLevel < 30) {
+            pmc_bp = [30, 60, 10, 0];
+        } else if (playerLevel < 35) {
+            pmc_bp = [23, 55, 20, 2];
+        } else if (playerLevel < 40) {
+            pmc_bp = [15, 50, 30, 5];
+        } else if (playerLevel < 45) {
+            pmc_bp = [12, 45, 33, 10];
+        } else if (playerLevel < 50) {
+            pmc_bp = [10, 40, 35, 15];
+        } else {
+            pmc_bp = [0, 25, 45, 30];
+        }
         bearEquip.Backpack = [];
-        bearEquip.Backpack = bearEquip.Backpack.concat(LC.getRandomList(bp_20, 15));
-        bearEquip.Backpack = bearEquip.Backpack.concat(LC.getRandomList(bp_30, 40));
-        bearEquip.Backpack = bearEquip.Backpack.concat(LC.getRandomList(bp_35, 30));
-        bearEquip.Backpack = bearEquip.Backpack.concat(LC.getRandomList(bp_40, 15));
+        bearEquip.Backpack = bearEquip.Backpack.concat(LC.getRandomList(bp_20, pmc_bp[0]));
+        bearEquip.Backpack = bearEquip.Backpack.concat(LC.getRandomList(bp_30, pmc_bp[1]));
+        bearEquip.Backpack = bearEquip.Backpack.concat(LC.getRandomList(bp_35, pmc_bp[2]));
+        bearEquip.Backpack = bearEquip.Backpack.concat(LC.getRandomList(bp_40, pmc_bp[3]));
         usecEquip.Backpack = JSON.parse(JSON.stringify(bearEquip.Backpack));
         const ump45_base = '{"mod_magazine":["5fc3e466187fea44d52eda90"],"mod_scope":["591c4efa86f7741030027726"],"mod_stock":["5fc3e4ee7283c4046c5814af"],"mod_barrel":["5fc3e4a27283c4046c5814ab"],"mod_mount_000":["5fc53954f8b6a877a729eaeb"],"mod_mount_001":["5fc5396e900b1d5091531e72"],"mod_mount_002":["5fc5396e900b1d5091531e72"]}';
         addWeapon("5fc3e272f8b6a877a729eac5", "FirstPrimaryWeapon", false);
@@ -2584,26 +2688,117 @@ class LC {
         setMods("60228924961b8d75ee233c32", pl15_receiver, false);
         removeWeapon('5a7828548dc32e5a9c28b516', 'FirstPrimaryWeapon', false);
         {
-            const ammo = {
-                "12ga": {"cartridges": ["5d6e6806a4b936088465b17e", "5d6e68a8a4b9360b6c0d54e2"]},
-                "20ga": {"cartridges": ["5d6e6a5fa4b93614ec501745"]},
-                "23ga": {"cartridges": ["5e85a9a6eacf8c039e4e2ac1", "5f647f31b6238e5dd066e196"]},
-                "9x18": {"cartridges": ["57372140245977611f70ee91", "573719df2459775a626ccbc2"]},
-                "9x19": {"cartridges": ["56d59d3ad2720bdb418b4577", "5c925fa22e221601da359b7b", "5efb0da7a29a85116f6ea05f"]},
-                "9x21": {"cartridges": ["5a269f97c4a282000b151807", "5a26ac0ec4a28200741e1e18"]},
-                "9x39": {"cartridges": ["57a0e5022459774d1673f889", "5c0d668f86f7747ccb7f13b2"]},
-                ".45": {"cartridges": ["5efb0cabfb3e451d70735af5"]},
-                "4.6x30": {"cartridges": ["5ba2678ad4351e44f824b344", "5ba26835d4351e0035628ff5"]},
-                "5.45x39": {"cartridges": ["56dff061d2720bb5668b4567", "56dff026d2720bb8668b4567", "5c0d5e4486f77478390952fe"]},
-                "5.56x45": {"cartridges": ["59e6906286f7746c9f75e847", "54527ac44bdc2d36668b4567", "59e690b686f7746c9f75e848"]},
-                ".300": {"cartridges": ["5fd20ff893a8961fc660a954"]},
-                "5.7x28": {"cartridges": ["5cc80f53e4a949000e1ea4f8", "5cc80f67e4a949035e43bbba", "5cc80f38e4a949001152b560"]},
-                ".366": {"cartridges": ["59e655cb86f77411dc52a77b", "5f0596629e22f464da6bbdd9"]},
-                "7.62x39": {"cartridges": ["5656d7c34bdc2d9d198b4587", "59e0d99486f7744a32234762"]},
-                "7.62x51": {"cartridges": ["58dd3ad986f77403051cba8f", "5a608bf24f39f98ffc77720e", "5a6086ea4f39f99cd479502f"]},
-                "7.62x54R": {"cartridges": ["5887431f2459777e1612938f", "560d61e84bdc2da74d8b4571"]},
-                "12.7x55": {"cartridges": ["5cadf6eeae921500134b2799"]},
-                ".338": {"cartridges": ["5fc275cf85fd526b824a571a", "5fc382a9d724d907e2077dab"]}
+            let ammo = {};
+            if (playerLevel < 10) {
+                ammo = {
+                    "12ga": {"cartridges": ["5d6e6772a4b936088465b17c"]},
+                    "20ga": {"cartridges": ["5d6e6a5fa4b93614ec501745"]},
+                    "23ga": {"cartridges": ["5e85a9a6eacf8c039e4e2ac1", "5f647f31b6238e5dd066e196"]},
+                    "9x18": {"cartridges": ["5737201124597760fc4431f1"]},
+                    "9x19": {"cartridges": ["56d59d3ad2720bdb418b4577"]},
+                    "9x21": {"cartridges": ["5a269f97c4a282000b151807"]},
+                    "9x39": {"cartridges": ["57a0dfb82459774d3078b56c"]},
+                    ".45": {"cartridges": ["5e81f423763d9f754677bf2e"]},
+                    "4.6x30": {"cartridges": ["5ba26844d4351e00334c9475"]},
+                    "5.45x39": {"cartridges": ["56dfef82d2720bbd668b4567"]},
+                    "5.56x45": {"cartridges": ["54527a984bdc2d4e668b4567"]},
+                    ".300": {"cartridges": ["5fbe3ffdf8b6a877a729ea82"]},
+                    "5.7x28": {"cartridges": ["5cc80f53e4a949000e1ea4f8"]},
+                    ".366": {"cartridges": ["59e655cb86f77411dc52a77b"]},
+                    "7.62x39": {"cartridges": ["5656d7c34bdc2d9d198b4587"]},
+                    "7.62x51": {"cartridges": ["58dd3ad986f77403051cba8f"]},
+                    "7.62x54R": {"cartridges": ["5887431f2459777e1612938f"]},
+                    "12.7x55": {"cartridges": ["5cadf6ddae9215051e1c23b2"]},
+                    ".338": {"cartridges": ["5fc382b6d6fa9c00c571bbc3"]}
+                }
+            } else if (playerLevel < 20) {
+                ammo = {
+                    "12ga": {"cartridges": ["5d6e6806a4b936088465b17e"]},
+                    "20ga": {"cartridges": ["5d6e6a5fa4b93614ec501745"]},
+                    "23ga": {"cartridges": ["5e85a9a6eacf8c039e4e2ac1", "5f647f31b6238e5dd066e196"]},
+                    "9x18": {"cartridges": ["57372140245977611f70ee91", "573719df2459775a626ccbc2"]},
+                    "9x19": {"cartridges": ["56d59d3ad2720bdb418b4577", "5c925fa22e221601da359b7b"]},
+                    "9x21": {"cartridges": ["5a269f97c4a282000b151807", "5a26ac0ec4a28200741e1e18"]},
+                    "9x39": {"cartridges": ["57a0dfb82459774d3078b56c", "57a0e5022459774d1673f889"]},
+                    ".45": {"cartridges": ["5efb0cabfb3e451d70735af5"]},
+                    "4.6x30": {"cartridges": ["5ba26844d4351e00334c9475"]},
+                    "5.45x39": {"cartridges": ["56dfef82d2720bbd668b4567", "56dff061d2720bb5668b4567"]},
+                    "5.56x45": {"cartridges": ["54527a984bdc2d4e668b4567", "59e6906286f7746c9f75e847"]},
+                    ".300": {"cartridges": ["5fbe3ffdf8b6a877a729ea82"]},
+                    "5.7x28": {"cartridges": ["5cc80f53e4a949000e1ea4f8", "5cc80f67e4a949035e43bbba"]},
+                    ".366": {"cartridges": ["59e655cb86f77411dc52a77b"]},
+                    "7.62x39": {"cartridges": ["5656d7c34bdc2d9d198b4587"]},
+                    "7.62x51": {"cartridges": ["58dd3ad986f77403051cba8f"]},
+                    "7.62x54R": {"cartridges": ["5887431f2459777e1612938f", "560d61e84bdc2da74d8b4571"]},
+                    "12.7x55": {"cartridges": ["5cadf6e5ae921500113bb973"]},
+                    ".338": {"cartridges": ["5fc382c1016cce60e8341b20"]}
+                }
+            } else if (playerLevel < 30) {
+                ammo = {
+                    "12ga": {"cartridges": ["5d6e6806a4b936088465b17e", "5d6e6911a4b9361bd5780d52"]},
+                    "20ga": {"cartridges": ["5d6e6a5fa4b93614ec501745"]},
+                    "23ga": {"cartridges": ["5e85a9a6eacf8c039e4e2ac1", "5f647f31b6238e5dd066e196"]},
+                    "9x18": {"cartridges": ["57372140245977611f70ee91", "573719df2459775a626ccbc2"]},
+                    "9x19": {"cartridges": ["56d59d3ad2720bdb418b4577", "5c925fa22e221601da359b7b"]},
+                    "9x21": {"cartridges": ["5a269f97c4a282000b151807", "5a26ac0ec4a28200741e1e18"]},
+                    "9x39": {"cartridges": ["57a0dfb82459774d3078b56c", "57a0e5022459774d1673f889"]},
+                    ".45": {"cartridges": ["5efb0cabfb3e451d70735af5"]},
+                    "4.6x30": {"cartridges": ["5ba26844d4351e00334c9475", "5ba2678ad4351e44f824b344"]},
+                    "5.45x39": {"cartridges": ["56dfef82d2720bbd668b4567", "56dff061d2720bb5668b4567"]},
+                    "5.56x45": {"cartridges": ["54527a984bdc2d4e668b4567", "59e6906286f7746c9f75e847"]},
+                    ".300": {"cartridges": ["5fd20ff893a8961fc660a954"]},
+                    "5.7x28": {"cartridges": ["5cc80f53e4a949000e1ea4f8", "5cc80f67e4a949035e43bbba"]},
+                    ".366": {"cartridges": ["59e655cb86f77411dc52a77b", "5f0596629e22f464da6bbdd9"]},
+                    "7.62x39": {"cartridges": ["5656d7c34bdc2d9d198b4587", "59e0d99486f7744a32234762"]},
+                    "7.62x51": {"cartridges": ["58dd3ad986f77403051cba8f", "5a608bf24f39f98ffc77720e"]},
+                    "7.62x54R": {"cartridges": ["5887431f2459777e1612938f", "560d61e84bdc2da74d8b4571"]},
+                    "12.7x55": {"cartridges": ["5cadf6eeae921500134b2799"]},
+                    ".338": {"cartridges": ["5fc382c1016cce60e8341b20"]}
+                }
+            } else if (playerLevel < 40) {
+                ammo = {
+                    "12ga": {"cartridges": ["5d6e6806a4b936088465b17e", "5d6e6911a4b9361bd5780d52"]},
+                    "20ga": {"cartridges": ["5d6e6a5fa4b93614ec501745"]},
+                    "23ga": {"cartridges": ["5e85a9a6eacf8c039e4e2ac1", "5f647f31b6238e5dd066e196"]},
+                    "9x18": {"cartridges": ["57372140245977611f70ee91", "573719df2459775a626ccbc2"]},
+                    "9x19": {"cartridges": ["56d59d3ad2720bdb418b4577", "5c925fa22e221601da359b7b"]},
+                    "9x21": {"cartridges": ["5a269f97c4a282000b151807", "5a26ac0ec4a28200741e1e18"]},
+                    "9x39": {"cartridges": ["57a0e5022459774d1673f889", "5c0d668f86f7747ccb7f13b2"]},
+                    ".45": {"cartridges": ["5efb0cabfb3e451d70735af5"]},
+                    "4.6x30": {"cartridges": ["5ba2678ad4351e44f824b344", "5ba26835d4351e0035628ff5"]},
+                    "5.45x39": {"cartridges": ["56dff061d2720bb5668b4567", "56dff026d2720bb8668b4567"]},
+                    "5.56x45": {"cartridges": ["59e6906286f7746c9f75e847", "54527ac44bdc2d36668b4567"]},
+                    ".300": {"cartridges": ["5fd20ff893a8961fc660a954"]},
+                    "5.7x28": {"cartridges": ["5cc80f53e4a949000e1ea4f8", "5cc80f67e4a949035e43bbba"]},
+                    ".366": {"cartridges": ["59e655cb86f77411dc52a77b", "5f0596629e22f464da6bbdd9"]},
+                    "7.62x39": {"cartridges": ["5656d7c34bdc2d9d198b4587", "59e0d99486f7744a32234762"]},
+                    "7.62x51": {"cartridges": ["58dd3ad986f77403051cba8f", "5a608bf24f39f98ffc77720e"]},
+                    "7.62x54R": {"cartridges": ["5887431f2459777e1612938f", "560d61e84bdc2da74d8b4571"]},
+                    "12.7x55": {"cartridges": ["5cadf6eeae921500134b2799"]},
+                    ".338": {"cartridges": ["5fc275cf85fd526b824a571a"]}
+                }
+            } else {
+                ammo = {
+                    "12ga": {"cartridges": ["5d6e6806a4b936088465b17e", "5d6e68a8a4b9360b6c0d54e2"]},
+                    "20ga": {"cartridges": ["5d6e6a5fa4b93614ec501745"]},
+                    "23ga": {"cartridges": ["5e85a9a6eacf8c039e4e2ac1", "5f647f31b6238e5dd066e196"]},
+                    "9x18": {"cartridges": ["57372140245977611f70ee91", "573719df2459775a626ccbc2"]},
+                    "9x19": {"cartridges": ["5c925fa22e221601da359b7b", "5efb0da7a29a85116f6ea05f"]},
+                    "9x21": {"cartridges": ["5a269f97c4a282000b151807", "5a26ac0ec4a28200741e1e18"]},
+                    "9x39": {"cartridges": ["57a0e5022459774d1673f889", "5c0d668f86f7747ccb7f13b2"]},
+                    ".45": {"cartridges": ["5efb0cabfb3e451d70735af5"]},
+                    "4.6x30": {"cartridges": ["5ba2678ad4351e44f824b344", "5ba26835d4351e0035628ff5"]},
+                    "5.45x39": {"cartridges": ["56dff026d2720bb8668b4567", "5c0d5e4486f77478390952fe"]},
+                    "5.56x45": {"cartridges": ["54527ac44bdc2d36668b4567", "59e690b686f7746c9f75e848"]},
+                    ".300": {"cartridges": ["5fd20ff893a8961fc660a954"]},
+                    "5.7x28": {"cartridges": ["5cc80f53e4a949000e1ea4f8", "5cc80f67e4a949035e43bbba", "5cc80f38e4a949001152b560"]},
+                    ".366": {"cartridges": ["5f0596629e22f464da6bbdd9"]},
+                    "7.62x39": {"cartridges": ["59e0d99486f7744a32234762"]},
+                    "7.62x51": {"cartridges": ["5a608bf24f39f98ffc77720e", "5a6086ea4f39f99cd479502f"]},
+                    "7.62x54R": {"cartridges": ["560d61e84bdc2da74d8b4571"]},
+                    "12.7x55": {"cartridges": ["5cadf6eeae921500134b2799"]},
+                    ".338": {"cartridges": ["5fc275cf85fd526b824a571a", "5fc382a9d724d907e2077dab"]}
+                }
             }
             const addItem = function (itemId) {
                 if (!pmcBotInven.items.TacticalVest.includes(itemId)) {
@@ -3048,13 +3243,16 @@ class LC {
         }
     }
 
-    static isNewbie(sessionID) {
-        let newbie = false;
+    static getPlayerLevel(sessionID) {
+        let ret = 99;
         if (sessionID) {
             let profile = SaveServer.profiles[sessionID];
-            newbie = profile && profile.characters && profile.characters.pmc && profile.characters.pmc.Info.Level < 10;
+            if (profile && profile.characters && profile.characters.pmc
+                && profile.characters.pmc.Info && profile.characters.pmc.Info.Level) {
+                ret = profile.characters.pmc.Info.Level;
+            }
         }
-        return newbie;
+        return ret;
     }
 
     static validateItemId(itemId) {

@@ -1,8 +1,8 @@
 {
 	"AllowWeaponModsInLootPool": false,
-	"ArmoredVestMinLevel": 4,
+	"ArmoredVestMinLevel": 3,
 	"ArmoredVestMaxLevel": 6,
-	"HeadwearMinLevel": 4,
+	"HeadwearMinLevel": 3,
 	"HeadwearMaxLevel": 6,
 	"BlacklistEquipment": {
 		"BlacklistHeadwear": [

@@ -39,53 +39,53 @@
     "from": 0,
     "to": 0,
     "usec_chance": 50,
-    "peek_spawn": true,
+    "peek_spawn": false,
     "pmc_slots": {
       "bigmap": {
         "comment": "default - 7 / 11 / ZoneBrige,ZoneCrossRoad,ZoneFactorySide,ZoneOldAZS,ZoneBlockPost,ZoneTankSquare,ZoneCustoms,ZoneDormitory,ZoneGasStation,ZoneFactoryCenter,ZoneWade,ZoneScavBase",
-        "min": 11,
+        "min": 13,
         "max": 13,
         "spawn_points": "ZoneBrige,ZoneCrossRoad,ZoneFactorySide,ZoneOldAZS,ZoneBlockPost,ZoneTankSquare,ZoneCustoms,ZoneDormitory,ZoneGasStation,ZoneFactoryCenter,ZoneWade,ZoneScavBase"
       },
       "factory4_day": {
         "comment": "default - 4 / 5 / BotZone",
-        "min": 5,
+        "min": 6,
         "max": 6,
         "spawn_points": "BotZone"
       },
       "factory4_night": {
         "comment": "default - 4 / 5 / BotZone",
-        "min": 5,
+        "min": 6,
         "max": 6,
         "spawn_points": "BotZone"
       },
       "interchange": {
         "comment": "default - 9 / 13 / ZoneIDEA,ZoneRoad,ZoneCenter,ZoneCenterBot,ZoneOLI,ZoneOLIPark,ZoneGoshan,ZonePowerStation,ZoneTrucks,ZoneIDEAPark",
-        "min": 13,
+        "min": 15,
         "max": 15,
         "spawn_points": "ZoneIDEA,ZoneRoad,ZoneCenter,ZoneCenterBot,ZoneOLI,ZoneOLIPark,ZoneGoshan,ZonePowerStation,ZoneTrucks,ZoneIDEAPark"
       },
       "laboratory": {
         "comment": "default - 5 / 9 / BotZoneMain",
-        "min": 9,
+        "min": 11,
         "max": 11,
         "spawn_points": "BotZoneMain"
       },
       "rezervbase": {
         "comment": "default - 8 / 11 / ZoneRailStrorage,ZonePTOR1,ZonePTOR2,ZoneBarrack,ZoneBunkerStorage,ZoneSubStorage,ZoneSubCommand",
-        "min": 11,
+        "min": 13,
         "max": 13,
         "spawn_points": "ZoneRailStrorage,ZonePTOR1,ZonePTOR2,ZoneBarrack,ZoneBunkerStorage,ZoneSubStorage,ZoneSubCommand"
       },
       "shoreline": {
         "comment": "default - 9 / 12 / ZoneSanatorium,ZonePassFar,ZonePassClose,ZoneTunnel,ZoneStartVillage,ZoneBunker,ZoneGreenHouses,ZoneIsland,ZoneGasStation,ZoneMeteoStation,ZonePowerStation,ZoneBusStation,ZoneRailWays,ZonePort,ZoneForestTruck,ZoneForestSpawn",
-        "min": 12,
+        "min": 15,
         "max": 15,
         "spawn_points": "ZoneSanatorium,ZonePassFar,ZonePassClose,ZoneTunnel,ZoneStartVillage,ZoneBunker,ZoneGreenHouses,ZoneIsland,ZoneGasStation,ZoneMeteoStation,ZonePowerStation,ZoneBusStation,ZoneRailWays,ZonePort,ZoneForestTruck,ZoneForestSpawn"
       },
       "woods": {
         "comment": "default - 7 / 13 / ZoneClearVill,ZoneScavBase2,ZoneRedHouse,ZoneHighRocks,ZoneWoodCutter,ZoneHouse,ZoneBigRocks,ZoneRoad,ZoneMiniHouse,ZoneBrokenVill",
-        "min": 13,
+        "min": 15,
         "max": 15,
         "spawn_points": "ZoneClearVill,ZoneScavBase2,ZoneRedHouse,ZoneHighRocks,ZoneWoodCutter,ZoneHouse,ZoneBigRocks,ZoneRoad,ZoneMiniHouse,ZoneBrokenVill"
       }
@@ -110,19 +110,20 @@
   },
   "bot_difficulty": {
     "enabled": true,
-    "comment_0": "default - AsOnline / false / false / true / 71 / 25 / 72 / 41 / 58 / true",
+    "comment_0": "default - AsOnline / false / false / true / true",
     "comment_1": "default_raid_difficulty - Easy / Medium / AsOnline / Hard / Impossible ",
     "comment_2": "raider_ai_for_scav - apply raider AI to scavs",
-    "comment_3": "geared_scav - true: scavs wil be geared like pmc",
-    "comment_4": "support_easy_mode - true: support easy mode for bots with fixed difficulty (experimental)",
+    "comment_3": "support_easy_mode - true: forcefully allow easy/normal difficulty for all bots",
+    "comment_4": "progressive_gear - true: progressive bot gear according to player level",
     "default_raid_difficulty": "AsOnline",
     "raider_ai_for_scav": false,
-    "geared_scav": false,
     "support_easy_mode": true,
-    "scav_helmet_chance": 71,
-    "scav_armor_chance": 25,
-    "pmc_helmet_chance": 95,
-    "pmc_earpiece_chance": 80,
+    "progressive_gear": true,
+    "comment_5": "default - 100 / 90 / 100 / 90 / 100 / 90 / 75 / 75 / 75 / 50 / true",
+    "scav_helmet_chance": 100,
+    "scav_armor_chance": 90,
+    "pmc_helmet_chance": 100,
+    "pmc_earpiece_chance": 90,
     "pmc_armor_chance": 100,
     "pmc_backpack_chance": 90,
     "pmc_helmet_side": 75,
@@ -154,7 +155,7 @@
   },
   "fix_ammunitions": {
     "comment": "fix for ammunitions",
-    "enabled": true
+    "enabled": false
   },
   "fix_assorts": {
     "comment": "fix for trader assorts",
@@ -220,7 +221,7 @@
     "comment_0": "fix for LocationGenerator.js",
     "enabled": true,
     "comment_1": "peek_spawn - true: print rare item spawns to log",
-    "peek_spawn": true
+    "peek_spawn": false
   },
   "fix_logger": {
     "comment": "fix for Logger.js",
@@ -228,11 +229,11 @@
   },
   "fix_meds": {
     "comment": "fix for meds",
-    "enabled": true
+    "enabled": false
   },
   "fix_mods": {
     "comment": "fix for mods",
-    "enabled": true
+    "enabled": false
   },
   "fix_notifier": {
     "comment": "fix for notifier",
@@ -276,7 +277,7 @@
   },
   "fix_weapons": {
     "comment": "fix for weapons",
-    "enabled": true
+    "enabled": false
   },
   "fix_weather": {
     "comment": "fix for horrible weather",
